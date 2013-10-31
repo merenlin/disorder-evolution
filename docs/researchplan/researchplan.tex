@@ -13,6 +13,7 @@
 \usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{subfigure}
+\usepackage{hyperref}
 \begin{document}
 
 \title{Evolutionary innovation in eukaryotic proteins}
@@ -123,17 +124,81 @@ Roughly 30\% of human proteins are predicted to contain large intrinsically diso
 
 \mychapter{2}{Materials and Methods}
 \section{Databases}
+\subsection{FANTOM5 dataset and gene expression tables}
+FANTOM5 is the most complete gene expression dataset generated to date, including 952 human and 396 mouse tissues, primary cells and cancer cell-lines, and characterizing transcriptional start sites of all genes in an unbiased fashion, at a single-base nucleotide resolution level. To produce gene expression tables, RefSeq transcripts were linked with all CAGE tags +/-500 bps from the RefSeqʼs TSS. Expression values were normalized to tags per million(TPM) values. TPM of 10 was accepted as threshold for a gene to be “on” in a given tissue. Gene expression levels is a powerful source of information for studying protein evolution. 
+\subsection{InParanoid}
+The InParanoid project gathers proteomes of completely sequenced eukaryotic species plus Escherichia coli and provides phylogenetic relationships between them. The new release (7.0)\cite{Ostlund2010} includes 100 species and their collective 1.3 million proteins organized into 42.7 million pairwise ortholog groups. The proteomes are obtained from various sources, including Ensembl, Flybase, NCBI and WormBase. 
+\subsection{TreeFam}
+TreeFam is a database composed of phylogenetic trees inferred from animal genomes. It provides orthology/paralogy predictions as well the evolutionary history of genes. Curated families are being added progressively, based on seed alignments and trees. Release 1.1\cite{Li2006}, used in the first project, contains curated trees for 690 families and automatically generated trees for another 11,646 families. These represent over 128,000 genes from nine fully sequenced animal genomes and over 45,000 other animal proteins from UniProt; approximately 40-85\% of proteins encoded in the fully sequenced animal genomes are included in TreeFam. TreeFam is freely available at \url{http://www.treefam.org}.
+\subsection{Disprot}
+The DisProt database contains experimentally identified disordered proteins\cite{Sickmeier2007}. Current Disprot release contains 694 with 1539 unstructured regions, 95\% of the proteins are completely disordered. All the proteins in the database are annotated with accession numbers from UNIPROT, SWISSPROT, NCBI and other databases. The complete DisProt database is available for download in the FASTA and XML format.
+\subsection{MobiDB}
+MobiDB's motivation is to build on the content provided by Disprot and other protein structure databases and expand it, with the goal of providing a centralized source for data on disordered regions in protein structures, featuring full coverage of the SwissProt database. Annotations from three disorder predictors (ESpritz, IUPred and DisEMBL) are also included to the database to provide information in cases where experimental annotations are not available. MobiDB 26,933 includes experimentally annotated proteins, 4,662,776 proteins including predicted ones and covers 297 complete proteomes\cite{DiDomenico2012}.
+\subsection{STRING database}
+The STRING database (\url{http://string-db.org/}) aims to provide a global perspective on protein-protein interactions for as many organisms as feasible\cite{Franceschini2013}. Known and predicted associations are scored and integrated, resulting in comprehensive protein networks covering >1100 organisms.The interactions include direct (physical) and indirect (functional) associations; they are derived from four sources: genomic context, high-throughput experiments, conserved coexpression and previous knowledge from text mining of scientific literature.
+
 \section{Computational methods}
+\subsection{Sequence search and homology detection.} 
+The essential step for studying protein evolution from sequence data is detecting homologous protein sequences. Sequence Similarity Searching is the main method of identifying homology, it involves searching the target sequence in the database of other known proteins and statistically assessing how well the sequences match one another. The most popular sequence similarity search tool is PSI-BLAST. Another approach of inferring homology is implemented by hhblits, general-purpose tool that represents both query and database sequences by profile hidden Markov models (HMMs) (HHblits; \url{http://toolkit.genzentrum.lmu.de/hhblits/}). Compared to PSI-BLAST, HHblits is faster and has 50–100\% higher sensitivity\cite{Remmert2012}.  
+
+\subsection{Multiple sequence alignments (MSA)}
+ MSA is generally the alignment of three or more biological sequences (protein or nucleic acid) of similar length. By combining a global MSA with phylogenetic information evolutionary events can be studied in detail. There are many tools available for performing MSA on protein sequences. Clustal Omega is the most recent and rapid MSA tool\cite{Sievers2011} that uses seeded guide trees and HMM profile-profile techniques to generate alignments. It is suitable for large multiple sequence alignments needed for a genome wide evolutionary study. 
+
+\subsection{Protein structure prediction}
+In-silico protein structure identification includes many approaches of trying to attack protein folding problem from a computational perspective. One of these methods is  related to studying protein evolution. It involves restricting the search space of possible 3D structures by identifying the key residues that lay in contact with each other in the resulting structure. 
+
+ Recent methodological developments have improved the accuracy of protein contact prediction by modeling the evolutionary couplings as global instead of local statistical models.  Direct coupling analysis (DCA)\cite{Morcos2011} and protein sparse inverse covariance (PSICOV)\cite{Jones2012} establish a global statistical model of the MSA with position-specific variability and interposition coupling. These methods rely on large sets of multiple aligned sequences and assume that correlations between columns in these alignments can be the results of indirect interaction. The new ensemble method for contact prediction PconsC\cite{Skwark2013} combines two predictors based on this approach PSICOV and plmDCA, and two alignment methods, HHblits and jackhmmer at four different e-value cutoffs and provides an accuracy of more than 70\%. 
  
+Information we get from these contact predictions can be extremely useful in identifying structural constraints on protein evolution and key functional sites in flexible disordered regions.
+
+\subsection{Protein disorder predictors}
+To date more than fifty methods to identify disorder have been developed\cite{He2009}.  
+According to the latest CASP investigation machine learning methods trained on high-resolution X-ray data from PDB (PrDOS and DISOPRED) are the most accurate disorder predictors\cite{Monastyrskyy2011}. Both these methods are quite computationally inefficient though since they require PSI-BLAST homology search information and protein topology data\cite{Ward2004}. These makes them not always appropriate for large-scale analyses.  We therefore explored other tools for protein disorder predictions. 
+
+  IUPred\cite{Dosztanyi2005} is an algorithm based on the idea that the structural stability of a protein requires a large number of inter-residue interactions. It defines disorder as an inability to form a well-defined 3D structure and assumes that this property is encoded in protein sequence, because its amino acid composition does not allow sufficient stabilizing interactions to form. 
+It implements a position-specific scoring scheme that characterizes the tendency of a given amino acid to fall into an ordered or disordered region. The score is calculated by estimating the total pairwise interaction energy in the neighboring residue of the amino acid. IUPred is a fast and robust tool and offers an advantage compared to machine learning based methods since it is not trained on a limited set of experimentally identified unstructured proteins.  
+
 \mychapter{3}{Projects}
 \section{Expression pattern divergence between duplicated genes in mammals}
+This section presents the results of a project that was dedicated to exploring the novel FANTOM5 consortium dataset in terms of evolutionary history of mammalian tissues and primary cells. The project status is a completed manuscript by O. Sachenkova and L. Huminiecki, which is currently under review. 
+\subsection{Assignment of orthologous tissues between human and mouse}
+In analogy to orthologous genes, orthologous tissues can be defined as homologous tissues derived from a common ancestral tissue through the process of speciation.  We developed an ortholog-based interspecies hierarchical clustering, where human and mouse tissue samples are classified based on the protein expression levels of their orthologous genes. We then compared these classes to an intuitive assignment based on samples names. Skin, liver, tongue, heart, pancreas, pituitary gland, thymus and “total RNA control” tissue samples clustered together according to expression pattern. However, the majority of the tissues did not follow the name assignment.  This finding suggests that expression pattern evolution rate for protein coding genes is rather rapid, and even on moderate evolutionary distances, such as the human-mouse comparison, interspecies expression pattern differences dominate over phenotype changes on tissue and organ level. 
+\subsection{Recently evolved duplicates tend to be tissue-specific with the exception of histones}
+We integrated the duplication timing data from the TreeFam database with the FANTOM expression data and explored the evolutionary dynamics of duplicated genes. We confirmed a previously described trend for gradual paralog expression pattern divergence and observed
+a novel trend for recently evolved genes to be more tissue-specific in their expression domain.
+
+However, placental mammals (taxon Eutheria) were an outlier to both of the above trends, with an enrichment in housekeeping genes and co-expressed paralogs. Here, three core histone families, H2B, H2A and H3 contribute heavily to the set of highly correlated paralogs, with thymus and testis as the main tissues where paralog histones were highly co-expressed. This finding suggests that that diversification of mammals was accompanied by the expansion of the  histone machinery, with an impact on gene regulation, instead of direct emergence of new protein coding genes. 
+
+\subsection{Phylo-expression signatures}
+Phylo-expression signatures were defined as strong associations between individual FANTOM5 samples, and gene duplicates derived from a given taxon. We suggest this way of protein expression analysis as a robust method to study evolutionary history of a given tissue. For example, emergence of placental mammals was observed to be associated with genes highly expressed in uterus, placenta, and testis.
+
+\subsection{Differences between normal tissues and cancer cell lines}
+When paralog analysis was extended with 260 FANTOM5 cancer cell lines, no trend for recently evolved duplicates to be co-expressed could be seen in contrast with the healthy samples. These findings suggest important global differences in regulation of gene expression between normal tissues and primary cells, versus cancer cell lines. As co-expression signature could be seen in primary cells, something specific to cancer, not cell culture conditions could be causing this effect.
 
 \section{Protein expansion is due to long indels in disordered regions}
+This project started with an ambition to explain the length differences between homologous proteins.  At first the dataset to study this problem consisted of proteins from different fungi strains. When I joined the project, it was decided to expand it and select the orthologous proteins more carefully based on phylogenetic relationships between the species. Mammalian, Nematode and Fly dataset have been added to the analysis. 
 
+This project is now complete and the results are published in Molecular Biology and Evolution journal, the paper is titled “Protein expansion is primarily due to indels in intrinsically disordered regions” and the authors are O.Sachenkova, D. Ekman, R. Sagit, A. Elofsson and S.Light\cite{Light2013}
+
+This section summarizes the findings described in this manuscript. 
+\subsection{Most of the length variation in eukaryotic proteins is due to variation in the number of intrinsically disordered residues}
+It was observed that the difference in protein length and the difference in number of intrinsically disordered residues are strongly linked in all datasets. The strong coupling between length difference and disorder content is clear regardless of disorder classifier used to predict unstructured regions, and across all ranges of evolutionary distances. Using Iupred and an evolutionary distance of one, i.e. one substitution per residue, a completely ordered protein
+shows a length difference of about 3\% while the proteins with more than 30\% disordered residues have a length difference of about 6\%.
+
+\subsection{Disorder begets disorder}
+There are two possible explanations for the association between length difference and disorder; either an insertion/deletion event causes a protein to become more disordered or, alternatively, disorder was already a property of the protein region where the insertion occurred prior to an insertion/deletion event. To explore different evolutionary scenarios we formulated three statistical models to explain the expected difference in number of disordered residues, dD,
+given a length difference of dL. The so called proximity model was shown to explain a large part of the observation for Iupred. In this model we assumed that the disorder content of a particular indel is determined by the disorder content of the surrounding residues, i.e. that an unstructured regions tends to grow with the evolutionary time. 
+
+\subsection{Disorder is prevalent in both insertions and deletions}
+Using just pairwise alignments of orthologous proteins it is not possible to explore the differences between insertions and deletions regarding disorder content. To address this problem we used a third species as a phylogenetic out-group and given this out-group assigned an indel to be an insertion or a deletion event. We then studied the distribution of protein disorder in our datasets. In all the dataset it could be seen that there are considerably more deletions than insertions, which is consistent with previous studies. Although the deletions are more abundant for all datasets, they are on average considerably shorter than the insertions. As for the disorder content, we show that there is no significant differences between these two types of events. 
+Taken together, our findings suggest that indels within disordered protein regions are subject to a relatively low purifying selection compared to ordered proteins. We show that intrinsically disordered regions expand and contract more readily than other regions, but disordered indels mostly occur within already disordered regions. 
 
 \mychapter{4}{Future plans}
 \section{Evolution of naturally disordered proteins}
+We plan to continue the investigation of mechanisms driving the evolution of disordered regions and the role they play in generating evolutionary novelty in the genome. The first decision we took in this research project is to explore the experimental data available on unstructured proteins instead of working with predicted regions. This could help us to identify the evolutionary events with more certainty and precision. Another idea for future analysis is to compare functionally important binding sites in disordered regions and the localization of predicted contacts. This information along with identified evolutionarily conserved sequences could add to our understanding of disorder-to-order transition during protein interactions. It could also assist the quantification of mutation rates in unstructured regions and improve multiple sequence alignment techniques for these types of proteins.  
+
  \section{Evolution of long insertions and deletions in different domains of life}
+ Another possible direction for future investigations is focusing on identifying evolutionary patterns of long insertions and deletions in different animal kingdoms, not only in intrinsically disordered regions, but in other structural protein domains as well.  As described earlier protein domains might undergo substantial changes, for instance significantly increasing or decreasing the length of loops or adding/deleting complete secondary structure elements. Several examples of domains that have been inserted within other domains also exist. These events might explain the existence of regions of protein sequence that cannot be assigned to a homologous domain (orphan protein domains) and represent a novel structural element or function. How do this regions evolve and what evolutionary mechanisms drive their development? These questions should be carefully studied in a large-scale genome level study by carefully selecting sequence alignment methods and integrating protein data from several sources. 
 
 \bibliographystyle{abbrv}
 \bibliography{references}
