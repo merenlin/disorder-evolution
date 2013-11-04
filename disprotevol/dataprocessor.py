@@ -78,6 +78,7 @@ def getDisorderDisprot(length, s = '&78-90 #216-261 #1-7'):
 
 #uniprotid / sourceID /  name / organism / length / disorder content 
 def createProteinsTable():
+    #TODO: remove table file before starting
     f = open(FASTfilename,"rU")
     seqs = SeqIO.parse(f,"fasta")
 
@@ -102,16 +103,18 @@ def createProteinsTable():
 
         # Integrate with MOBIDB information where possible
         try:
-            species = mobidb_seqs[uniprot_id]['species']
             name = mobidb_seqs[uniprot_id]['name']
+            species = mobidb_seqs[uniprot_id]['species']
+            species = species.split()[0] + ' ' + species.split()[1]
         except KeyError, e:
-            species = 'NA'
-            name = 'NA'
+            species = ''
+            name = ''
 
         table_file.write(disprot_id + ',' 
             + uniprot_id + ',' 
-            + name + ',' 
+            + '"' + name + '",' 
             + species + ','  
-            + str(seqlength) + ','
+            + str(seqlength) + ',' 
+            + str(disnum) + ',' 
             + str(discontent) + '\n')  
     table_file.close() 
