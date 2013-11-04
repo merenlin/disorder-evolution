@@ -8,7 +8,8 @@ import disprotevol as disevol
 #flag 3 - disprot alignments summary
 
 def prepare_data(source = "disprot"):
-    disevol.dataprocessor.separateDisprot() 
-
+    #disevol.dataprocessor.separateDisprot() 
+    disevol.dataprocessor.createProteinsTable()
+    
 if __name__ == '__main__':
     prepare_data()
