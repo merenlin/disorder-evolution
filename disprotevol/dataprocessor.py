@@ -66,7 +66,7 @@ are denoted by the symbol ":". For example:
 
 """
 def getDisorderDisprot(length, s = '&78-90 #216-261 #1-7'):
-    disorder = [0] * length # no disorderby default
+    disorder = [0] * length # no disorder by default
     regions = s.split()
     for region in regions:
         print region
@@ -117,4 +117,6 @@ def createProteinsTable():
             + str(seqlength) + ',' 
             + str(disnum) + ',' 
             + str(discontent) + '\n')  
+
+        # TODO: add NEFF and num_orthologs
     table_file.close() 
