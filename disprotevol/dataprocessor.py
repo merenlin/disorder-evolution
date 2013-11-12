@@ -2,6 +2,8 @@
 # fasta files
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord 
+from csb.bio.io.hhpred  import HHOutputParser
+import os
 import re
 
 #TODO: move all the paths to a config file
@@ -9,8 +11,17 @@ import re
 FASTfilename = "data/raw/disprot.fasta"   
 MOBIDBseqfile = "data/raw/mobidb/sequences.fasta"
 MOBIDBannotfile = "data/raw/mobidb/annotations.fasta"
+HHsearchdir = "data/hhsuite/hhsearch/"
+tblProteinFilename = "data/tables/proteins.txt"
 
-#TODO: switch to pyfasta for this instead
+"""
+Takes disprot.fasta and splits it into 
+individual fasta files for each protein.
+
+Throws away all the annotation information
+and keeps only the disprot id. 
+
+"""
 def separateDisprot():
     f = open(FASTfilename,"rU")
     seqs = SeqIO.parse(f,"fasta")
@@ -26,9 +37,14 @@ def separateDisprot():
     f.close()
 
 """
+Input: sequences.fasta from MOBIDB
+
 Format of the file
 
 ><Sequence ID>|refseq|<Protein name>|<Organism>
+
+Takes only reference sequences from this file 
+and returns their annotations as a dictionary.
 
 """
 def getRefSeqsMOBIDB(file = MOBIDBseqfile):
@@ -48,11 +64,14 @@ def getRefSeqsMOBIDB(file = MOBIDBseqfile):
     return refseqs
 
 """
+Takes a disorder annotation sequence from Disprot,
+transforms to a protein sequence 10100001... 
+with 0 standing for order, 1 for disorder.
+Function returns the count of 1s in this sequence.
+
 Disordered regions are denoted by symbol "#" in format:
 
 #<starting residue>-<ending residue>
-
-In the example above residues 1 to 195, 217 to 222, 260-276, and 268 to 271 are disordered.
 
 Ordered (structurally determined) parts of proteins are denoted by symbol "&" in format:
 
@@ -76,9 +95,25 @@ def getDisorderDisprot(length, s = '&78-90 #216-261 #1-7'):
                 disorder[i] = 1             
     return disorder.count(1)
 
+"""
+Input: *.hhr file for a protein in DisProt
+Output: number of homologs and NEFF(alignment diversity score)
+
+"""
+def getHomologsInfo(dp_id):
+    homologs = {}
+    try:
+        hhr = HHOutputParser().parse_file(HHsearchdir + dp_id + ".fa.hhr")
+        homologs["neff"]=hhr.neff
+        homologs["num"]=hhr.no_of_seqs.split()[0]
+    except Exception as exc:
+        print dp_id
+        print str(exc)
+        pass
+    return homologs
+
 #uniprotid / sourceID /  name / organism / length / disorder content 
 def createProteinsTable():
-    #TODO: remove table file before starting
     f = open(FASTfilename,"rU")
     seqs = SeqIO.parse(f,"fasta")
 
@@ -87,7 +122,16 @@ def createProteinsTable():
     f = open(MOBIDBannotfile,"rU")
     mobidb_annot = SeqIO.to_dict(SeqIO.parse(f,"fasta"))
 
-    table_file = open("data/tables/proteins.txt", "w+")
+    #Remove the table file before starting
+    try:
+        os.remove(tblProteinFilename)
+    except OSError:
+        pass
+
+    table_file = open(tblProteinFilename, "w+")
+    table_file.write("disprotID,uniprotID,name,species,"+
+                     "seqlength,numdisorder,discontent," +
+                     "numhomologs,alignmentdiv\n")
 
     # Annotations string looks like this: 
     # DisProt|DP00001|uniprot|Q9HFQ6|sp|RLA3_CANAL #1-108
@@ -110,13 +154,26 @@ def createProteinsTable():
             species = ''
             name = ''
 
+        try:
+            # Get homologs information from hhr files
+            hominfo = getHomologsInfo(disprot_id) 
+            print hominfo
+            neff = hominfo['neff']
+            homnum = hominfo['num']
+        except KeyError, e:
+             neff = ''
+             homnum = ''
+
         table_file.write(disprot_id + ',' 
             + uniprot_id + ',' 
             + '"' + name + '",' 
             + species + ','  
             + str(seqlength) + ',' 
             + str(disnum) + ',' 
-            + str(discontent) + '\n')  
+            + str(discontent) + ',' 
+            + homnum + ',' 
+            + str(neff) + '\n')  
 
-        # TODO: add NEFF and num_orthologs
     table_file.close() 
+
+#TODO: make a separate table for homnums with different cuttoffs

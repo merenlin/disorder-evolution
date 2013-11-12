@@ -1,694 +1,695 @@
-DP00001,Q9HFQ6,"60S acidic ribosomal protein P1-B",Candida albicans,108,107,99.1
-DP00002,P02400,"60S acidic ribosomal protein P2-beta",Saccharomyces cerevisiae,110,109,99.1
-DP00003,P03265,"Early E2A DNA-binding protein",Human adenovirus,529,50,9.5
-DP00004,P49913,"Cathelicidin antimicrobial peptide",Homo sapiens,170,0,0.0
-DP00004_C002,P49913,"Cathelicidin antimicrobial peptide",Homo sapiens,37,36,97.3
-DP00005,P03045,"Antitermination protein N",Enterobacteria phage,107,106,99.1
-DP00006,P00004,"Cytochrome c",Equus caballus,104,103,99.0
-DP00007,P27695,"DNA-(apurinic or apyrimidinic site) lyase",Homo sapiens,318,58,18.2
-DP00008,Q64693,"POU domain class 2-associating factor 1",Mus musculus,256,255,99.6
-DP00009,P32774,"Transcription initiation factor IIA subunit 2",Saccharomyces cerevisiae,122,12,9.8
-DP00011,P50224,"Sulfotransferase 1A3/1A4",Homo sapiens,295,67,22.7
-DP00012,P13569,"Cystic fibrosis transmembrane conductance regulator",Homo sapiens,1480,123,8.3
-DP00013,P01233,"Choriogonadotropin subunit beta",Homo sapiens,145,33,22.8
-DP00014,P05371,"Clusterin",Rattus norvegicus,447,111,24.8
-DP00015,P61926,"cAMP-dependent protein kinase inhibitor alpha",Oryctolagus cuniculus,76,74,97.4
-DP00016,P38936,"Cyclin-dependent kinase inhibitor 1",Homo sapiens,164,163,99.4
-DP00017,P49918,"Cyclin-dependent kinase inhibitor 1C",Homo sapiens,316,315,99.7
-DP00018,P46527,"Cyclin-dependent kinase inhibitor 1B",Homo sapiens,198,24,12.1
-DP00020,P11938,"DNA-binding protein RAP1",Saccharomyces cerevisiae,827,12,1.5
-DP00021,P13551,"Elongation factor G",Thermus thermophilus,691,30,4.3
-DP00022,P17639,"EMB-1 protein",Daucus carota,92,91,98.9
-DP00023,P14061,"Estradiol 17-beta-dehydrogenase 1",Homo sapiens,327,59,18.0
-DP00024,P03129,"Protein E7",Human papillomavirus,98,97,99.0
-DP00025,P14738,"Fibronectin-binding protein A",Staphylococcus aureus,1018,129,12.7
-DP00026,P06179,"Flagellin",Salmonella typhimurium,494,103,20.9
-DP00027,P26477,"Negative regulator of flagellin synthesis",Salmonella typhimurium,97,96,99.0
-DP00028,Q13541,"Eukaryotic translation initiation factor 4E-binding protein 1",Homo sapiens,118,117,99.2
-DP00029,Q07731,"Glial cell line-derived neurotrophic factor",Rattus norvegicus,211,39,18.5
-DP00030,P04150,"Glucocorticoid receptor",Homo sapiens,777,499,64.2
-DP00031,P13255,"Glycine N-methyltransferase",Rattus norvegicus,292,39,13.4
-DP00032,P56206,"Glycine--tRNA ligase",Thermus thermophilus,505,67,13.3
-DP00033,P10912-1,"",,638,0,0.0
-DP00033_C001,P10912,"Growth hormone receptor",Homo sapiens,246,61,24.8
-DP00034,P03661,"Attachment protein G3P",Enterobacteria phage,424,23,5.4
-DP00035,P10824,"Guanine nucleotide-binding protein G(i) subunit alpha-1",Rattus norvegicus,354,40,11.3
-DP00036,P22121,"Heat shock factor protein",Kluyveromyces lactis,677,215,31.8
-DP00037,Q9Y9L0,"Probable peroxiredoxin",Aeropyrum pernix,250,23,9.2
-DP00038,P02316,"Non-histone chromosomal protein HMG-14",Bos taurus,100,98,98.0
-DP00039,P05204,"Non-histone chromosomal protein HMG-17",Homo sapiens,89,88,98.9
-DP00040,P17096,"High mobility group protein HMG-I/HMG-Y",Homo sapiens,107,106,99.1
-DP00041,P07746,"High mobility group-T protein",Oncorhynchus mykiss,204,203,99.5
-DP00042,P02315,"Non-histone chromosomal protein H6",Oncorhynchus mykiss,70,68,97.1
-DP00043,P02929,"Protein tonB",Escherichia coli,239,48,20.1
-DP00044,P02259,"Histone H5",Gallus gallus,189,104,55.0
-DP00045,Q27796,"Hypoxanthine-guanine phosphoribosyltransferase",Trypanosoma cruzi,220,29,13.2
-DP00046,Q9QXN1,"Lymphoid enhancer-binding factor 1",Rattus norvegicus,397,101,25.4
-DP00047,P02687,"Myelin basic protein",Bos taurus,169,168,99.4
-DP00048,P03406,"Protein Nef",Human immunodeficiency,206,104,50.5
-DP00049,P70475,"Myelin transcription factor 1-like protein",Rattus norvegicus,1187,119,10.0
-DP00050,P19246,"Neurofilament heavy polypeptide",Mus musculus,1087,678,62.4
-DP00051,P07805,"Ornithine decarboxylase",Trypanosoma brucei,425,71,16.7
-DP00052,P07214,"SPARC",Mus musculus,302,284,94.0
-DP00053,P27001,"Phenylalanine--tRNA ligase alpha subunit",Thermus thermophilus,350,84,24.0
-DP00054,P78356,"Phosphatidylinositol 5-phosphate 4-kinase type-2 beta",Homo sapiens,416,90,21.6
-DP00055,P10688,"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1",Rattus norvegicus,756,147,19.4
-DP00057,P15340,"Sperm histone",Gallus gallus,62,61,98.4
-DP00058,P06302,"Prothymosin alpha",Rattus norvegicus,112,111,99.1
-DP00060,P11409,"Modification methylase PvuII",Proteus hauseri,323,48,14.9
-DP00061,P27694,"Replication protein A 70 kDa DNA-binding subunit",Homo sapiens,616,53,8.6
-DP00062,P19793,"Retinoic acid receptor RXR-alpha",Homo sapiens,462,24,5.2
-DP00063,P49799,"Regulator of G-protein signaling 4",Rattus norvegicus,205,75,36.6
-DP00064,P03607,"Capsid protein",Southern cowpea,279,63,22.6
-DP00065,O86488,"Serine-aspartate repeat-containing protein D",Staphylococcus aureus,1315,554,42.1
-DP00066,P27285,"Structural polyprotein",Sindbis virus,1245,0,0.0
-DP00066_C001,P27285,"Structural polyprotein",Sindbis virus,264,112,42.4
-DP00067,Q57733,"Small heat shock protein HSP16.5",Methanocaldococcus jannaschii,147,31,21.1
-DP00068,P60881,"Synaptosomal-associated protein 25",Rattus norvegicus,206,205,99.5
-DP00069,P63027,"Vesicle-associated membrane protein 2",Homo sapiens,116,115,99.1
-DP00070,P37840-1,"",,140,139,99.3
-DP00071,P23441,"Homeobox protein Nkx-2.1",Rattus norvegicus,372,170,45.7
-DP00072,Q8WZ42-1,"",,7962,2173,27.3
-DP00073,P04818,"Thymidylate synthase",Homo sapiens,313,80,25.6
-DP00074,P03372,"Estrogen receptor",Homo sapiens,595,208,35.0
-DP00075,P11387,"DNA topoisomerase 1",Homo sapiens,765,317,41.4
-DP00076,P06786,"DNA topoisomerase 2",Saccharomyces cerevisiae,1428,351,24.6
-DP00077,P07248,"Regulatory protein ADR1",Saccharomyces cerevisiae,1323,35,2.6
-DP00078,P01100,"Proto-oncogene c-Fos",Homo sapiens,380,164,43.2
-DP00079,Q92731-1,"",,530,102,19.2
-DP00080,P15337,"Cyclic AMP-responsive element-binding protein 1",Rattus norvegicus,341,59,17.3
-DP00081,P51123,"Transcription initiation factor TFIID subunit 1",Drosophila melanogaster,2068,66,3.2
-DP00082,P39935,"Eukaryotic initiation factor 4F subunit p150",Saccharomyces cerevisiae,952,97,10.2
-DP00083,P03069,"General control protein GCN4",Saccharomyces cerevisiae,281,56,19.9
-DP00084,P61244,"Protein max",Homo sapiens,160,109,68.1
-DP00084_A002,P61244-2,"Isoform 2 of Protein max",Homo sapiens,151,67,44.4
-DP00085,Q04206,"Transcription factor p65",Homo sapiens,551,122,22.1
-DP00086,P04637,"Cellular tumor antigen p53",Homo sapiens,393,108,27.5
-DP00087,P68336,"Tegument protein VP16",Human herpesvirus,490,131,26.7
-DP00088,P0ABI8,"Ubiquinol oxidase subunit 1",Escherichia coli,663,197,29.7
-DP00089,P0ABJ1,"Ubiquinol oxidase subunit 2",Escherichia coli,315,57,18.1
-DP00090,Q14722-2,"Isoform KvB1.1 of Voltage-gated potassium channel subunit beta-1",Homo sapiens,401,61,15.2
-DP00091,P27088,"DNA repair protein complementing XP-A cells homolog",Xenopus laevis,267,167,62.5
-DP00092,Q08209,"Serine/threonine-protein phosphatase 2B catalytic subunit alpha isoform",Homo sapiens,521,157,30.1
-DP00094,P04177,"Tyrosine 3-monooxygenase",Rattus norvegicus,498,154,30.9
-DP00095,P00952,"Tyrosine--tRNA ligase",Geobacillus stearothermophilus,419,99,23.6
-DP00096,Q9HKT1,"Lipoate-protein ligase A subunit 1",Thermoplasma acidophilum,262,14,5.3
-DP00097,P10922,"Histone H1.0",Mus musculus,193,126,65.3
-DP00098,Q53654,"Collagen adhesin",Staphylococcus aureus,1183,17,1.4
-DP00099,P50440,"Glycine amidinotransferase, mitochondrial",Homo sapiens,423,25,5.9
-DP00100,P0A6H5,"ATP-dependent protease ATPase subunit HslU",Escherichia coli,443,34,7.7
-DP00101,P12493,"Gag polyprotein",Human immunodeficiency,500,0,0.0
-DP00101_C006,P12493,"Gag polyprotein",Human immunodeficiency,52,33,63.5
-DP00102,P10587,"Myosin-11",Gallus gallus,1979,108,5.5
-DP00103,P09372,"Protein grpE",Escherichia coli,197,7,3.6
-DP00104,P32773,"Transcription initiation factor IIA large subunit",Saccharomyces cerevisiae,286,30,10.5
-DP00105,Q59471,"Diol dehydrase beta subunit",Klebsiella oxytoca,224,44,19.6
-DP00106,Q59472,"Diol dehydrase gamma subunit",Klebsiella oxytoca,173,35,20.2
-DP00107,P69924,"Ribonucleoside-diphosphate reductase 1 subunit beta",Escherichia coli,376,34,9.0
-DP00108,P07598,"Periplasmic [Fe] hydrogenase large subunit",Desulfovibrio vulgaris,421,23,5.5
-DP00110,P40881,"Carbonic anhydrase",Methanosarcina thermophila,247,36,14.6
-DP00111,P27577,"Protein C-ets-1",Mus musculus,440,105,23.9
-DP00112,P22239,"Desiccation-related protein clone PCC6-19",Craterostigma plantagineum,155,154,99.4
-DP00113,P31109,"Synaptobrevin homolog 1",Saccharomyces cerevisiae,117,92,78.6
-DP00114,P04350,"Tubulin beta-4A chain",Homo sapiens,444,50,11.3
-DP00116,P81455,"Osteocalcin",Canis familiaris,49,48,98.0
-DP00117,P60058,"Protein transport protein Sec61 subunit gamma",Canis familiaris,68,33,48.5
-DP00118,P05059,"Chromogranin-A",Bos taurus,449,24,5.3
-DP00119,P10163,"Basic salivary proline-rich protein 4",Homo sapiens,310,293,94.5
-DP00120,P12957,"Caldesmon",Gallus gallus,771,135,17.5
-DP00121,Q51912,"Putative uncharacterized protein",Peptostreptococcus magnus,719,76,10.6
-DP00122,P15146,"Microtubule-associated protein 2",Rattus norvegicus,1861,1860,99.9
-DP00123,P01730,"T-cell surface glycoprotein CD4",Homo sapiens,458,37,8.1
-DP00124,P23389,"Secretogranin-1",Bos taurus,646,645,99.8
-DP00125,P63292,"Somatoliberin",Bos taurus,106,28,26.4
-DP00126,P10636-8,"Isoform Tau-F of Microtubule-associated protein tau",Homo sapiens,441,439,99.5
-DP00127,Q06556,"Fibronectin binding protein",Streptococcus dysgalactiae,1091,159,14.6
-DP00128,P40357,"Protein transport protein SEC9",Saccharomyces cerevisiae,651,650,99.8
-DP00129,Q04207,"Transcription factor p65",Mus musculus,549,302,55.0
-DP00130,P22531,"Small proline-rich protein 2E",Homo sapiens,72,43,59.7
-DP00131,Q91006,"Tropomodulin",Gallus gallus,359,91,25.3
-DP00132,P07221,"Calsequestrin-1",Oryctolagus cuniculus,395,394,99.7
-DP00133,P03422,"Phosphoprotein",Measles virus,507,313,61.7
-DP00134,Q06787,"Fragile X mental retardation protein 1",Homo sapiens,632,257,40.7
-DP00135,P10961,"Heat shock factor protein",Saccharomyces cerevisiae,833,166,19.9
-DP00136,P15865,"Histone H1.2",Rattus norvegicus,217,214,98.6
-DP00137,P01050,"Hirudin variant-1",Hirudo medicinalis,65,15,23.1
-DP00138,P12272,"Parathyroid hormone-related protein",Homo sapiens,177,15,8.5
-DP00140,P0A7L8,"50S ribosomal protein L27",Escherichia coli,85,84,98.8
-DP00141,O95405-1,"",,1425,88,6.2
-DP00142,P14602,"Heat shock protein beta-1",Mus musculus,209,17,8.1
-DP00143,P0A7N9,"50S ribosomal protein L33",Escherichia coli,55,54,98.2
-DP00144,Q9VAN6,"Histone RNA hairpin-binding protein",Drosophila melanogaster,276,174,63.0
-DP00145,P0A7S3,"30S ribosomal protein S12",Escherichia coli,124,123,99.2
-DP00146,P0A7T7,"30S ribosomal protein S18",Escherichia coli,75,74,98.7
-DP00147,P0A7U3,"30S ribosomal protein S19",Escherichia coli,92,91,98.9
-DP00148,P03347,"Gag polyprotein",Human immunodeficiency,512,0,0.0
-DP00148_C004,P03347,"Gag polyprotein",Human immunodeficiency,55,54,98.2
-DP00151,P02547,"Neurofilament light polypeptide",Sus scrofa,549,105,19.1
-DP00152,Q13426,"DNA repair protein XRCC4",Homo sapiens,336,91,27.1
-DP00153,P01112,"GTPase HRas",Homo sapiens,189,57,30.2
-DP00154,P29353,"SHC-transforming protein 1",Homo sapiens,583,53,9.1
-DP00155,P32851,"Syntaxin-1A",Rattus norvegicus,288,33,11.5
-DP00156,P54725,"UV excision repair protein RAD23 homolog A",Homo sapiens,363,144,39.7
-DP00157,Q56027,"",,684,113,16.5
-DP00158,P73124,"Ssl1911 protein",Synechocystis sp.,65,64,98.5
-DP00159,P09803,"Cadherin-1",Mus musculus,884,148,16.7
-DP00160,P04851,"Nucleoprotein",Measles virus,525,124,23.6
-DP00161,P77173,"Cell division protein ZipA",Escherichia coli,328,146,44.5
-DP00162,O75324,"Stannin",Homo sapiens,88,22,25.0
-DP00163,Q03768,"Protein GIR2",Saccharomyces cerevisiae,265,264,99.6
-DP00164,P05318,"60S acidic ribosomal protein P1-alpha",Saccharomyces cerevisiae,106,105,99.1
-DP00165,P0AFI7,"Pyridoxine/pyridoxamine 5'-phosphate oxidase",Escherichia coli,218,62,28.4
-DP00166,P19429,"Troponin I, cardiac muscle",Homo sapiens,210,84,40.0
-DP00167,P10114,"Ras-related protein Rap-2a",Homo sapiens,183,20,10.9
-DP00168,Q9NVS9,"Pyridoxine-5'-phosphate oxidase",Homo sapiens,261,47,18.0
-DP00169,P32882,"Tubulin beta-2 chain",Gallus gallus,445,28,6.3
-DP00170,Q39805,"Dehydrin-like protein",Glycine max,226,225,99.6
-DP00171,P04049,"RAF proto-oncogene serine/threonine-protein kinase",Homo sapiens,648,24,3.7
-DP00172,Q16633,"POU domain class 2-associating factor 1",Homo sapiens,256,21,8.2
-DP00173,O00273-1,"",,331,115,34.7
-DP00174,P16949,"Stathmin",Homo sapiens,149,148,99.3
-DP00175,Q9NQB0,"Transcription factor 7-like 2",Homo sapiens,619,55,8.9
-DP00176,P42512,"Fe(3+)-pyochelin receptor",Pseudomonas aeruginosa,720,43,6.0
-DP00177,Q9Y5B0,"RNA polymerase II subunit A C-terminal domain phosphatase",Homo sapiens,961,82,8.5
-DP00179,P01094,"Protease A inhibitor 3",Saccharomyces cerevisiae,68,35,51.5
-DP00180,P19972,"Salt-mediated killer protoxin 1",Millerozyma farinosa,222,0,0.0
-DP00180_C003,P19972,"Salt-mediated killer protoxin 1",Millerozyma farinosa,77,76,98.7
-DP00181,P08775,"DNA-directed RNA polymerase II subunit RPB1",Mus musculus,1970,367,18.6
-DP00182,P03087-1,"",,362,166,45.9
-DP00183,P48632,"Ferripyoverdine receptor",Pseudomonas aeruginosa,815,5,0.6
-DP00184,P11473,"Vitamin D3 receptor",Homo sapiens,427,3,0.7
-DP00185,P93165,"Em protein",Glycine max,105,104,99.0
-DP00186,Q95V77,"Late embryogenesis abundant protein 1",Aphelenchus avenae,143,142,99.3
-DP00187,P04273,"Major prion protein",Mesocricetus auratus,254,95,37.4
-DP00188,P12359,"Oxygen-evolving enhancer protein 1, chloroplastic",Spinacia oleracea,332,247,74.4
-DP00189,P04324,"Protein Nef",Human immunodeficiency,206,40,19.4
-DP00190,P38038,"Sulfite reductase [NADPH] flavoprotein alpha-component",Escherichia coli,598,203,33.9
-DP00191,P00747,"Plasminogen",Homo sapiens,810,0,0.0
-DP00192,P02668,"Kappa-casein",Bos taurus,190,181,95.3
-DP00193,P02754,"Beta-lactoglobulin",Bos taurus,178,177,99.4
-DP00194,P0AFZ3,"Stringent starvation protein B",Escherichia coli,165,54,32.7
-DP00195,P02313,"Non-histone chromosomal protein HMG-17",Bos taurus,89,88,98.9
-DP00196,P20810,"Calpastatin",Homo sapiens,708,140,19.8
-DP00197,P0A707,"Translation initiation factor IF-3",Escherichia coli,180,11,6.1
-DP00198,P33905,"Transcriptional activator protein traR",Rhizobium radiobacter,234,233,99.6
-DP00199,P05814,"Beta-casein",Homo sapiens,226,225,99.6
-DP00200,P20963-1,"",,164,112,68.3
-DP00201,P02721,"ATP synthase-coupling factor 6, mitochondrial",Bos taurus,108,75,69.4
-DP00202,P0A8H9,"DNA gyrase inhibitor YacG",Escherichia coli,65,27,41.5
-DP00205,Q82S91,"Metal-binding protein smbP",Nitrosomonas europaea,117,116,99.1
-DP00206,P17838,"Fimbrial protein",Pseudomonas aeruginosa,157,35,22.3
-DP00207,P21513,"Ribonuclease E",Escherichia coli,1061,562,53.0
-DP00208,Q9S446,"Sortase",Staphylococcus aureus,206,12,5.8
-DP00209,P46170,"Beta-defensin 12",Bos taurus,38,3,7.9
-DP00210,P62993,"Growth factor receptor-bound protein 2",Homo sapiens,217,7,3.2
-DP00211,P24592,"Insulin-like growth factor-binding protein 6",Homo sapiens,240,30,12.5
-DP00213,P06180,"Histone-binding protein N1/N2",Xenopus laevis,590,20,3.4
-DP00214,P10451,"Osteopontin",Homo sapiens,314,313,99.7
-DP00215,P42768,"Wiskott-Aldrich syndrome protein",Homo sapiens,501,31,6.2
-DP00216,Q9FUM5,"BN28a",Brassica napus,65,64,98.5
-DP00217,P05221,"Nucleoplasmin",Xenopus laevis,200,80,40.0
-DP00218,Q90623-2,"Isoform 2 of Protein phosphatase 1 regulatory subunit 12A",Gallus gallus,963,298,30.9
-DP00219,O60927,"Protein phosphatase 1 regulatory subunit 11",Homo sapiens,126,125,99.2
-DP00220,P17810,"Peripherin-2",Bos taurus,345,62,18.0
-DP00221,P07476,"Involucrin",Homo sapiens,585,58,9.9
-DP00222,P32499,"Nucleoporin NUP2",Saccharomyces cerevisiae,720,719,99.9
-DP00223,P14635,"G2/mitotic-specific cyclin-B1",Homo sapiens,433,77,17.8
-DP00224,P15884,"Transcription factor 4",Homo sapiens,667,129,19.3
-DP00225,Q05140,"Clathrin coat assembly protein AP180",Rattus norvegicus,915,568,62.1
-DP00226,Q9CXW3,"Calcyclin-binding protein",Mus musculus,229,76,33.2
-DP00227,Q9FUW7,"Omega gliadin storage protein",Triticum aestivum,280,279,99.6
-DP00228,P07293,"Voltage-dependent L-type calcium channel subunit alpha-1S",Oryctolagus cuniculus,1873,36,1.9
-DP00229,P05455,"Lupus La protein",Homo sapiens,408,98,24.0
-DP00230,Q14449,"Growth factor receptor-bound protein 14",Homo sapiens,540,74,13.7
-DP00231,P14859,"POU domain, class 2, transcription factor 1",Homo sapiens,743,222,29.9
-DP00232,P11845,"Protein phosphatase inhibitor 2",Oryctolagus cuniculus,205,204,99.5
-DP00233,P14448-1,"",,741,297,40.1
-DP00234,Q02020,"Fibrinogen beta chain (Fragment)",Gallus gallus,463,61,13.2
-DP00235,O93568,"Fibrinogen gamma chain",Gallus gallus,435,17,3.9
-DP00236,P02686,"Myelin basic protein",Homo sapiens,304,170,55.9
-DP00237,P04370,"Myelin basic protein",Mus musculus,169,168,99.4
-DP00238,P38398,"Breast cancer type 1 susceptibility protein",Homo sapiens,1863,1502,80.6
-DP00239,P31896,"Carbon monoxide dehydrogenase",Rhodospirillum rubrum,639,27,4.2
-DP00240,P35611-1,"",,737,307,41.7
-DP00241,P35612-1,"",,726,317,43.7
-DP00242,P0AG63,"30S ribosomal protein S17",Escherichia coli,83,82,98.8
-DP00243,P23025,"DNA repair protein complementing XP-A cells",Homo sapiens,273,24,8.8
-DP00245,P00514,"cAMP-dependent protein kinase type I-alpha regulatory subunit",Bos taurus,379,21,5.5
-DP00246,P21758-1,"",,453,49,10.8
-DP00247,O06143,"Probable transcriptional regulatory protein pdtaR",Mycobacterium tuberculosis,205,9,4.4
-DP00248,Q9YBQ2,"Acylamino-acid-releasing enzyme",Aeropyrum pernix,582,7,1.2
-DP00249,P63315,"Troponin C, slow skeletal and cardiac muscles",Bos taurus,161,55,34.2
-DP00250,P01555,"Cholera enterotoxin subunit A",Vibrio cholerae,258,10,3.9
-DP00251,O88339,"Epsin-1",Rattus norvegicus,575,431,75.0
-DP00252,P0A877,"Tryptophan synthase alpha chain",Escherichia coli,268,8,3.0
-DP00253,P26645,"Myristoylated alanine-rich C-kinase substrate",Mus musculus,309,308,99.7
-DP00254,O75365-1,"",,173,31,17.9
-DP00255,Q93096,"Protein tyrosine phosphatase type IVA 1",Homo sapiens,173,46,26.6
-DP00256,P40316,"Securin",Saccharomyces cerevisiae,373,109,29.2
-DP00257,O31851,"Superoxide dismutase-like protein yojM",Bacillus subtilis,196,50,25.5
-DP00259,P00703,"Lysozyme C",Meleagris gallopavo,147,14,9.5
-DP00260,P01106,"Myc proto-oncogene protein",Homo sapiens,439,194,44.2
-DP00261,Q9Y3R4,"Sialidase-2",Homo sapiens,380,17,4.5
-DP00262,Q16665-1,"",,826,345,41.8
-DP00263,P02693,"Fatty acid-binding protein, intestinal",Rattus norvegicus,131,10,7.6
-DP00265,P04925,"Major prion protein",Mus musculus,254,97,38.2
-DP00267,P08510-1,"",,655,63,9.6
-DP00268,P26747,"Coat protein",Enterobacteria phage,430,189,44.0
-DP00269,Q24298,"DE-cadherin",Drosophila melanogaster,1507,157,10.4
-DP00270,Mm.342177 #95-105 #97-100,"",,220,10,4.5
-DP00271,P02699,"Rhodopsin",Bos taurus,348,43,12.4
-DP00272,P35372-1,"",,400,15,3.8
-DP00273,P04695,"Guanine nucleotide-binding protein G(t) subunit alpha-1",Bos taurus,350,10,2.9
-DP00274,P02458-2,"",,1487,4,0.3
-DP00275,Q7CJN0,"Putative exported protein",Yersinia pestis,806,194,24.1
-DP00276,Q80FJ1,"Membrane fusion protein p14",Reptilian orthoreovirus,125,28,22.4
-DP00277,Q12287,"Cytochrome c oxidase copper chaperone",Saccharomyces cerevisiae,69,30,43.5
-DP00278,P08050,"Gap junction alpha-1 protein",Rattus norvegicus,381,108,28.3
-DP00279,P08523,"Olfactory marker protein",Rattus norvegicus,163,40,24.5
-DP00280,P0C2E9,"Perfringolysin O",Clostridium perfringens,500,50,10.0
-DP00282,Q04656-1,"",,1500,20,1.3
-DP00284,P16009,"Tail-associated lysozyme",Enterobacteria phage,575,18,3.1
-DP00285,P10388,"Glutenin, high molecular weight subunit DX5",Triticum aestivum,839,293,34.9
-DP00286,Q32NN2-1,"",,341,17,5.0
-DP00287,P40337,"Von Hippel-Lindau disease tumor suppressor",Homo sapiens,213,159,74.6
-DP00288,Q06253,"Antitoxin phd",Enterobacteria phage,73,72,98.6
-DP00289,Q47785,"EntI protein",Enterococcus faecium,103,29,28.2
-DP00290,Q7DB66,"EscJ",Escherichia coli,190,25,13.2
-DP00291,Q9QXT8-1,"",,256,191,74.6
-DP00292,P0C5S4,"Phosphorelay protein luxU",Vibrio harveyi,114,17,14.9
-DP00293,O33246,"Prokaryotic ubiquitin-like protein Pup",Mycobacterium tuberculosis,64,44,68.8
-DP00294,P07017,"Methyl-accepting chemotaxis protein II",Escherichia coli,553,29,5.2
-DP00295,P0A5R6,"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase",Mycobacterium tuberculosis,249,15,6.0
-DP00296,P0AE73,"Antitoxin MazE",Escherichia coli,82,39,47.6
-DP00297,P10415,"Apoptosis regulator Bcl-2",Homo sapiens,239,61,25.5
-DP00298,Q07817,"Bcl-2-like protein 1",Homo sapiens,233,67,28.8
-DP00299,P0AE70,"mRNA interferase MazF",Escherichia coli,111,13,11.7
-DP00300,P02942,"Methyl-accepting chemotaxis protein I",Escherichia coli,551,30,5.4
-DP00301,P0ABQ4,"Dihydrofolate reductase",Escherichia coli,159,49,30.8
-DP00302,Q7CL96,"Putative stringent starvation protein A",Yersinia pestis,213,21,9.9
-DP00303,P02185,"Myoglobin",Physeter macrocephalus,153,152,99.3
-DP00304,P31751,"RAC-beta serine/threonine-protein kinase",Homo sapiens,481,74,15.4
-DP00305,P43155-1,"",,626,5,0.8
-DP00306,Q07108,"Early activation antigen CD69",Homo sapiens,199,83,41.7
-DP00307,P51946,"Cyclin-H",Homo sapiens,323,44,13.6
-DP00308,P06132,"Uroporphyrinogen decarboxylase",Homo sapiens,367,26,7.1
-DP00309,P00533-1,"",,1210,23,1.9
-DP00310,P62495,"Eukaryotic peptide chain release factor subunit 1",Homo sapiens,437,35,8.0
-DP00311,P24071-1,"",,287,15,5.2
-DP00312,P36888,"Receptor-type tyrosine-protein kinase FLT3",Homo sapiens,993,42,4.2
-DP00313,P32455,"Interferon-induced guanylate-binding protein 1",Homo sapiens,592,46,7.8
-DP00314,Q9UJY5-1,"",,639,79,12.4
-DP00315,O43464-1,"",,458,26,5.7
-DP00317,P08581-1,"",,1390,68,4.9
-DP00318,Q8WUM0,"Nuclear pore complex protein Nup133",Homo sapiens,1156,69,6.0
-DP00319,O15350-1,"",,636,19,3.0
-DP00320,P05121,"Plasminogen activator inhibitor 1",Homo sapiens,402,22,5.5
-DP00321,Q9UM07,"Protein-arginine deiminase type-4",Homo sapiens,663,118,17.8
-DP00322,P11309-2,"Isoform 2 of Serine/threonine-protein kinase pim-1",Homo sapiens,313,21,6.7
-DP00323,O75469-1,"",,434,32,7.4
-DP00324,P09651-1,"",,371,29,7.8
-DP00325,P01099,"Protein phosphatase 1 regulatory subunit 1A",Oryctolagus cuniculus,166,165,99.4
-DP00326,Q837V6,"DNA ligase",Enterococcus faecalis,676,8,1.2
-DP00327,O14832,"Phytanoyl-CoA dioxygenase, peroxisomal",Homo sapiens,338,44,13.0
-DP00328,Q08605-2,"Isoform B of Transcription factor GAGA",Drosophila melanogaster,519,382,73.6
-DP00329,P02666,"Beta-casein",Bos taurus,224,223,99.6
-DP00330,P02662,"Alpha-S1-casein",Bos taurus,214,213,99.5
-DP00332,P21815,"Bone sialoprotein 2",Homo sapiens,317,316,99.7
-DP00333,P27797,"Calreticulin",Homo sapiens,417,398,95.4
-DP00334,Q00987-1,"",,491,110,22.4
-DP00335,Q64364-1,"",,169,36,21.3
-DP00336,Q8N726-1,"",,173,36,20.8
-DP00337,P06968,"Deoxyuridine 5'-triphosphate nucleotidohydrolase",Escherichia coli,152,15,9.9
-DP00338,B0B1U2,"ABO glycosyltransferase",Homo sapiens,354,24,6.8
-DP00339,P16442,"Histo-blood group ABO system transferase",Homo sapiens,354,24,6.8
-DP00340,P62965,"Cellular retinoic acid-binding protein 1",Mus musculus,137,27,19.7
-DP00341,Q02248,"Catenin beta-1",Mus musculus,781,63,8.1
-DP00342,P09883,"Colicin-E9",Escherichia coli,582,82,14.1
-DP00343,Q9Y6Q9-3,"Isoform 3 of Nuclear receptor coactivator 3",Homo sapiens,1412,70,5.0
-DP00344,P62152,"Calmodulin",Drosophila melanogaster,149,4,2.7
-DP00345,P16535,"Leukotoxin",Pasteurella haemolytica,953,69,7.2
-DP00346,P07140,"Acetylcholinesterase",Drosophila melanogaster,624,31,5.0
-DP00347,P04972,"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma",Bos taurus,87,86,98.9
-DP00348,P45481,"CREB-binding protein",Mus musculus,2441,93,3.8
-DP00349,P06709,"Bifunctional protein BirA",Escherichia coli,321,38,11.8
-DP00350,Q56311,"Chemotaxis protein CheW",Thermotoga maritima,151,40,26.5
-DP00351,Q27974,"Putative tyrosine-protein phosphatase auxilin",Bos taurus,910,266,29.2
-DP00352,O33599,"Glycyl-glycine endopeptidase lytM",Staphylococcus aureus,316,32,10.1
-DP00353,P23202,"Transcriptional regulator URE2",Saccharomyces cerevisiae,354,89,25.1
-DP00354,O50835,"Fibronectin-binding protein BBK32",Borrelia burgdorferi,354,149,42.1
-DP00355,P02649,"Apolipoprotein E",Homo sapiens,317,48,15.1
-DP00356,Q99967-1,"",,270,50,18.5
-DP00357,P62328,"Thymosin beta-4",Homo sapiens,44,43,97.7
-DP00358,Q15185,"Prostaglandin E synthase 3",Homo sapiens,160,43,26.9
-DP00359,A6Q0K5,"Calvin cycle protein CP12, chloroplastic",Chlamydomonas reinhardtii,80,79,98.8
-DP00360,O14576-1,"",,645,288,44.7
-DP00361,Q23229-1,"",,417,20,4.8
-DP00362,P08553,"Neurofilament medium polypeptide",Mus musculus,849,437,51.5
-DP00363,Q16222-1,"",,522,16,3.1
-DP00363_A002,Q16222-2,"Isoform AGX1 of UDP-N-acetylhexosamine pyrophosphorylase",Homo sapiens,505,14,2.8
-DP00364,Q15382,"GTP-binding protein Rheb",Homo sapiens,184,8,4.3
-DP00365,P53041,"Serine/threonine-protein phosphatase 5",Homo sapiens,499,128,25.7
-DP00367,Q9RP19,"Urease accessory protein UreG",Bacillus pasteurii,211,210,99.5
-DP00372,Q9NR00,"Uncharacterized protein C8orf4",Homo sapiens,106,105,99.1
-DP00373,P81058,"Penaeidin-3a",Litopenaeus vannamei,82,27,32.9
-DP00374,P33120,"Diphtheria toxin repressor",Corynebacterium diphtheriae,226,16,7.1
-DP00375,P50465,"Endonuclease 8",Escherichia coli,263,30,11.4
-DP00376,Q9H2S9-1,"",,585,22,3.8
-DP00377,P45577,"ProP effector",Escherichia coli,232,53,22.8
-DP00378,P08047,"Transcription factor Sp1",Homo sapiens,785,18,2.3
-DP00379,P22868,"Methane monooxygenase component C",Methylococcus capsulatus,348,32,9.2
-DP00380,P38582,"Putative carnobacteriocin-B2 immunity protein",Carnobacterium maltaromaticum,111,16,14.4
-DP00381,P35869,"Aryl hydrocarbon receptor",Homo sapiens,848,168,19.8
-DP00382,O28362,"Ribonuclease P protein component 1",Archaeoglobus fulgidus,102,38,37.3
-DP00383,P05091,"Aldehyde dehydrogenase, mitochondrial",Homo sapiens,500,44,8.8
-DP00384,P63158,"High mobility group protein B1",Mus musculus,215,57,26.5
-DP00385,P49841-1,"",,420,86,20.5
-DP00386,P02647,"Apolipoprotein A-I",Homo sapiens,267,0,0.0
-DP00386_C001,P02647,"Apolipoprotein A-I",Homo sapiens,242,65,26.9
-DP00387,P25814,"Ribonuclease P protein component",Bacillus subtilis,116,115,99.1
-DP00388,P28311,"Alpha-defensin 4",Mus musculus,92,11,12.0
-DP00389,P09983,"Hemolysin, chromosomal",Escherichia coli,1023,60,5.9
-DP00390,P17870-1,"",,418,69,16.5
-DP00392,Q09161,"Nuclear cap-binding protein subunit 1",Homo sapiens,790,53,6.7
-DP00393,P52298-1,"",,156,73,46.8
-DP00394,P04189,"Subtilisin E",Bacillus subtilis,381,76,19.9
-DP00395,P40136,"Calmodulin-sensitive adenylate cyclase",Bacillus anthracis,800,13,1.6
-DP00396,O74718,"Eukaryotic peptide chain release factor GTP-binding subunit",Schizosaccharomyces pombe,662,55,8.3
-DP00397,Q9ES89,"Exostosin-like 2",Mus musculus,330,13,3.9
-DP00398,P07342,"Acetolactate synthase catalytic subunit, mitochondrial",Saccharomyces cerevisiae,687,86,12.5
-DP00399,P50097,"Inosine-5'-monophosphate dehydrogenase",Tritrichomonas foetus,503,166,33.0
-DP00400,P60752,"Lipid A export ATP-binding/permease protein MsbA",Escherichia coli,582,110,18.9
-DP00401,P52477,"Multidrug resistance protein mexA",Pseudomonas aeruginosa,383,127,33.2
-DP00404,O00204,"Sulfotransferase family cytosolic 2B member 1",Homo sapiens,365,12,3.3
-DP00404_A002,O00204-2,"Isoform 2 of Sulfotransferase family cytosolic 2B member 1",Homo sapiens,350,61,17.4
-DP00406,Q04637,"Eukaryotic translation initiation factor 4 gamma 1",Homo sapiens,1599,11,0.7
-DP00407,P07363-1,"",,654,63,9.6
-DP00408,P63000-1,"",,192,42,21.9
-DP00410,P12497,"Gag-Pol polyprotein",Human immunodeficiency,1435,0,0.0
-DP00410_C011,P12497,"Gag-Pol polyprotein",Human immunodeficiency,288,14,4.9
-DP00412,P0A6G1,"10 kDa chaperonin",Escherichia coli,97,14,14.4
-DP00414,P0ABS1,"DnaK suppressor protein",Escherichia coli,151,58,38.4
-DP00415,P0ABE0,"Biotin carboxyl carrier protein of acetyl-CoA carboxylase",Escherichia coli,156,27,17.3
-DP00416,P0A6A8,"Acyl carrier protein",Escherichia coli,78,32,41.0
-DP00418,P78504,"Protein jagged-1",Homo sapiens,1218,124,10.2
-DP00419,P03176,"Thymidine kinase",Human herpesvirus,376,57,15.2
-DP00420,Q96T21,"Selenocysteine insertion sequence-binding protein 2",Homo sapiens,854,677,79.3
-DP00421,P07516,"Protein phosphatase 1 regulatory subunit 1B",Bos taurus,202,201,99.5
-DP00422,P0A6R3,"DNA-binding protein fis",Escherichia coli,98,24,24.5
-DP00423,P53551,"Histone H1",Saccharomyces cerevisiae,258,81,31.4
-DP00424,P04325,"Protein Rev",Human immunodeficiency,116,54,46.6
-DP00427,P0AFG8,"Pyruvate dehydrogenase E1 component",Escherichia coli,887,82,9.2
-DP00428,P53350,"Serine/threonine-protein kinase PLK1",Homo sapiens,603,50,8.3
-DP00429,P32170,"L-rhamnose isomerase",Escherichia coli,419,14,3.3
-DP00430,P00942,"Triosephosphate isomerase",Saccharomyces cerevisiae,248,10,4.0
-DP00432,P11632,"Non-histone chromosomal protein 6A",Saccharomyces cerevisiae,93,15,16.1
-DP00433,P03023,"Lactose operon repressor",Escherichia coli,360,61,16.9
-DP00434,Q9SQZ9,"PITH domain-containing protein At3g04780",Arabidopsis thaliana,176,7,4.0
-DP00435,Q01853,"Transitional endoplasmic reticulum ATPase",Mus musculus,806,22,2.7
-DP00436,P50477,"Canavalin",Canavalia ensiformis,445,91,20.4
-DP00437,P43351,"DNA repair protein RAD52 homolog",Homo sapiens,418,22,5.3
-DP00438,Q05158,"Cysteine and glycine-rich protein 2",Coturnix coturnix,194,47,24.2
-DP00441,Q28181-4,"Isoform GARP1 of Cyclic nucleotide-gated cation channel beta-1",Bos taurus,590,589,99.8
-DP00443,Q14191,"Werner syndrome ATP-dependent helicase",Homo sapiens,1432,23,1.6
-DP00444,P02489,"Alpha-crystallin A chain",Homo sapiens,173,29,16.8
-DP00445,P02511,"Alpha-crystallin B chain",Homo sapiens,175,27,15.4
-DP00446,O35718,"Suppressor of cytokine signaling 3",Mus musculus,225,35,15.6
-DP00447,P12579,"Phosphoprotein",Human respiratory,241,138,57.3
-DP00448,Q9Y613,"FH1/FH2 domain-containing protein 1",Homo sapiens,1164,60,5.2
-DP00449,P53563-1,"",,233,53,22.7
-DP00450,P80457,"Xanthine dehydrogenase/oxidase",Bos taurus,1332,115,8.6
-DP00455,P84092,"AP-2 complex subunit mu",Rattus norvegicus,435,36,8.3
-DP00457,Q9Y3D6,"Mitochondrial fission 1 protein",Homo sapiens,152,43,28.3
-DP00458,P37727,"Rab proteins geranylgeranyltransferase component A 1",Rattus norvegicus,650,149,22.9
-DP00459,Q07960,"Rho GTPase-activating protein 1",Homo sapiens,439,33,7.5
-DP00460,Q92838,"Ectodysplasin-A",Homo sapiens,391,5,1.3
-DP00460_A003,Q92838-3,"Isoform 3 of Ectodysplasin-A",Homo sapiens,389,3,0.8
-DP00461,P08083,"Colicin-N",Escherichia coli,387,29,7.5
-DP00462,P11157,"Ribonucleoside-diphosphate reductase subunit M2",Mus musculus,390,99,25.4
-DP00463,Q9Z0U4-1,"",,991,66,6.7
-DP00464,Q13485,"Mothers against decapentaplegic homolog 4",Homo sapiens,552,58,10.5
-DP00465,Q57696,"Uncharacterized protein MJ0246",Methanocaldococcus jannaschii,99,98,99.0
-DP00466,P04156,"Major prion protein",Homo sapiens,253,102,40.3
-DP00467,Q01484,"Ankyrin-2",Homo sapiens,1839,284,15.4
-DP00468,P25963,"NF-kappa-B inhibitor alpha",Homo sapiens,317,106,33.4
-DP00469,O24646,"Transcription factor HY5",Arabidopsis thaliana,168,76,45.2
-DP00470,Q39532,"Opaque 2",Coix lachryma-jobi,408,50,12.3
-DP00471,Q6QCC2,"Lipoprotein",Neisseria meningitidis,274,35,12.8
-DP00472,P50542-3,"Isoform 3 of Peroxisomal targeting signal 1 receptor",Homo sapiens,631,323,51.2
-DP00473,Q49AN0,"Cryptochrome-2",Homo sapiens,593,102,17.2
-DP00474,Q43125,"Cryptochrome-1",Arabidopsis thaliana,681,175,25.7
-DP00475,Q6Q547,"H/ACA ribonucleoprotein complex subunit 3",Saccharomyces cerevisiae,58,40,69.0
-DP00482,Q08826,"Sorting nexin-3",Saccharomyces cerevisiae,162,28,17.3
-DP00483,Q8TFB8,"",,685,252,36.8
-DP00484,P96086,"Tricorn protease",Thermoplasma acidophilum,1071,46,4.3
-DP00485,Q9UBE0,"SUMO-activating enzyme subunit 1",Homo sapiens,346,25,7.2
-DP00486,Q9UBT2,"SUMO-activating enzyme subunit 2",Homo sapiens,640,122,19.1
-DP00487,P09938,"Ribonucleoside-diphosphate reductase small chain 1",Saccharomyces cerevisiae,399,65,16.3
-DP00488,P49723,"Ribonucleoside-diphosphate reductase small chain 2",Saccharomyces cerevisiae,345,77,22.3
-DP00489,P21793,"Decorin",Bos taurus,360,23,6.4
-DP00490,O88900,"Growth factor receptor-bound protein 14",Rattus norvegicus,538,74,13.8
-DP00491,Q62165,"Dystroglycan",Mus musculus,893,0,0.0
-DP00491_C002,Q62165,"Dystroglycan",Mus musculus,242,96,39.7
-DP00492,P10275-1,"",,919,343,37.3
-DP00499,Q9Z2F5,"C-terminal-binding protein 1",Rattus norvegicus,430,85,19.8
-DP00500,Q8MWS6,"DNA repair enzyme",Toxoplasma gondii,466,59,12.7
-DP00501,Q6IBA2,"PC4 protein",Homo sapiens,127,59,46.5
-DP00502,P11912-1,"",,226,60,26.5
-DP00503,P40259-1,"",,229,48,21.0
-DP00504,P52434,"DNA-directed RNA polymerases I, II, and III subunit RPABC3",Homo sapiens,150,22,14.7
-DP00505,P04234,"T-cell surface glycoprotein CD3 delta chain",Homo sapiens,171,44,25.7
-DP00506,P07766,"T-cell surface glycoprotein CD3 epsilon chain",Homo sapiens,207,54,26.1
-DP00508,P09693,"T-cell surface glycoprotein CD3 gamma chain",Homo sapiens,182,43,23.6
-DP00509,P30273,"High affinity immunoglobulin epsilon receptor subunit gamma",Homo sapiens,86,41,47.7
-DP00510,O60356,"Nuclear protein 1",Homo sapiens,82,81,98.8
-DP00511,Q76LA1,"CSTB protein",Homo sapiens,98,66,67.3
-DP00512,P56210,"50S ribosomal protein L11 (Fragment)",Geobacillus stearothermophilus,133,11,8.3
-DP00513,Q97ZL0,"Acylphosphatase",Sulfolobus solfataricus,101,10,9.9
-DP00514,P34945,"Serine--tRNA ligase",Thermus thermophilus,421,128,30.4
-DP00515,P02768-1,"",,609,5,0.8
-DP00516,P60472,"Undecaprenyl pyrophosphate synthase",Escherichia coli,253,11,4.3
-DP00517,P52179-1,"",,1685,95,5.6
-DP00518,O54918,"",,140,112,80.0
-DP00519,P25054-1,"",,2843,383,13.5
-DP00520,Q969F2-1,"",,451,216,47.9
-DP00521,O95997,"Securin",Homo sapiens,202,201,99.5
-DP00524,Q9NQC3-2,"Isoform 2 of Reticulon-4",Homo sapiens,373,231,61.9
-DP00527,P02783,"Seminal vesicle secretory protein 4",Rattus norvegicus,112,90,80.4
-DP00529,Q9KJ82,"Plasmid partition protein ParG",Salmonella newport,76,31,40.8
-DP00530,P12950,"Dehydrin DHN1",Zea mays,167,166,99.4
-DP00531,Q08655,"Abscisic stress-ripening protein 1",Solanum lycopersicum,115,114,99.1
-DP00532,Q8GT36,"Thylakoid soluble phosphoprotein",Spinacia oleracea,103,102,99.0
-DP00533,P06701,"Regulatory protein SIR3",Saccharomyces cerevisiae,978,334,34.2
-DP00534,Q9LZP9,"Calvin cycle protein CP12-2, chloroplastic",Arabidopsis thaliana,131,77,58.8
-DP00535,A7UMX5,"Synaptopodin 2 variant",Meleagris gallopavo,996,995,99.9
-DP00536,Q42512,"",,139,88,63.3
-DP00537,O43236-1,"",,478,118,24.7
-DP00538,A8CDV5,"Latent membrane protein 2A (Fragment)",Epstein-Barr virus,118,117,99.2
-DP00539,P51608,"Methyl-CpG-binding protein 2",Homo sapiens,486,436,89.7
-DP00540,Q9VPU8,"KRR1 small subunit processome component homolog",Drosophila melanogaster,345,344,99.7
-DP00541,Q91V27,"Melanophilin",Mus musculus,590,256,43.4
-DP00543,Q14061,"Cytochrome c oxidase copper chaperone",Homo sapiens,63,16,25.4
-DP00544,B0FRH7,"Protein LLP",Aplysia kurodai,120,119,99.2
-DP00546,Q9NX55-1,"",,175,174,99.4
-DP00549,O00488,"Zinc finger protein 593",Homo sapiens,134,99,73.9
-DP00550,P02628,"Parvalbumin alpha",Esox lucius,108,107,99.1
-DP00551,P16860,"Natriuretic peptides B",Homo sapiens,134,101,75.4
-DP00552,P0AFX7,"Sigma-E factor negative regulatory protein",Escherichia coli,216,95,44.0
-DP00553,Q9NZ94-1,"",,848,117,13.8
-DP00554,Q9C000-1,"",,1473,19,1.3
-DP00555,Q16143,"Beta-synuclein",Homo sapiens,134,133,99.3
-DP00556,P12003-1,"Isoform 1 of Vinculin",Gallus gallus,1066,134,12.6
-DP00557,Q00955,"Acetyl-CoA carboxylase",Saccharomyces cerevisiae,2233,94,4.2
-DP00558,P49354-1,"",,379,53,14.0
-DP00559,O66493,"Chorismate synthase",Aquifex aeolicus,398,60,15.1
-DP00560,Q02597,"Genome polyprotein",Turnip mosaic,3163,0,0.0
-DP00560_C007,Q02597,"Genome polyprotein",Turnip mosaic,192,191,99.5
-DP00561,P28583,"Calcium-dependent protein kinase SK5",Glycine max,508,19,3.7
-DP00562,Q9Y296,"Trafficking protein particle complex subunit 4",Homo sapiens,219,11,5.0
-DP00563,Q61337,"Bcl2 antagonist of cell death",Mus musculus,204,203,99.5
-DP00564,Q6P8Z1,"Protein B-Myc",Mus musculus,170,169,99.4
-DP00565,P63098,"",,170,48,28.2
-DP00566,P13102,"Hemagglutinin",Influenza A,566,34,6.0
-DP00567,Q07932,"Pilosulin-1",Myrmecia pilosula,112,17,15.2
-DP00568,Q66SS1,"Paired box 6",Homo sapiens,422,15,3.6
-DP00569,Q96IH6,"EMILIN-1",Homo sapiens,347,17,4.9
-DP00570,P09132,"Signal recognition particle 19 kDa protein",Homo sapiens,144,9,6.3
-DP00571,P39900,"Macrophage metalloelastase",Homo sapiens,470,17,3.6
-DP00573,P03305,"Genome polyprotein",Foot-and-mouth disease,2332,0,0.0
-DP00573_C003,P03305,"Genome polyprotein",Foot-and-mouth disease,85,58,68.2
-DP00573_C004,P03305,"Genome polyprotein",Foot-and-mouth disease,218,6,2.8
-DP00573_C005,P03305,"Genome polyprotein",Foot-and-mouth disease,220,41,18.6
-DP00573_C006,P03305,"Genome polyprotein",Foot-and-mouth disease,211,39,18.5
-DP00574,P11831,"Serum response factor",Homo sapiens,508,44,8.7
-DP00575,P77072,"Alkylmercury lyase",Escherichia coli,212,47,22.2
-DP00576,P54252-1,"",,376,41,10.9
-DP00578,P0AG16,"Amidophosphoribosyltransferase",Escherichia coli,505,56,11.1
-DP00579,Q6PBE3,"Ribosomal protein L5",Xenopus tropicalis,296,73,24.7
-DP00580,O24172,"Pollen allergen Ole e 6",Olea europaea,50,16,32.0
-DP00581,P11233,"Ras-related protein Ral-A",Homo sapiens,206,23,11.2
-DP00582,P56552,"Defensin-like protein",Pentadiplandra brazzeana,54,7,13.0
-DP00583,P16006,"Deoxycytidylate deaminase",Enterobacteria phage,193,20,10.4
-DP00584,A2VD23,"Protein starmaker",Danio rerio,613,612,99.8
-DP00586,P01094,"Protease A inhibitor 3",Saccharomyces cerevisiae,68,67,98.5
-DP00587,Q9CQK7,"RWD domain-containing protein 1",Mus musculus,243,242,99.6
-DP00588,P27958,"Genome polyprotein",Hepatitis C,3011,0,0.0
-DP00588_C001,P27958,"Genome polyprotein",Hepatitis C,190,0,0.0
-DP00588_C002,P27958,"Genome polyprotein",Hepatitis C,176,80,45.5
-DP00588_C010,P27958,"Genome polyprotein",Hepatitis C,448,10,2.2
-DP00591,P15318,"Bifunctional hemolysin/adenylate cyclase",Bordetella pertussis,1706,700,41.0
-DP00592,P48539,"Purkinje cell protein 4",Homo sapiens,62,61,98.4
-DP00594,P49869,"Probable nuclear hormone receptor HR38",Drosophila melanogaster,1073,0,0.0
-DP00594_A002,P49869,"Probable nuclear hormone receptor HR38",Drosophila melanogaster,551,215,39.0
-DP00600,P60723,"50S ribosomal protein L4",Escherichia coli,201,62,30.8
-DP00605,Q24246,"Cytoplasmic dynein 1 intermediate chain",Drosophila melanogaster,663,26,3.9
-DP00606,P42759-1,"",,260,259,99.6
-DP00607,Q16595,"Frataxin, mitochondrial",Homo sapiens,210,129,61.4
-DP00608,Q13573,"SNW domain-containing protein 1",Homo sapiens,536,70,13.1
-DP00609,O81283,"Translocase of chloroplast 159, chloroplastic",Arabidopsis thaliana,1503,838,55.8
-DP00610,Q9SLF3,"Translocase of chloroplast 132, chloroplastic",Arabidopsis thaliana,1206,454,37.6
-DP00611,P30291,"Wee1-like protein kinase",Homo sapiens,646,291,45.0
-DP00613,Q22472,"Resistance to inhibitors of cholinesterase protein 3",Caenorhabditis elegans,378,377,99.7
-DP00614,Q07412,"Triosephosphate isomerase",Plasmodium falciparum,248,27,10.9
-DP00615,Q9WMX2,"Genome polyprotein",Hepatitis C,3010,0,0.0
-DP00615_C010,Q9WMX2,"Genome polyprotein",Hepatitis C,447,395,88.4
-DP00616,P02788,"Lactotransferrin",Homo sapiens,710,21,3.0
-DP00617,P60896,"26S proteasome complex subunit DSS1",Homo sapiens,70,67,95.7
-DP00618,P53954,"GDP-Man:Man(3)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase",Saccharomyces cerevisiae,548,13,2.4
-DP00619,Q58667,"Homoaconitase small subunit",Methanocaldococcus jannaschii,170,3,1.8
-DP00620,Q68FT9,"Selenocysteine lyase",Rattus norvegicus,432,18,4.2
-DP00621,P00736,"Complement C1r subcomponent",Homo sapiens,705,112,15.9
-DP00622,P63045,"Vesicle-associated membrane protein 2",Rattus norvegicus,116,87,75.0
-DP00623,P83949-1,"",,389,266,68.4
-DP00624,P35638,"DNA damage-inducible transcript 3 protein",Homo sapiens,169,52,30.8
-DP00625,P45976,"Pre-mRNA polyadenylation factor FIP1",Saccharomyces cerevisiae,327,25,7.6
-DP00626,P0AG11,"Protein umuD",Escherichia coli,139,138,99.3
-DP00626_C001,P0AG11,"Protein umuD",Escherichia coli,115,113,98.3
-DP00627,Q05323,"Minor nucleoprotein VP30",Zaire ebolavirus,288,13,4.5
-DP00628,P15309-1,"",,386,38,9.8
-DP00629,Q07097,"Nucleoprotein",Sendai virus,524,122,23.3
-DP00630,O76070,"Gamma-synuclein",Homo sapiens,127,126,99.2
-DP00631,P38634,"Protein SIC1",Saccharomyces cerevisiae,284,89,31.3
-DP00632,Q01844,"RNA-binding protein EWS",Homo sapiens,656,263,40.1
-DP00633,Q09472,"Histone acetyltransferase p300",Homo sapiens,2414,165,6.8
-DP00634,P15891,"Actin-binding protein",Saccharomyces cerevisiae,592,25,4.2
-DP00635,P38753,"Class E vacuolar protein-sorting machinery protein HSE1",Saccharomyces cerevisiae,452,59,13.1
-DP00636,P17120,"Kinesin-like protein bimC",Emericella nidulans,1184,70,5.9
-DP00637,P01270,"Parathyroid hormone",Homo sapiens,115,33,28.7
-DP00638,P04972,"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma",Bos taurus,87,34,39.1
-DP00640,Q89933,"Nucleoprotein",Measles virus,525,124,23.6
-DP00641,P51671,"Eotaxin",Homo sapiens,97,7,7.2
-DP00642,Q962Y6,"Thioredoxin glutathione reductase",Schistosoma mansoni,598,1,0.2
-DP00643,O43521,"",,198,0,0.0
-DP00643_A002,O43521-2,"Isoform BimL of Bcl-2-like protein 11",Homo sapiens,138,110,79.7
-DP00644,P22362,"",,96,31,32.3
-DP00645,Q91ZE9,"Bcl-2-modifying factor",Mus musculus,185,159,85.9
-DP00646,Q01231,"Gap junction alpha-5 protein",Mus musculus,358,104,29.1
-DP00647,P31025,"Lipocalin-1",Homo sapiens,176,6,3.4
-DP00650,Q1PAB4,"Protein Tat",Human immunodeficiency,101,100,99.0
-DP00651,P03355,"Gag-Pol polyprotein",Moloney murine,1738,0,0.0
-DP00651_C007,P03355,"Gag-Pol polyprotein",Moloney murine,408,11,2.7
-DP00652,P00441,"Superoxide dismutase [Cu-Zn]",Homo sapiens,154,28,18.2
-DP00653,A2AIM8,"",,2541,40,1.6
-DP00654,Q9ZPI5,"Peroxisomal fatty acid beta-oxidation multifunctional protein MFP2",Arabidopsis thaliana,725,34,4.7
-DP00655,P59113,"Fermitin family homolog 1",Mus musculus,677,109,16.1
-DP00656,P07674,"Transcriptional repressor protein korB",Escherichia coli,358,105,29.3
-DP00657,P31168,"Dehydrin COR47",Arabidopsis thaliana,265,264,99.6
-DP00658,P42758,"Dehydrin Xero 2",Arabidopsis thaliana,193,192,99.5
-DP00659,P16458,"Telomere-binding protein subunit beta",Oxytricha nova,385,152,39.5
-DP00661,Q9CX60,"Protein LBH",Mus musculus,105,68,64.8
-DP00662,Q8LBP4-1,"",,462,123,26.6
-DP00663,P81558,"Myelin basic protein",Sus scrofa,171,170,99.4
-DP00664,Q01417,"18 kDa seed maturation protein",Glycine max,173,172,99.4
-DP00665,Q9XES8,"Seed maturation protein PM28",Glycine max,89,88,98.9
-DP00666,P32004-1,"",,1257,113,9.0
-DP00667,P42763,"Dehydrin ERD14",Arabidopsis thaliana,185,184,99.5
-DP00668,P19250,"Thermostable direct hemolysin 2",Vibrio parahaemolyticus,189,10,5.3
-DP00669,P81019,"Seminal plasma protein BSP-30 kDa",Bos taurus,183,55,30.1
-DP00670,Q29983,"MHC class I polypeptide-related sequence A",Homo sapiens,383,9,2.3
-DP00671,Q61985,"Nuclear factor erythroid 2-related factor 1",Mus musculus,741,97,13.1
-DP00672,Q92886,"Neurogenin-1",Homo sapiens,237,60,25.3
-DP00673,P06935,"Genome polyprotein",West Nile,3430,0,0.0
-DP00673_C001,P06935,"Genome polyprotein",West Nile,105,48,45.7
-DP00674,Q69422,"Genome polyprotein",Hepatitis GB,2864,0,0.0
-DP00674_C001,Q69422,"Genome polyprotein",Hepatitis GB,156,154,98.7
-DP00675,P19711,"Genome polyprotein",Bovine viral,3988,0,0.0
-DP00675_C002,P19711,"Genome polyprotein",Bovine viral,102,101,99.0
-DP00676,P19243,"18.1 kDa class I heat shock protein",Pisum sativum,158,52,32.9
-DP00677,P12810,"16.9 kDa class I heat shock protein 1",Triticum aestivum,151,41,27.2
-DP00678,P11171,"Protein 4.1",Homo sapiens,864,63,7.3
-DP00680,P82409,"Trypsin inhibitor 2",Momordica cochinchinensis,34,12,35.3
-DP00681,D0VWX1,"MCoCC-1",Momordica cochinchinensis,33,6,18.2
-DP00682,P15337,"Cyclic AMP-responsive element-binding protein 1",Rattus norvegicus,341,33,9.7
-DP00683,Q99801,"Homeobox protein Nkx-3.1",Homo sapiens,234,183,78.2
-DP00684,P03018,"DNA helicase II",Escherichia coli,720,69,9.6
-DP00685,Q98157,"Viral macrophage inflammatory protein 2",Human herpesvirus,94,27,28.7
-DP00686,Q9IH62,"Glycoprotein G",Nipah virus,602,20,3.3
-DP00687,P08067,"Cytochrome b-c1 complex subunit Rieske, mitochondrial",Saccharomyces cerevisiae,215,11,5.1
-DP00688,Q8ISF7,"",,18534,4163,22.5
-DP00689,P30185,"Dehydrin Rab18",Arabidopsis thaliana,186,185,99.5
-DP00690,Q91WR5,"Aldo-keto reductase family 1 member C21",Mus musculus,323,4,1.2
-DP00691,P18754,"Regulator of chromosome condensation",Homo sapiens,421,49,11.6
-DP00692,P63277,"",,210,0,0.0
-DP00692_A001,P63277,"",,180,176,97.8
-DP00692_A002,P63277,"",,59,53,89.8
-DP00693,P45561,"Amelogenin",Sus scrofa,173,162,93.6
-DP00694,Q8N488,"RING1 and YY1-binding protein",Homo sapiens,228,227,99.6
-DP00695,P96884,"BirA bifunctional protein",Mycobacterium tuberculosis,266,34,12.8
-DP00696,Q9Y258,"C-C motif chemokine 26",Homo sapiens,94,8,8.5
-DP00697,Q9IK92,"Nucleoprotein",Nipah virus,532,132,24.8
-DP00698,O89339,"Nucleoprotein",Hendra virus,532,132,24.8
-DP00699,Q9IK91,"Phosphoprotein",Nipah virus,709,405,57.1
-DP00700,O55778,"Phosphoprotein",Hendra virus,707,403,57.0
-DP00701,O66683,"Anti sigma factor FlgM",Aquifex aeolicus,88,76,86.4
-DP00702,P46937,"Yorkie homolog",Homo sapiens,504,39,7.7
-DP00703,B7T1D7,"Teg12",uncultured soil,285,50,17.5
-DP00704,P24522,"Growth arrest and DNA damage-inducible protein GADD45 alpha",Homo sapiens,165,39,23.6
-DP00705,P22943,"12 kDa heat shock protein",Saccharomyces cerevisiae,109,102,93.6
-DP00706,Q15517,"Corneodesmosin",Homo sapiens,529,111,21.0
-DP00707,Q9UER7,"Death domain-associated protein 6",Homo sapiens,740,53,7.2
-DP00708,O35613,"Death domain-associated protein 6",Mus musculus,739,173,23.4
-DP00709,Q9Y3M2,"Protein chibby homolog 1",Homo sapiens,126,60,47.6
-DP00710,N/A,"",,208,97,46.6
-DP00711,Q80Y84,"Lysine-specific demethylase 5B",Mus musculus,1544,48,3.1
-DP00712,Q9UGL1,"Lysine-specific demethylase 5B",Homo sapiens,1544,31,2.0
-DP00713,P29375,"Lysine-specific demethylase 5A",Homo sapiens,1690,69,4.1
-DP00714,Q9BP37,"Aragonite protein AP7",Haliotis rufescens,88,80,90.9
-DP00715,Q9BP38,"Aragonite protein AP24",Haliotis rufescens,171,52,30.4
-DP00716,P02545,"Prelamin-A/C",Homo sapiens,664,0,0.0
-DP00716_C001,P02545,"Prelamin-A/C",Homo sapiens,646,80,12.4
-DP00717,P35521,"Methylosome subunit pICln",Canis familiaris,235,171,72.8
-DP00718,P37231,"",,505,0,0.0
-DP00718_A001,P37231-2,"Isoform 1 of Peroxisome proliferator-activated receptor gamma",Homo sapiens,477,299,62.7
-DP00719,Q13569,"G/T mismatch-specific thymine DNA glycosylase",Homo sapiens,410,179,43.7
-DP00720,Q05344,"FACT complex subunit Ssrp1",Drosophila melanogaster,723,718,99.3
-DP00721,Q8IRG6,"FACT complex subunit spt16",Drosophila melanogaster,1083,155,14.3
-DP00722,P0AGE2,"Single-stranded DNA-binding protein",Escherichia coli,178,64,36.0
-DP00723,Q9MAA7,"Gibberellin receptor GID1A",Arabidopsis thaliana,345,344,99.7
-DP00724,Q9LQT8,"DELLA protein GAI",Arabidopsis thaliana,533,102,19.1
-DP00725,P41851,"Type II secretion system protein M",Vibrio cholerae,165,45,27.3
-DP00726,Q5UPJ7,"Tyrosine--tRNA ligase",Acanthamoeba polyphaga,346,39,11.3
-DP00727,P16083,"Ribosyldihydronicotinamide dehydrogenase [quinone]",Homo sapiens,231,14,6.1
-DP00728,P00760,"Cationic trypsin",Bos taurus,246,37,15.0
-DP00729,P00974,"Pancreatic trypsin inhibitor",Bos taurus,100,31,31.0
-DP00730,P02631,"Oncomodulin",Rattus norvegicus,109,63,57.8
-DP00731,P00502,"",,222,12,5.4
-DP00732,Q00496,"",,1251,0,0.0
-DP00732_C001,Q00496,"",,421,19,4.5
-DP00733,P07602,"",,524,0,0.0
-DP00733_C004,P07602,"",,81,55,67.9
-DP00734,O08785,"",,855,43,5.0
-DP00735,Q9WTL8,"",,632,0,0.0
-DP00735_A004,Q9WTL8,"",,626,102,16.3
-DP00736,Q9UKV8,"",,859,273,31.8
-DP00738,Q9RHW0,"",,224,17,7.6
-DP00741,P03040,"",,66,4,6.1
-DP00742,Q99LM3,"",,459,355,77.3
-DP00743,Q9SIN5,"",,141,89,63.1
-DP00744,Q7RIF3,"",,349,84,24.1
-DP00745,Q7RSH5,"",,210,23,11.0
-DP00746,Q25733,"",,2924,24,0.8
-DP00747,P01160,"",,153,0,0.0
-DP00747_C002,P01160,"",,28,27,96.4
-DP00748,P46108,"",,304,149,49.0
-DP00748_A002,P46108,"",,204,199,97.5
+disprotID,uniprotID,name,species,seqlength,numdisorder,discontent,numhomologs,alignmentdiv
+DP00001,Q9HFQ6,"60S acidic ribosomal protein P1-B",Candida albicans,108,107,99.1,25,2.2
+DP00002,P02400,"60S acidic ribosomal protein P2-beta",Saccharomyces cerevisiae,110,109,99.1,,
+DP00003,P03265,"Early E2A DNA-binding protein",Human adenovirus,529,50,9.5,,
+DP00004,P49913,"Cathelicidin antimicrobial peptide",Homo sapiens,170,0,0.0,,
+DP00004_C002,P49913,"Cathelicidin antimicrobial peptide",Homo sapiens,37,36,97.3,,
+DP00005,P03045,"Antitermination protein N",Enterobacteria phage,107,106,99.1,,
+DP00006,P00004,"Cytochrome c",Equus caballus,104,103,99.0,238,3.0
+DP00007,P27695,"DNA-(apurinic or apyrimidinic site) lyase",Homo sapiens,318,58,18.2,1090,5.0
+DP00008,Q64693,"POU domain class 2-associating factor 1",Mus musculus,256,255,99.6,,
+DP00009,P32774,"Transcription initiation factor IIA subunit 2",Saccharomyces cerevisiae,122,12,9.8,,
+DP00011,P50224,"Sulfotransferase 1A3/1A4",Homo sapiens,295,67,22.7,735,5.8
+DP00012,P13569,"Cystic fibrosis transmembrane conductance regulator",Homo sapiens,1480,123,8.3,,
+DP00013,P01233,"Choriogonadotropin subunit beta",Homo sapiens,145,33,22.8,,
+DP00014,P05371,"Clusterin",Rattus norvegicus,447,111,24.8,,
+DP00015,P61926,"cAMP-dependent protein kinase inhibitor alpha",Oryctolagus cuniculus,76,74,97.4,,
+DP00016,P38936,"Cyclin-dependent kinase inhibitor 1",Homo sapiens,164,163,99.4,,
+DP00017,P49918,"Cyclin-dependent kinase inhibitor 1C",Homo sapiens,316,315,99.7,,
+DP00018,P46527,"Cyclin-dependent kinase inhibitor 1B",Homo sapiens,198,24,12.1,,
+DP00020,P11938,"DNA-binding protein RAP1",Saccharomyces cerevisiae,827,12,1.5,,
+DP00021,P13551,"Elongation factor G",Thermus thermophilus,691,30,4.3,1337,7.1
+DP00022,P17639,"EMB-1 protein",Daucus carota,92,91,98.9,,
+DP00023,P14061,"Estradiol 17-beta-dehydrogenase 1",Homo sapiens,327,59,18.0,857,5.1
+DP00024,P03129,"Protein E7",Human papillomavirus,98,97,99.0,,
+DP00025,P14738,"Fibronectin-binding protein A",Staphylococcus aureus,1018,129,12.7,,
+DP00026,P06179,"Flagellin",Salmonella typhimurium,494,103,20.9,1186,5.5
+DP00027,P26477,"Negative regulator of flagellin synthesis",Salmonella typhimurium,97,96,99.0,,
+DP00028,Q13541,"Eukaryotic translation initiation factor 4E-binding protein 1",Homo sapiens,118,117,99.2,,
+DP00029,Q07731,"Glial cell line-derived neurotrophic factor",Rattus norvegicus,211,39,18.5,,
+DP00030,P04150,"Glucocorticoid receptor",Homo sapiens,777,499,64.2,1890,5.5
+DP00031,P13255,"Glycine N-methyltransferase",Rattus norvegicus,292,39,13.4,45,2.7
+DP00032,P56206,"Glycine--tRNA ligase",Thermus thermophilus,505,67,13.3,685,4.3
+DP00033,P10912-1,"",,638,0,0.0,151,3.4
+DP00033_C001,P10912,"Growth hormone receptor",Homo sapiens,246,61,24.8,59,3.3
+DP00034,P03661,"Attachment protein G3P",Enterobacteria phage,424,23,5.4,,
+DP00035,P10824,"Guanine nucleotide-binding protein G(i) subunit alpha-1",Rattus norvegicus,354,40,11.3,695,5.2
+DP00036,P22121,"Heat shock factor protein",Kluyveromyces lactis,677,215,31.8,28,1.9
+DP00037,Q9Y9L0,"Probable peroxiredoxin",Aeropyrum pernix,250,23,9.2,434,3.4
+DP00038,P02316,"Non-histone chromosomal protein HMG-14",Bos taurus,100,98,98.0,,
+DP00039,P05204,"Non-histone chromosomal protein HMG-17",Homo sapiens,89,88,98.9,,
+DP00040,P17096,"High mobility group protein HMG-I/HMG-Y",Homo sapiens,107,106,99.1,,
+DP00041,P07746,"High mobility group-T protein",Oncorhynchus mykiss,204,203,99.5,221,3.4
+DP00042,P02315,"Non-histone chromosomal protein H6",Oncorhynchus mykiss,70,68,97.1,,
+DP00043,P02929,"Protein tonB",Escherichia coli,239,48,20.1,66,3.9
+DP00044,P02259,"Histone H5",Gallus gallus,189,104,55.0,,
+DP00045,Q27796,"Hypoxanthine-guanine phosphoribosyltransferase",Trypanosoma cruzi,220,29,13.2,868,4.1
+DP00046,Q9QXN1,"Lymphoid enhancer-binding factor 1",Rattus norvegicus,397,101,25.4,79,2.4
+DP00047,P02687,"Myelin basic protein",Bos taurus,169,168,99.4,,
+DP00048,P03406,"Protein Nef",Human immunodeficiency,206,104,50.5,,
+DP00049,P70475,"Myelin transcription factor 1-like protein",Rattus norvegicus,1187,119,10.0,,
+DP00050,P19246,"Neurofilament heavy polypeptide",Mus musculus,1087,678,62.4,,
+DP00051,P07805,"Ornithine decarboxylase",Trypanosoma brucei,425,71,16.7,616,5.5
+DP00052,P07214,"SPARC",Mus musculus,302,284,94.0,,
+DP00053,P27001,"Phenylalanine--tRNA ligase alpha subunit",Thermus thermophilus,350,84,24.0,1082,4.0
+DP00054,P78356,"Phosphatidylinositol 5-phosphate 4-kinase type-2 beta",Homo sapiens,416,90,21.6,,
+DP00055,P10688,"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1",Rattus norvegicus,756,147,19.4,709,5.6
+DP00057,P15340,"Sperm histone",Gallus gallus,62,61,98.4,,
+DP00058,P06302,"Prothymosin alpha",Rattus norvegicus,112,111,99.1,,
+DP00060,P11409,"Modification methylase PvuII",Proteus hauseri,323,48,14.9,52,3.5
+DP00061,P27694,"Replication protein A 70 kDa DNA-binding subunit",Homo sapiens,616,53,8.6,243,4.8
+DP00062,P19793,"Retinoic acid receptor RXR-alpha",Homo sapiens,462,24,5.2,619,5.3
+DP00063,P49799,"Regulator of G-protein signaling 4",Rattus norvegicus,205,75,36.6,195,3.5
+DP00064,P03607,"Capsid protein",Southern cowpea,279,63,22.6,,
+DP00065,O86488,"Serine-aspartate repeat-containing protein D",Staphylococcus aureus,1315,554,42.1,,
+DP00066,P27285,"Structural polyprotein",Sindbis virus,1245,0,0.0,,
+DP00066_C001,P27285,"Structural polyprotein",Sindbis virus,264,112,42.4,,
+DP00067,Q57733,"Small heat shock protein HSP16.5",Methanocaldococcus jannaschii,147,31,21.1,8,1.6
+DP00068,P60881,"Synaptosomal-associated protein 25",Rattus norvegicus,206,205,99.5,,
+DP00069,P63027,"Vesicle-associated membrane protein 2",Homo sapiens,116,115,99.1,,
+DP00070,P37840-1,"",,140,139,99.3,,
+DP00071,P23441,"Homeobox protein Nkx-2.1",Rattus norvegicus,372,170,45.7,65,2.3
+DP00072,Q8WZ42-1,"",,7962,2173,27.3,,
+DP00073,P04818,"Thymidylate synthase",Homo sapiens,313,80,25.6,1052,4.0
+DP00074,P03372,"Estrogen receptor",Homo sapiens,595,208,35.0,384,4.6
+DP00075,P11387,"DNA topoisomerase 1",Homo sapiens,765,317,41.4,,
+DP00076,P06786,"DNA topoisomerase 2",Saccharomyces cerevisiae,1428,351,24.6,,
+DP00077,P07248,"Regulatory protein ADR1",Saccharomyces cerevisiae,1323,35,2.6,,
+DP00078,P01100,"Proto-oncogene c-Fos",Homo sapiens,380,164,43.2,,
+DP00079,Q92731-1,"",,530,102,19.2,337,4.7
+DP00080,P15337,"Cyclic AMP-responsive element-binding protein 1",Rattus norvegicus,341,59,17.3,,
+DP00081,P51123,"Transcription initiation factor TFIID subunit 1",Drosophila melanogaster,2068,66,3.2,,
+DP00082,P39935,"Eukaryotic initiation factor 4F subunit p150",Saccharomyces cerevisiae,952,97,10.2,,
+DP00083,P03069,"General control protein GCN4",Saccharomyces cerevisiae,281,56,19.9,,
+DP00084,P61244,"Protein max",Homo sapiens,160,109,68.1,38,2.1
+DP00084_A002,P61244-2,"Isoform 2 of Protein max",Homo sapiens,151,67,44.4,32,1.9
+DP00085,Q04206,"Transcription factor p65",Homo sapiens,551,122,22.1,,
+DP00086,P04637,"Cellular tumor antigen p53",Homo sapiens,393,108,27.5,,
+DP00087,P68336,"Tegument protein VP16",Human herpesvirus,490,131,26.7,,
+DP00088,P0ABI8,"Ubiquinol oxidase subunit 1",Escherichia coli,663,197,29.7,1713,3.9
+DP00089,P0ABJ1,"Ubiquinol oxidase subunit 2",Escherichia coli,315,57,18.1,337,3.8
+DP00090,Q14722-2,"Isoform KvB1.1 of Voltage-gated potassium channel subunit beta-1",Homo sapiens,401,61,15.2,1181,5.3
+DP00091,P27088,"DNA repair protein complementing XP-A cells homolog",Xenopus laevis,267,167,62.5,,
+DP00092,Q08209,"Serine/threonine-protein phosphatase 2B catalytic subunit alpha isoform",Homo sapiens,521,157,30.1,989,4.0
+DP00094,P04177,"Tyrosine 3-monooxygenase",Rattus norvegicus,498,154,30.9,223,3.3
+DP00095,P00952,"Tyrosine--tRNA ligase",Geobacillus stearothermophilus,419,99,23.6,1049,5.1
+DP00096,Q9HKT1,"Lipoate-protein ligase A subunit 1",Thermoplasma acidophilum,262,14,5.3,9,2.5
+DP00097,P10922,"Histone H1.0",Mus musculus,193,126,65.3,,
+DP00098,Q53654,"Collagen adhesin",Staphylococcus aureus,1183,17,1.4,,
+DP00099,P50440,"Glycine amidinotransferase, mitochondrial",Homo sapiens,423,25,5.9,105,3.8
+DP00100,P0A6H5,"ATP-dependent protease ATPase subunit HslU",Escherichia coli,443,34,7.7,1048,3.6
+DP00101,P12493,"Gag polyprotein",Human immunodeficiency,500,0,0.0,482,4.0
+DP00101_C006,P12493,"Gag polyprotein",Human immunodeficiency,52,33,63.5,,
+DP00102,P10587,"Myosin-11",Gallus gallus,1979,108,5.5,,
+DP00103,P09372,"Protein grpE",Escherichia coli,197,7,3.6,420,4.5
+DP00104,P32773,"Transcription initiation factor IIA large subunit",Saccharomyces cerevisiae,286,30,10.5,,
+DP00105,Q59471,"Diol dehydrase beta subunit",Klebsiella oxytoca,224,44,19.6,,
+DP00106,Q59472,"Diol dehydrase gamma subunit",Klebsiella oxytoca,173,35,20.2,,
+DP00107,P69924,"Ribonucleoside-diphosphate reductase 1 subunit beta",Escherichia coli,376,34,9.0,121,3.9
+DP00108,P07598,"Periplasmic [Fe] hydrogenase large subunit",Desulfovibrio vulgaris,421,23,5.5,855,4.4
+DP00110,P40881,"Carbonic anhydrase",Methanosarcina thermophila,247,36,14.6,28,2.6
+DP00111,P27577,"Protein C-ets-1",Mus musculus,440,105,23.9,,
+DP00112,P22239,"Desiccation-related protein clone PCC6-19",Craterostigma plantagineum,155,154,99.4,,
+DP00113,P31109,"Synaptobrevin homolog 1",Saccharomyces cerevisiae,117,92,78.6,,
+DP00114,P04350,"Tubulin beta-4A chain",Homo sapiens,444,50,11.3,820,5.3
+DP00116,P81455,"Osteocalcin",Canis familiaris,49,48,98.0,,
+DP00117,P60058,"Protein transport protein Sec61 subunit gamma",Canis familiaris,68,33,48.5,,
+DP00118,P05059,"Chromogranin-A",Bos taurus,449,24,5.3,,
+DP00119,P10163,"Basic salivary proline-rich protein 4",Homo sapiens,310,293,94.5,,
+DP00120,P12957,"Caldesmon",Gallus gallus,771,135,17.5,,
+DP00121,Q51912,"Putative uncharacterized protein",Peptostreptococcus magnus,719,76,10.6,,
+DP00122,P15146,"Microtubule-associated protein 2",Rattus norvegicus,1861,1860,99.9,,
+DP00123,P01730,"T-cell surface glycoprotein CD4",Homo sapiens,458,37,8.1,33,2.8
+DP00124,P23389,"Secretogranin-1",Bos taurus,646,645,99.8,,
+DP00125,P63292,"Somatoliberin",Bos taurus,106,28,26.4,,
+DP00126,P10636-8,"Isoform Tau-F of Microtubule-associated protein tau",Homo sapiens,441,439,99.5,,
+DP00127,Q06556,"Fibronectin binding protein",Streptococcus dysgalactiae,1091,159,14.6,,
+DP00128,P40357,"Protein transport protein SEC9",Saccharomyces cerevisiae,651,650,99.8,,
+DP00129,Q04207,"Transcription factor p65",Mus musculus,549,302,55.0,,
+DP00130,P22531,"Small proline-rich protein 2E",Homo sapiens,72,43,59.7,,
+DP00131,Q91006,"Tropomodulin",Gallus gallus,359,91,25.3,132,4.0
+DP00132,P07221,"Calsequestrin-1",Oryctolagus cuniculus,395,394,99.7,46,2.3
+DP00133,P03422,"Phosphoprotein",Measles virus,507,313,61.7,,
+DP00134,Q06787,"Fragile X mental retardation protein 1",Homo sapiens,632,257,40.7,,
+DP00135,P10961,"Heat shock factor protein",Saccharomyces cerevisiae,833,166,19.9,28,2.1
+DP00136,P15865,"Histone H1.2",Rattus norvegicus,217,214,98.6,,
+DP00137,P01050,"Hirudin variant-1",Hirudo medicinalis,65,15,23.1,,
+DP00138,P12272,"Parathyroid hormone-related protein",Homo sapiens,177,15,8.5,,
+DP00140,P0A7L8,"50S ribosomal protein L27",Escherichia coli,85,84,98.8,,
+DP00141,O95405-1,"",,1425,88,6.2,,
+DP00142,P14602,"Heat shock protein beta-1",Mus musculus,209,17,8.1,42,2.5
+DP00143,P0A7N9,"50S ribosomal protein L33",Escherichia coli,55,54,98.2,,
+DP00144,Q9VAN6,"Histone RNA hairpin-binding protein",Drosophila melanogaster,276,174,63.0,,
+DP00145,P0A7S3,"30S ribosomal protein S12",Escherichia coli,124,123,99.2,,
+DP00146,P0A7T7,"30S ribosomal protein S18",Escherichia coli,75,74,98.7,86,2.4
+DP00147,P0A7U3,"30S ribosomal protein S19",Escherichia coli,92,91,98.9,,
+DP00148,P03347,"Gag polyprotein",Human immunodeficiency,512,0,0.0,445,3.8
+DP00148_C004,P03347,"Gag polyprotein",Human immunodeficiency,55,54,98.2,,
+DP00151,P02547,"Neurofilament light polypeptide",Sus scrofa,549,105,19.1,589,4.3
+DP00152,Q13426,"DNA repair protein XRCC4",Homo sapiens,336,91,27.1,,
+DP00153,P01112,"GTPase HRas",Homo sapiens,189,57,30.2,1034,5.8
+DP00154,P29353,"SHC-transforming protein 1",Homo sapiens,583,53,9.1,108,3.3
+DP00155,P32851,"Syntaxin-1A",Rattus norvegicus,288,33,11.5,200,4.6
+DP00156,P54725,"UV excision repair protein RAD23 homolog A",Homo sapiens,363,144,39.7,281,4.9
+DP00157,Q56027,"",,684,113,16.5,,
+DP00158,P73124,"Ssl1911 protein",Synechocystis sp.,65,64,98.5,,
+DP00159,P09803,"Cadherin-1",Mus musculus,884,148,16.7,2267,6.8
+DP00160,P04851,"Nucleoprotein",Measles virus,525,124,23.6,,
+DP00161,P77173,"Cell division protein ZipA",Escherichia coli,328,146,44.5,,
+DP00162,O75324,"Stannin",Homo sapiens,88,22,25.0,,
+DP00163,Q03768,"Protein GIR2",Saccharomyces cerevisiae,265,264,99.6,,
+DP00164,P05318,"60S acidic ribosomal protein P1-alpha",Saccharomyces cerevisiae,106,105,99.1,76,3.4
+DP00165,P0AFI7,"Pyridoxine/pyridoxamine 5'-phosphate oxidase",Escherichia coli,218,62,28.4,965,4.5
+DP00166,P19429,"Troponin I, cardiac muscle",Homo sapiens,210,84,40.0,,
+DP00167,P10114,"Ras-related protein Rap-2a",Homo sapiens,183,20,10.9,1019,5.6
+DP00168,Q9NVS9,"Pyridoxine-5'-phosphate oxidase",Homo sapiens,261,47,18.0,905,4.4
+DP00169,P32882,"Tubulin beta-2 chain",Gallus gallus,445,28,6.3,822,5.4
+DP00170,Q39805,"Dehydrin-like protein",Glycine max,226,225,99.6,,
+DP00171,P04049,"RAF proto-oncogene serine/threonine-protein kinase",Homo sapiens,648,24,3.7,3119,6.9
+DP00172,Q16633,"POU domain class 2-associating factor 1",Homo sapiens,256,21,8.2,,
+DP00173,O00273-1,"",,331,115,34.7,,
+DP00174,P16949,"Stathmin",Homo sapiens,149,148,99.3,,
+DP00175,Q9NQB0,"Transcription factor 7-like 2",Homo sapiens,619,55,8.9,91,2.2
+DP00176,P42512,"Fe(3+)-pyochelin receptor",Pseudomonas aeruginosa,720,43,6.0,1686,9.0
+DP00177,Q9Y5B0,"RNA polymerase II subunit A C-terminal domain phosphatase",Homo sapiens,961,82,8.5,271,4.0
+DP00179,P01094,"Protease A inhibitor 3",Saccharomyces cerevisiae,68,35,51.5,,
+DP00180,P19972,"Salt-mediated killer protoxin 1",Millerozyma farinosa,222,0,0.0,,
+DP00180_C003,P19972,"Salt-mediated killer protoxin 1",Millerozyma farinosa,77,76,98.7,,
+DP00181,P08775,"DNA-directed RNA polymerase II subunit RPB1",Mus musculus,1970,367,18.6,,
+DP00182,P03087-1,"",,362,166,45.9,,
+DP00183,P48632,"Ferripyoverdine receptor",Pseudomonas aeruginosa,815,5,0.6,2525,8.8
+DP00184,P11473,"Vitamin D3 receptor",Homo sapiens,427,3,0.7,248,6.2
+DP00185,P93165,"Em protein",Glycine max,105,104,99.0,,
+DP00186,Q95V77,"Late embryogenesis abundant protein 1",Aphelenchus avenae,143,142,99.3,,
+DP00187,P04273,"Major prion protein",Mesocricetus auratus,254,95,37.4,,
+DP00188,P12359,"Oxygen-evolving enhancer protein 1, chloroplastic",Spinacia oleracea,332,247,74.4,,
+DP00189,P04324,"Protein Nef",Human immunodeficiency,206,40,19.4,,
+DP00190,P38038,"Sulfite reductase [NADPH] flavoprotein alpha-component",Escherichia coli,598,203,33.9,1202,6.0
+DP00191,P00747,"Plasminogen",Homo sapiens,810,0,0.0,1555,5.5
+DP00192,P02668,"Kappa-casein",Bos taurus,190,181,95.3,,
+DP00193,P02754,"Beta-lactoglobulin",Bos taurus,178,177,99.4,23,2.4
+DP00194,P0AFZ3,"Stringent starvation protein B",Escherichia coli,165,54,32.7,,
+DP00195,P02313,"Non-histone chromosomal protein HMG-17",Bos taurus,89,88,98.9,,
+DP00196,P20810,"Calpastatin",Homo sapiens,708,140,19.8,,
+DP00197,P0A707,"Translation initiation factor IF-3",Escherichia coli,180,11,6.1,843,3.7
+DP00198,P33905,"Transcriptional activator protein traR",Rhizobium radiobacter,234,233,99.6,21,3.4
+DP00199,P05814,"Beta-casein",Homo sapiens,226,225,99.6,,
+DP00200,P20963-1,"",,164,112,68.3,,
+DP00201,P02721,"ATP synthase-coupling factor 6, mitochondrial",Bos taurus,108,75,69.4,,
+DP00202,P0A8H9,"DNA gyrase inhibitor YacG",Escherichia coli,65,27,41.5,,
+DP00205,Q82S91,"Metal-binding protein smbP",Nitrosomonas europaea,117,116,99.1,,
+DP00206,P17838,"Fimbrial protein",Pseudomonas aeruginosa,157,35,22.3,110,4.4
+DP00207,P21513,"Ribonuclease E",Escherichia coli,1061,562,53.0,,
+DP00208,Q9S446,"Sortase",Staphylococcus aureus,206,12,5.8,14,2.0
+DP00209,P46170,"Beta-defensin 12",Bos taurus,38,3,7.9,,
+DP00210,P62993,"Growth factor receptor-bound protein 2",Homo sapiens,217,7,3.2,82,3.3
+DP00211,P24592,"Insulin-like growth factor-binding protein 6",Homo sapiens,240,30,12.5,,
+DP00213,P06180,"Histone-binding protein N1/N2",Xenopus laevis,590,20,3.4,,
+DP00214,P10451,"Osteopontin",Homo sapiens,314,313,99.7,,
+DP00215,P42768,"Wiskott-Aldrich syndrome protein",Homo sapiens,501,31,6.2,,
+DP00216,Q9FUM5,"BN28a",Brassica napus,65,64,98.5,,
+DP00217,P05221,"Nucleoplasmin",Xenopus laevis,200,80,40.0,,
+DP00218,Q90623-2,"Isoform 2 of Protein phosphatase 1 regulatory subunit 12A",Gallus gallus,963,298,30.9,123,3.6
+DP00219,O60927,"Protein phosphatase 1 regulatory subunit 11",Homo sapiens,126,125,99.2,,
+DP00220,P17810,"Peripherin-2",Bos taurus,345,62,18.0,58,2.7
+DP00221,P07476,"Involucrin",Homo sapiens,585,58,9.9,,
+DP00222,P32499,"Nucleoporin NUP2",Saccharomyces cerevisiae,720,719,99.9,,
+DP00223,P14635,"G2/mitotic-specific cyclin-B1",Homo sapiens,433,77,17.8,307,3.8
+DP00224,P15884,"Transcription factor 4",Homo sapiens,667,129,19.3,,
+DP00225,Q05140,"Clathrin coat assembly protein AP180",Rattus norvegicus,915,568,62.1,,
+DP00226,Q9CXW3,"Calcyclin-binding protein",Mus musculus,229,76,33.2,58,3.6
+DP00227,Q9FUW7,"Omega gliadin storage protein",Triticum aestivum,280,279,99.6,,
+DP00228,P07293,"Voltage-dependent L-type calcium channel subunit alpha-1S",Oryctolagus cuniculus,1873,36,1.9,,
+DP00229,P05455,"Lupus La protein",Homo sapiens,408,98,24.0,68,3.6
+DP00230,Q14449,"Growth factor receptor-bound protein 14",Homo sapiens,540,74,13.7,54,2.9
+DP00231,P14859,"POU domain, class 2, transcription factor 1",Homo sapiens,743,222,29.9,140,2.5
+DP00232,P11845,"Protein phosphatase inhibitor 2",Oryctolagus cuniculus,205,204,99.5,,
+DP00233,P14448-1,"",,741,297,40.1,1337,4.1
+DP00234,Q02020,"Fibrinogen beta chain (Fragment)",Gallus gallus,463,61,13.2,765,3.7
+DP00235,O93568,"Fibrinogen gamma chain",Gallus gallus,435,17,3.9,1457,5.4
+DP00236,P02686,"Myelin basic protein",Homo sapiens,304,170,55.9,,
+DP00237,P04370,"Myelin basic protein",Mus musculus,169,168,99.4,,
+DP00238,P38398,"Breast cancer type 1 susceptibility protein",Homo sapiens,1863,1502,80.6,,
+DP00239,P31896,"Carbon monoxide dehydrogenase",Rhodospirillum rubrum,639,27,4.2,,
+DP00240,P35611-1,"",,737,307,41.7,405,3.8
+DP00241,P35612-1,"",,726,317,43.7,277,3.7
+DP00242,P0AG63,"30S ribosomal protein S17",Escherichia coli,83,82,98.8,233,3.2
+DP00243,P23025,"DNA repair protein complementing XP-A cells",Homo sapiens,273,24,8.8,,
+DP00245,P00514,"cAMP-dependent protein kinase type I-alpha regulatory subunit",Bos taurus,379,21,5.5,311,4.3
+DP00246,P21758-1,"",,453,49,10.8,45,2.7
+DP00247,O06143,"Probable transcriptional regulatory protein pdtaR",Mycobacterium tuberculosis,205,9,4.4,218,4.6
+DP00248,Q9YBQ2,"Acylamino-acid-releasing enzyme",Aeropyrum pernix,582,7,1.2,1558,7.6
+DP00249,P63315,"Troponin C, slow skeletal and cardiac muscles",Bos taurus,161,55,34.2,266,5.0
+DP00250,P01555,"Cholera enterotoxin subunit A",Vibrio cholerae,258,10,3.9,,
+DP00251,O88339,"Epsin-1",Rattus norvegicus,575,431,75.0,,
+DP00252,P0A877,"Tryptophan synthase alpha chain",Escherichia coli,268,8,3.0,1009,5.2
+DP00253,P26645,"Myristoylated alanine-rich C-kinase substrate",Mus musculus,309,308,99.7,,
+DP00254,O75365-1,"",,173,31,17.9,88,3.2
+DP00255,Q93096,"Protein tyrosine phosphatase type IVA 1",Homo sapiens,173,46,26.6,83,3.2
+DP00256,P40316,"Securin",Saccharomyces cerevisiae,373,109,29.2,,
+DP00257,O31851,"Superoxide dismutase-like protein yojM",Bacillus subtilis,196,50,25.5,7,2.0
+DP00259,P00703,"Lysozyme C",Meleagris gallopavo,147,14,9.5,,
+DP00260,P01106,"Myc proto-oncogene protein",Homo sapiens,439,194,44.2,,
+DP00261,Q9Y3R4,"Sialidase-2",Homo sapiens,380,17,4.5,80,3.1
+DP00262,Q16665-1,"",,826,345,41.8,740,5.4
+DP00263,P02693,"Fatty acid-binding protein, intestinal",Rattus norvegicus,131,10,7.6,,
+DP00265,P04925,"Major prion protein",Mus musculus,254,97,38.2,,
+DP00267,P08510-1,"",,655,63,9.6,514,3.9
+DP00268,P26747,"Coat protein",Enterobacteria phage,430,189,44.0,,
+DP00269,Q24298,"DE-cadherin",Drosophila melanogaster,1507,157,10.4,,
+DP00270,Mm.342177 #95-105 #97-100,"",,220,10,4.5,623,3.7
+DP00271,P02699,"Rhodopsin",Bos taurus,348,43,12.4,669,6.6
+DP00272,P35372-1,"",,400,15,3.8,1136,6.7
+DP00273,P04695,"Guanine nucleotide-binding protein G(t) subunit alpha-1",Bos taurus,350,10,2.9,680,5.3
+DP00274,P02458-2,"",,1487,4,0.3,,
+DP00275,Q7CJN0,"Putative exported protein",Yersinia pestis,806,194,24.1,,
+DP00276,Q80FJ1,"Membrane fusion protein p14",Reptilian orthoreovirus,125,28,22.4,,
+DP00277,Q12287,"Cytochrome c oxidase copper chaperone",Saccharomyces cerevisiae,69,30,43.5,,
+DP00278,P08050,"Gap junction alpha-1 protein",Rattus norvegicus,381,108,28.3,,
+DP00279,P08523,"Olfactory marker protein",Rattus norvegicus,163,40,24.5,,
+DP00280,P0C2E9,"Perfringolysin O",Clostridium perfringens,500,50,10.0,,
+DP00282,Q04656-1,"",,1500,20,1.3,,
+DP00284,P16009,"Tail-associated lysozyme",Enterobacteria phage,575,18,3.1,34,2.7
+DP00285,P10388,"Glutenin, high molecular weight subunit DX5",Triticum aestivum,839,293,34.9,,
+DP00286,Q32NN2-1,"",,341,17,5.0,,
+DP00287,P40337,"Von Hippel-Lindau disease tumor suppressor",Homo sapiens,213,159,74.6,,
+DP00288,Q06253,"Antitoxin phd",Enterobacteria phage,73,72,98.6,1,1.0
+DP00289,Q47785,"EntI protein",Enterococcus faecium,103,29,28.2,,
+DP00290,Q7DB66,"EscJ",Escherichia coli,190,25,13.2,2,1.3
+DP00291,Q9QXT8-1,"",,256,191,74.6,275,4.0
+DP00292,P0C5S4,"Phosphorelay protein luxU",Vibrio harveyi,114,17,14.9,22,2.7
+DP00293,O33246,"Prokaryotic ubiquitin-like protein Pup",Mycobacterium tuberculosis,64,44,68.8,,
+DP00294,P07017,"Methyl-accepting chemotaxis protein II",Escherichia coli,553,29,5.2,1781,6.5
+DP00295,P0A5R6,"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase",Mycobacterium tuberculosis,249,15,6.0,806,4.0
+DP00296,P0AE73,"Antitoxin MazE",Escherichia coli,82,39,47.6,2,1.4
+DP00297,P10415,"Apoptosis regulator Bcl-2",Homo sapiens,239,61,25.5,,
+DP00298,Q07817,"Bcl-2-like protein 1",Homo sapiens,233,67,28.8,,
+DP00299,P0AE70,"mRNA interferase MazF",Escherichia coli,111,13,11.7,19,3.0
+DP00300,P02942,"Methyl-accepting chemotaxis protein I",Escherichia coli,551,30,5.4,1817,6.5
+DP00301,P0ABQ4,"Dihydrofolate reductase",Escherichia coli,159,49,30.8,887,4.8
+DP00302,Q7CL96,"Putative stringent starvation protein A",Yersinia pestis,213,21,9.9,180,3.6
+DP00303,P02185,"Myoglobin",Physeter macrocephalus,153,152,99.3,54,3.3
+DP00304,P31751,"RAC-beta serine/threonine-protein kinase",Homo sapiens,481,74,15.4,1729,5.6
+DP00305,P43155-1,"",,626,5,0.8,,
+DP00306,Q07108,"Early activation antigen CD69",Homo sapiens,199,83,41.7,17,2.1
+DP00307,P51946,"Cyclin-H",Homo sapiens,323,44,13.6,44,3.0
+DP00308,P06132,"Uroporphyrinogen decarboxylase",Homo sapiens,367,26,7.1,959,4.7
+DP00309,P00533-1,"",,1210,23,1.9,,
+DP00310,P62495,"Eukaryotic peptide chain release factor subunit 1",Homo sapiens,437,35,8.0,,
+DP00311,P24071-1,"",,287,15,5.2,88,3.9
+DP00312,P36888,"Receptor-type tyrosine-protein kinase FLT3",Homo sapiens,993,42,4.2,3013,6.1
+DP00313,P32455,"Interferon-induced guanylate-binding protein 1",Homo sapiens,592,46,7.8,,
+DP00314,Q9UJY5-1,"",,639,79,12.4,138,4.5
+DP00315,O43464-1,"",,458,26,5.7,1092,3.9
+DP00317,P08581-1,"",,1390,68,4.9,,
+DP00318,Q8WUM0,"Nuclear pore complex protein Nup133",Homo sapiens,1156,69,6.0,,
+DP00319,O15350-1,"",,636,19,3.0,,
+DP00320,P05121,"Plasminogen activator inhibitor 1",Homo sapiens,402,22,5.5,1067,6.4
+DP00321,Q9UM07,"Protein-arginine deiminase type-4",Homo sapiens,663,118,17.8,,
+DP00322,P11309-2,"Isoform 2 of Serine/threonine-protein kinase pim-1",Homo sapiens,313,21,6.7,593,5.8
+DP00323,O75469-1,"",,434,32,7.4,189,5.7
+DP00324,P09651-1,"",,371,29,7.8,422,3.6
+DP00325,P01099,"Protein phosphatase 1 regulatory subunit 1A",Oryctolagus cuniculus,166,165,99.4,,
+DP00326,Q837V6,"DNA ligase",Enterococcus faecalis,676,8,1.2,1026,4.9
+DP00327,O14832,"Phytanoyl-CoA dioxygenase, peroxisomal",Homo sapiens,338,44,13.0,74,2.8
+DP00328,Q08605-2,"Isoform B of Transcription factor GAGA",Drosophila melanogaster,519,382,73.6,10,1.4
+DP00329,P02666,"Beta-casein",Bos taurus,224,223,99.6,,
+DP00330,P02662,"Alpha-S1-casein",Bos taurus,214,213,99.5,,
+DP00332,P21815,"Bone sialoprotein 2",Homo sapiens,317,316,99.7,,
+DP00333,P27797,"Calreticulin",Homo sapiens,417,398,95.4,,
+DP00334,Q00987-1,"",,491,110,22.4,,
+DP00335,Q64364-1,"",,169,36,21.3,,
+DP00336,Q8N726-1,"",,173,36,20.8,,
+DP00337,P06968,"Deoxyuridine 5'-triphosphate nucleotidohydrolase",Escherichia coli,152,15,9.9,731,4.0
+DP00338,B0B1U2,"ABO glycosyltransferase",Homo sapiens,354,24,6.8,,
+DP00339,P16442,"Histo-blood group ABO system transferase",Homo sapiens,354,24,6.8,,
+DP00340,P62965,"Cellular retinoic acid-binding protein 1",Mus musculus,137,27,19.7,,
+DP00341,Q02248,"Catenin beta-1",Mus musculus,781,63,8.1,73,3.2
+DP00342,P09883,"Colicin-E9",Escherichia coli,582,82,14.1,,
+DP00343,Q9Y6Q9-3,"Isoform 3 of Nuclear receptor coactivator 3",Homo sapiens,1412,70,5.0,,
+DP00344,P62152,"Calmodulin",Drosophila melanogaster,149,4,2.7,1007,6.6
+DP00345,P16535,"Leukotoxin",Pasteurella haemolytica,953,69,7.2,18,2.2
+DP00346,P07140,"Acetylcholinesterase",Drosophila melanogaster,624,31,5.0,1097,7.1
+DP00347,P04972,"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma",Bos taurus,87,86,98.9,,
+DP00348,P45481,"CREB-binding protein",Mus musculus,2441,93,3.8,,
+DP00349,P06709,"Bifunctional protein BirA",Escherichia coli,321,38,11.8,587,5.7
+DP00350,Q56311,"Chemotaxis protein CheW",Thermotoga maritima,151,40,26.5,12,2.4
+DP00351,Q27974,"Putative tyrosine-protein phosphatase auxilin",Bos taurus,910,266,29.2,349,4.3
+DP00352,O33599,"Glycyl-glycine endopeptidase lytM",Staphylococcus aureus,316,32,10.1,5,1.6
+DP00353,P23202,"Transcriptional regulator URE2",Saccharomyces cerevisiae,354,89,25.1,315,3.4
+DP00354,O50835,"Fibronectin-binding protein BBK32",Borrelia burgdorferi,354,149,42.1,,
+DP00355,P02649,"Apolipoprotein E",Homo sapiens,317,48,15.1,,
+DP00356,Q99967-1,"",,270,50,18.5,,
+DP00357,P62328,"Thymosin beta-4",Homo sapiens,44,43,97.7,,
+DP00358,Q15185,"Prostaglandin E synthase 3",Homo sapiens,160,43,26.9,,
+DP00359,A6Q0K5,"Calvin cycle protein CP12, chloroplastic",Chlamydomonas reinhardtii,80,79,98.8,,
+DP00360,O14576-1,"",,645,288,44.7,404,5.3
+DP00361,Q23229-1,"",,417,20,4.8,,
+DP00362,P08553,"Neurofilament medium polypeptide",Mus musculus,849,437,51.5,1250,4.2
+DP00363,Q16222-1,"",,522,16,3.1,,
+DP00363_A002,Q16222-2,"Isoform AGX1 of UDP-N-acetylhexosamine pyrophosphorylase",Homo sapiens,505,14,2.8,,
+DP00364,Q15382,"GTP-binding protein Rheb",Homo sapiens,184,8,4.3,421,5.1
+DP00365,P53041,"Serine/threonine-protein phosphatase 5",Homo sapiens,499,128,25.7,1016,4.3
+DP00367,Q9RP19,"Urease accessory protein UreG",Bacillus pasteurii,211,210,99.5,428,2.6
+DP00372,Q9NR00,"Uncharacterized protein C8orf4",Homo sapiens,106,105,99.1,,
+DP00373,P81058,"Penaeidin-3a",Litopenaeus vannamei,82,27,32.9,,
+DP00374,P33120,"Diphtheria toxin repressor",Corynebacterium diphtheriae,226,16,7.1,135,3.4
+DP00375,P50465,"Endonuclease 8",Escherichia coli,263,30,11.4,49,3.0
+DP00376,Q9H2S9-1,"",,585,22,3.8,110,3.1
+DP00377,P45577,"ProP effector",Escherichia coli,232,53,22.8,,
+DP00378,P08047,"Transcription factor Sp1",Homo sapiens,785,18,2.3,146,2.6
+DP00379,P22868,"Methane monooxygenase component C",Methylococcus capsulatus,348,32,9.2,538,5.7
+DP00380,P38582,"Putative carnobacteriocin-B2 immunity protein",Carnobacterium maltaromaticum,111,16,14.4,,
+DP00381,P35869,"Aryl hydrocarbon receptor",Homo sapiens,848,168,19.8,685,5.1
+DP00382,O28362,"Ribonuclease P protein component 1",Archaeoglobus fulgidus,102,38,37.3,,
+DP00383,P05091,"Aldehyde dehydrogenase, mitochondrial",Homo sapiens,500,44,8.8,1444,6.5
+DP00384,P63158,"High mobility group protein B1",Mus musculus,215,57,26.5,224,3.4
+DP00385,P49841-1,"",,420,86,20.5,1456,5.3
+DP00386,P02647,"Apolipoprotein A-I",Homo sapiens,267,0,0.0,,
+DP00386_C001,P02647,"Apolipoprotein A-I",Homo sapiens,242,65,26.9,,
+DP00387,P25814,"Ribonuclease P protein component",Bacillus subtilis,116,115,99.1,55,3.1
+DP00388,P28311,"Alpha-defensin 4",Mus musculus,92,11,12.0,,
+DP00389,P09983,"Hemolysin, chromosomal",Escherichia coli,1023,60,5.9,,
+DP00390,P17870-1,"",,418,69,16.5,,
+DP00392,Q09161,"Nuclear cap-binding protein subunit 1",Homo sapiens,790,53,6.7,,
+DP00393,P52298-1,"",,156,73,46.8,97,2.7
+DP00394,P04189,"Subtilisin E",Bacillus subtilis,381,76,19.9,828,5.2
+DP00395,P40136,"Calmodulin-sensitive adenylate cyclase",Bacillus anthracis,800,13,1.6,,
+DP00396,O74718,"Eukaryotic peptide chain release factor GTP-binding subunit",Schizosaccharomyces pombe,662,55,8.3,1911,5.1
+DP00397,Q9ES89,"Exostosin-like 2",Mus musculus,330,13,3.9,,
+DP00398,P07342,"Acetolactate synthase catalytic subunit, mitochondrial",Saccharomyces cerevisiae,687,86,12.5,1372,6.2
+DP00399,P50097,"Inosine-5'-monophosphate dehydrogenase",Tritrichomonas foetus,503,166,33.0,1025,4.1
+DP00400,P60752,"Lipid A export ATP-binding/permease protein MsbA",Escherichia coli,582,110,18.9,1,1.0
+DP00401,P52477,"Multidrug resistance protein mexA",Pseudomonas aeruginosa,383,127,33.2,1016,5.7
+DP00404,O00204,"Sulfotransferase family cytosolic 2B member 1",Homo sapiens,365,12,3.3,687,4.9
+DP00404_A002,O00204-2,"Isoform 2 of Sulfotransferase family cytosolic 2B member 1",Homo sapiens,350,61,17.4,686,5.0
+DP00406,Q04637,"Eukaryotic translation initiation factor 4 gamma 1",Homo sapiens,1599,11,0.7,,
+DP00407,P07363-1,"",,654,63,9.6,1091,6.4
+DP00408,P63000-1,"",,192,42,21.9,1081,5.4
+DP00410,P12497,"Gag-Pol polyprotein",Human immunodeficiency,1435,0,0.0,,
+DP00410_C011,P12497,"Gag-Pol polyprotein",Human immunodeficiency,288,14,4.9,236,3.4
+DP00412,P0A6G1,"10 kDa chaperonin",Escherichia coli,97,14,14.4,176,3.0
+DP00414,P0ABS1,"DnaK suppressor protein",Escherichia coli,151,58,38.4,354,3.9
+DP00415,P0ABE0,"Biotin carboxyl carrier protein of acetyl-CoA carboxylase",Escherichia coli,156,27,17.3,634,4.9
+DP00416,P0A6A8,"Acyl carrier protein",Escherichia coli,78,32,41.0,169,3.2
+DP00418,P78504,"Protein jagged-1",Homo sapiens,1218,124,10.2,,
+DP00419,P03176,"Thymidine kinase",Human herpesvirus,376,57,15.2,,
+DP00420,Q96T21,"Selenocysteine insertion sequence-binding protein 2",Homo sapiens,854,677,79.3,,
+DP00421,P07516,"Protein phosphatase 1 regulatory subunit 1B",Bos taurus,202,201,99.5,,
+DP00422,P0A6R3,"DNA-binding protein fis",Escherichia coli,98,24,24.5,37,2.6
+DP00423,P53551,"Histone H1",Saccharomyces cerevisiae,258,81,31.4,,
+DP00424,P04325,"Protein Rev",Human immunodeficiency,116,54,46.6,,
+DP00427,P0AFG8,"Pyruvate dehydrogenase E1 component",Escherichia coli,887,82,9.2,1770,5.1
+DP00428,P53350,"Serine/threonine-protein kinase PLK1",Homo sapiens,603,50,8.3,1139,5.4
+DP00429,P32170,"L-rhamnose isomerase",Escherichia coli,419,14,3.3,,
+DP00430,P00942,"Triosephosphate isomerase",Saccharomyces cerevisiae,248,10,4.0,1047,4.9
+DP00432,P11632,"Non-histone chromosomal protein 6A",Saccharomyces cerevisiae,93,15,16.1,,
+DP00433,P03023,"Lactose operon repressor",Escherichia coli,360,61,16.9,1053,6.8
+DP00434,Q9SQZ9,"PITH domain-containing protein At3g04780",Arabidopsis thaliana,176,7,4.0,,
+DP00435,Q01853,"Transitional endoplasmic reticulum ATPase",Mus musculus,806,22,2.7,1,1.0
+DP00436,P50477,"Canavalin",Canavalia ensiformis,445,91,20.4,69,3.3
+DP00437,P43351,"DNA repair protein RAD52 homolog",Homo sapiens,418,22,5.3,,
+DP00438,Q05158,"Cysteine and glycine-rich protein 2",Coturnix coturnix,194,47,24.2,95,3.9
+DP00441,Q28181-4,"Isoform GARP1 of Cyclic nucleotide-gated cation channel beta-1",Bos taurus,590,589,99.8,,
+DP00443,Q14191,"Werner syndrome ATP-dependent helicase",Homo sapiens,1432,23,1.6,,
+DP00444,P02489,"Alpha-crystallin A chain",Homo sapiens,173,29,16.8,54,2.7
+DP00445,P02511,"Alpha-crystallin B chain",Homo sapiens,175,27,15.4,82,3.3
+DP00446,O35718,"Suppressor of cytokine signaling 3",Mus musculus,225,35,15.6,30,2.3
+DP00447,P12579,"Phosphoprotein",Human respiratory,241,138,57.3,,
+DP00448,Q9Y613,"FH1/FH2 domain-containing protein 1",Homo sapiens,1164,60,5.2,,
+DP00449,P53563-1,"",,233,53,22.7,,
+DP00450,P80457,"Xanthine dehydrogenase/oxidase",Bos taurus,1332,115,8.6,,
+DP00455,P84092,"AP-2 complex subunit mu",Rattus norvegicus,435,36,8.3,372,5.5
+DP00457,Q9Y3D6,"Mitochondrial fission 1 protein",Homo sapiens,152,43,28.3,,
+DP00458,P37727,"Rab proteins geranylgeranyltransferase component A 1",Rattus norvegicus,650,149,22.9,92,4.1
+DP00459,Q07960,"Rho GTPase-activating protein 1",Homo sapiens,439,33,7.5,60,3.0
+DP00460,Q92838,"Ectodysplasin-A",Homo sapiens,391,5,1.3,,
+DP00460_A003,Q92838-3,"Isoform 3 of Ectodysplasin-A",Homo sapiens,389,3,0.8,11,1.6
+DP00461,P08083,"Colicin-N",Escherichia coli,387,29,7.5,,
+DP00462,P11157,"Ribonucleoside-diphosphate reductase subunit M2",Mus musculus,390,99,25.4,382,3.9
+DP00463,Q9Z0U4-1,"",,991,66,6.7,1362,6.6
+DP00464,Q13485,"Mothers against decapentaplegic homolog 4",Homo sapiens,552,58,10.5,,
+DP00465,Q57696,"Uncharacterized protein MJ0246",Methanocaldococcus jannaschii,99,98,99.0,6,2.0
+DP00466,P04156,"Major prion protein",Homo sapiens,253,102,40.3,,
+DP00467,Q01484,"Ankyrin-2",Homo sapiens,1839,284,15.4,,
+DP00468,P25963,"NF-kappa-B inhibitor alpha",Homo sapiens,317,106,33.4,39,2.6
+DP00469,O24646,"Transcription factor HY5",Arabidopsis thaliana,168,76,45.2,,
+DP00470,Q39532,"Opaque 2",Coix lachryma-jobi,408,50,12.3,,
+DP00471,Q6QCC2,"Lipoprotein",Neisseria meningitidis,274,35,12.8,,
+DP00472,P50542-3,"Isoform 3 of Peroxisomal targeting signal 1 receptor",Homo sapiens,631,323,51.2,175,4.3
+DP00473,Q49AN0,"Cryptochrome-2",Homo sapiens,593,102,17.2,1086,5.8
+DP00474,Q43125,"Cryptochrome-1",Arabidopsis thaliana,681,175,25.7,1124,5.2
+DP00475,Q6Q547,"H/ACA ribonucleoprotein complex subunit 3",Saccharomyces cerevisiae,58,40,69.0,,
+DP00482,Q08826,"Sorting nexin-3",Saccharomyces cerevisiae,162,28,17.3,38,2.3
+DP00483,Q8TFB8,"",,685,252,36.8,1237,4.3
+DP00484,P96086,"Tricorn protease",Thermoplasma acidophilum,1071,46,4.3,,
+DP00485,Q9UBE0,"SUMO-activating enzyme subunit 1",Homo sapiens,346,25,7.2,164,5.1
+DP00486,Q9UBT2,"SUMO-activating enzyme subunit 2",Homo sapiens,640,122,19.1,1550,5.2
+DP00487,P09938,"Ribonucleoside-diphosphate reductase small chain 1",Saccharomyces cerevisiae,399,65,16.3,392,4.0
+DP00488,P49723,"Ribonucleoside-diphosphate reductase small chain 2",Saccharomyces cerevisiae,345,77,22.3,331,4.1
+DP00489,P21793,"Decorin",Bos taurus,360,23,6.4,75,3.1
+DP00490,O88900,"Growth factor receptor-bound protein 14",Rattus norvegicus,538,74,13.8,55,2.8
+DP00491,Q62165,"Dystroglycan",Mus musculus,893,0,0.0,,
+DP00491_C002,Q62165,"Dystroglycan",Mus musculus,242,96,39.7,,
+DP00492,P10275-1,"",,919,343,37.3,1509,4.8
+DP00499,Q9Z2F5,"C-terminal-binding protein 1",Rattus norvegicus,430,85,19.8,1508,5.1
+DP00500,Q8MWS6,"DNA repair enzyme",Toxoplasma gondii,466,59,12.7,17,1.6
+DP00501,Q6IBA2,"PC4 protein",Homo sapiens,127,59,46.5,,
+DP00502,P11912-1,"",,226,60,26.5,22,2.3
+DP00503,P40259-1,"",,229,48,21.0,21,2.2
+DP00504,P52434,"DNA-directed RNA polymerases I, II, and III subunit RPABC3",Homo sapiens,150,22,14.7,,
+DP00505,P04234,"T-cell surface glycoprotein CD3 delta chain",Homo sapiens,171,44,25.7,,
+DP00506,P07766,"T-cell surface glycoprotein CD3 epsilon chain",Homo sapiens,207,54,26.1,,
+DP00508,P09693,"T-cell surface glycoprotein CD3 gamma chain",Homo sapiens,182,43,23.6,,
+DP00509,P30273,"High affinity immunoglobulin epsilon receptor subunit gamma",Homo sapiens,86,41,47.7,,
+DP00510,O60356,"Nuclear protein 1",Homo sapiens,82,81,98.8,,
+DP00511,Q76LA1,"CSTB protein",Homo sapiens,98,66,67.3,,
+DP00512,P56210,"50S ribosomal protein L11 (Fragment)",Geobacillus stearothermophilus,133,11,8.3,586,3.5
+DP00513,Q97ZL0,"Acylphosphatase",Sulfolobus solfataricus,101,10,9.9,14,2.4
+DP00514,P34945,"Serine--tRNA ligase",Thermus thermophilus,421,128,30.4,1014,4.6
+DP00515,P02768-1,"",,609,5,0.8,,
+DP00516,P60472,"Undecaprenyl pyrophosphate synthase",Escherichia coli,253,11,4.3,1045,4.5
+DP00517,P52179-1,"",,1685,95,5.6,,
+DP00518,O54918,"",,140,112,80.0,,
+DP00519,P25054-1,"",,2843,383,13.5,,
+DP00520,Q969F2-1,"",,451,216,47.9,,
+DP00521,O95997,"Securin",Homo sapiens,202,201,99.5,,
+DP00524,Q9NQC3-2,"Isoform 2 of Reticulon-4",Homo sapiens,373,231,61.9,,
+DP00527,P02783,"Seminal vesicle secretory protein 4",Rattus norvegicus,112,90,80.4,,
+DP00529,Q9KJ82,"Plasmid partition protein ParG",Salmonella newport,76,31,40.8,,
+DP00530,P12950,"Dehydrin DHN1",Zea mays,167,166,99.4,,
+DP00531,Q08655,"Abscisic stress-ripening protein 1",Solanum lycopersicum,115,114,99.1,,
+DP00532,Q8GT36,"Thylakoid soluble phosphoprotein",Spinacia oleracea,103,102,99.0,,
+DP00533,P06701,"Regulatory protein SIR3",Saccharomyces cerevisiae,978,334,34.2,122,4.5
+DP00534,Q9LZP9,"Calvin cycle protein CP12-2, chloroplastic",Arabidopsis thaliana,131,77,58.8,,
+DP00535,A7UMX5,"Synaptopodin 2 variant",Meleagris gallopavo,996,995,99.9,,
+DP00536,Q42512,"",,139,88,63.3,,
+DP00537,O43236-1,"",,478,118,24.7,517,3.6
+DP00538,A8CDV5,"Latent membrane protein 2A (Fragment)",Epstein-Barr virus,118,117,99.2,,
+DP00539,P51608,"Methyl-CpG-binding protein 2",Homo sapiens,486,436,89.7,,
+DP00540,Q9VPU8,"KRR1 small subunit processome component homolog",Drosophila melanogaster,345,344,99.7,,
+DP00541,Q91V27,"Melanophilin",Mus musculus,590,256,43.4,,
+DP00543,Q14061,"Cytochrome c oxidase copper chaperone",Homo sapiens,63,16,25.4,,
+DP00544,B0FRH7,"Protein LLP",Aplysia kurodai,120,119,99.2,,
+DP00546,Q9NX55-1,"",,175,174,99.4,,
+DP00549,O00488,"Zinc finger protein 593",Homo sapiens,134,99,73.9,,
+DP00550,P02628,"Parvalbumin alpha",Esox lucius,108,107,99.1,61,2.5
+DP00551,P16860,"Natriuretic peptides B",Homo sapiens,134,101,75.4,,
+DP00552,P0AFX7,"Sigma-E factor negative regulatory protein",Escherichia coli,216,95,44.0,,
+DP00553,Q9NZ94-1,"",,848,117,13.8,1360,6.0
+DP00554,Q9C000-1,"",,1473,19,1.3,,
+DP00555,Q16143,"Beta-synuclein",Homo sapiens,134,133,99.3,,
+DP00556,P12003-1,"Isoform 1 of Vinculin",Gallus gallus,1066,134,12.6,,
+DP00557,Q00955,"Acetyl-CoA carboxylase",Saccharomyces cerevisiae,2233,94,4.2,,
+DP00558,P49354-1,"",,379,53,14.0,188,4.1
+DP00559,O66493,"Chorismate synthase",Aquifex aeolicus,398,60,15.1,1016,4.5
+DP00560,Q02597,"Genome polyprotein",Turnip mosaic,3163,0,0.0,,
+DP00560_C007,Q02597,"Genome polyprotein",Turnip mosaic,192,191,99.5,,
+DP00561,P28583,"Calcium-dependent protein kinase SK5",Glycine max,508,19,3.7,1670,5.7
+DP00562,Q9Y296,"Trafficking protein particle complex subunit 4",Homo sapiens,219,11,5.0,,
+DP00563,Q61337,"Bcl2 antagonist of cell death",Mus musculus,204,203,99.5,,
+DP00564,Q6P8Z1,"Protein B-Myc",Mus musculus,170,169,99.4,,
+DP00565,P63098,"",,170,48,28.2,119,4.1
+DP00566,P13102,"Hemagglutinin",Influenza A,566,34,6.0,,
+DP00567,Q07932,"Pilosulin-1",Myrmecia pilosula,112,17,15.2,,
+DP00568,Q66SS1,"Paired box 6",Homo sapiens,422,15,3.6,262,3.4
+DP00569,Q96IH6,"EMILIN-1",Homo sapiens,347,17,4.9,48,3.2
+DP00570,P09132,"Signal recognition particle 19 kDa protein",Homo sapiens,144,9,6.3,,
+DP00571,P39900,"Macrophage metalloelastase",Homo sapiens,470,17,3.6,635,4.8
+DP00573,P03305,"Genome polyprotein",Foot-and-mouth disease,2332,0,0.0,,
+DP00573_C003,P03305,"Genome polyprotein",Foot-and-mouth disease,85,58,68.2,,
+DP00573_C004,P03305,"Genome polyprotein",Foot-and-mouth disease,218,6,2.8,,
+DP00573_C005,P03305,"Genome polyprotein",Foot-and-mouth disease,220,41,18.6,,
+DP00573_C006,P03305,"Genome polyprotein",Foot-and-mouth disease,211,39,18.5,,
+DP00574,P11831,"Serum response factor",Homo sapiens,508,44,8.7,32,1.7
+DP00575,P77072,"Alkylmercury lyase",Escherichia coli,212,47,22.2,,
+DP00576,P54252-1,"",,376,41,10.9,,
+DP00578,P0AG16,"Amidophosphoribosyltransferase",Escherichia coli,505,56,11.1,1036,4.4
+DP00579,Q6PBE3,"Ribosomal protein L5",Xenopus tropicalis,296,73,24.7,,
+DP00580,O24172,"Pollen allergen Ole e 6",Olea europaea,50,16,32.0,,
+DP00581,P11233,"Ras-related protein Ral-A",Homo sapiens,206,23,11.2,868,5.4
+DP00582,P56552,"Defensin-like protein",Pentadiplandra brazzeana,54,7,13.0,,
+DP00583,P16006,"Deoxycytidylate deaminase",Enterobacteria phage,193,20,10.4,18,2.1
+DP00584,A2VD23,"Protein starmaker",Danio rerio,613,612,99.8,,
+DP00586,P01094,"Protease A inhibitor 3",Saccharomyces cerevisiae,68,67,98.5,,
+DP00587,Q9CQK7,"RWD domain-containing protein 1",Mus musculus,243,242,99.6,86,3.4
+DP00588,P27958,"Genome polyprotein",Hepatitis C,3011,0,0.0,,
+DP00588_C001,P27958,"Genome polyprotein",Hepatitis C,190,0,0.0,,
+DP00588_C002,P27958,"Genome polyprotein",Hepatitis C,176,80,45.5,,
+DP00588_C010,P27958,"Genome polyprotein",Hepatitis C,448,10,2.2,,
+DP00591,P15318,"Bifunctional hemolysin/adenylate cyclase",Bordetella pertussis,1706,700,41.0,,
+DP00592,P48539,"Purkinje cell protein 4",Homo sapiens,62,61,98.4,,
+DP00594,P49869,"Probable nuclear hormone receptor HR38",Drosophila melanogaster,1073,0,0.0,,
+DP00594_A002,P49869,"Probable nuclear hormone receptor HR38",Drosophila melanogaster,551,215,39.0,214,4.0
+DP00600,P60723,"50S ribosomal protein L4",Escherichia coli,201,62,30.8,872,4.5
+DP00605,Q24246,"Cytoplasmic dynein 1 intermediate chain",Drosophila melanogaster,663,26,3.9,2692,7.5
+DP00606,P42759-1,"",,260,259,99.6,,
+DP00607,Q16595,"Frataxin, mitochondrial",Homo sapiens,210,129,61.4,,
+DP00608,Q13573,"SNW domain-containing protein 1",Homo sapiens,536,70,13.1,,
+DP00609,O81283,"Translocase of chloroplast 159, chloroplastic",Arabidopsis thaliana,1503,838,55.8,,
+DP00610,Q9SLF3,"Translocase of chloroplast 132, chloroplastic",Arabidopsis thaliana,1206,454,37.6,,
+DP00611,P30291,"Wee1-like protein kinase",Homo sapiens,646,291,45.0,3025,6.1
+DP00613,Q22472,"Resistance to inhibitors of cholinesterase protein 3",Caenorhabditis elegans,378,377,99.7,,
+DP00614,Q07412,"Triosephosphate isomerase",Plasmodium falciparum,248,27,10.9,1034,4.8
+DP00615,Q9WMX2,"Genome polyprotein",Hepatitis C,3010,0,0.0,,
+DP00615_C010,Q9WMX2,"Genome polyprotein",Hepatitis C,447,395,88.4,,
+DP00616,P02788,"Lactotransferrin",Homo sapiens,710,21,3.0,,
+DP00617,P60896,"26S proteasome complex subunit DSS1",Homo sapiens,70,67,95.7,,
+DP00618,P53954,"GDP-Man:Man(3)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase",Saccharomyces cerevisiae,548,13,2.4,227,3.9
+DP00619,Q58667,"Homoaconitase small subunit",Methanocaldococcus jannaschii,170,3,1.8,476,4.0
+DP00620,Q68FT9,"Selenocysteine lyase",Rattus norvegicus,432,18,4.2,1088,5.6
+DP00621,P00736,"Complement C1r subcomponent",Homo sapiens,705,112,15.9,2580,7.5
+DP00622,P63045,"Vesicle-associated membrane protein 2",Rattus norvegicus,116,87,75.0,,
+DP00623,P83949-1,"",,389,266,68.4,41,2.0
+DP00624,P35638,"DNA damage-inducible transcript 3 protein",Homo sapiens,169,52,30.8,,
+DP00625,P45976,"Pre-mRNA polyadenylation factor FIP1",Saccharomyces cerevisiae,327,25,7.6,,
+DP00626,P0AG11,"Protein umuD",Escherichia coli,139,138,99.3,302,4.3
+DP00626_C001,P0AG11,"Protein umuD",Escherichia coli,115,113,98.3,257,4.1
+DP00627,Q05323,"Minor nucleoprotein VP30",Zaire ebolavirus,288,13,4.5,,
+DP00628,P15309-1,"",,386,38,9.8,234,5.7
+DP00629,Q07097,"Nucleoprotein",Sendai virus,524,122,23.3,,
+DP00630,O76070,"Gamma-synuclein",Homo sapiens,127,126,99.2,,
+DP00631,P38634,"Protein SIC1",Saccharomyces cerevisiae,284,89,31.3,,
+DP00632,Q01844,"RNA-binding protein EWS",Homo sapiens,656,263,40.1,157,3.7
+DP00633,Q09472,"Histone acetyltransferase p300",Homo sapiens,2414,165,6.8,,
+DP00634,P15891,"Actin-binding protein",Saccharomyces cerevisiae,592,25,4.2,58,3.0
+DP00635,P38753,"Class E vacuolar protein-sorting machinery protein HSE1",Saccharomyces cerevisiae,452,59,13.1,70,3.2
+DP00636,P17120,"Kinesin-like protein bimC",Emericella nidulans,1184,70,5.9,,
+DP00637,P01270,"Parathyroid hormone",Homo sapiens,115,33,28.7,,
+DP00638,P04972,"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma",Bos taurus,87,34,39.1,,
+DP00640,Q89933,"Nucleoprotein",Measles virus,525,124,23.6,,
+DP00641,P51671,"Eotaxin",Homo sapiens,97,7,7.2,70,3.7
+DP00642,Q962Y6,"Thioredoxin glutathione reductase",Schistosoma mansoni,598,1,0.2,1148,5.8
+DP00643,O43521,"",,198,0,0.0,,
+DP00643_A002,O43521-2,"Isoform BimL of Bcl-2-like protein 11",Homo sapiens,138,110,79.7,,
+DP00644,P22362,"",,96,31,32.3,4,1.6
+DP00645,Q91ZE9,"Bcl-2-modifying factor",Mus musculus,185,159,85.9,,
+DP00646,Q01231,"Gap junction alpha-5 protein",Mus musculus,358,104,29.1,,
+DP00647,P31025,"Lipocalin-1",Homo sapiens,176,6,3.4,57,3.9
+DP00650,Q1PAB4,"Protein Tat",Human immunodeficiency,101,100,99.0,,
+DP00651,P03355,"Gag-Pol polyprotein",Moloney murine,1738,0,0.0,,
+DP00651_C007,P03355,"Gag-Pol polyprotein",Moloney murine,408,11,2.7,30,3.0
+DP00652,P00441,"Superoxide dismutase [Cu-Zn]",Homo sapiens,154,28,18.2,490,3.6
+DP00653,A2AIM8,"",,2541,40,1.6,,
+DP00654,Q9ZPI5,"Peroxisomal fatty acid beta-oxidation multifunctional protein MFP2",Arabidopsis thaliana,725,34,4.7,3382,6.5
+DP00655,P59113,"Fermitin family homolog 1",Mus musculus,677,109,16.1,,
+DP00656,P07674,"Transcriptional repressor protein korB",Escherichia coli,358,105,29.3,31,2.8
+DP00657,P31168,"Dehydrin COR47",Arabidopsis thaliana,265,264,99.6,,
+DP00658,P42758,"Dehydrin Xero 2",Arabidopsis thaliana,193,192,99.5,,
+DP00659,P16458,"Telomere-binding protein subunit beta",Oxytricha nova,385,152,39.5,,
+DP00661,Q9CX60,"Protein LBH",Mus musculus,105,68,64.8,,
+DP00662,Q8LBP4-1,"",,462,123,26.6,79,2.5
+DP00663,P81558,"Myelin basic protein",Sus scrofa,171,170,99.4,,
+DP00664,Q01417,"18 kDa seed maturation protein",Glycine max,173,172,99.4,,
+DP00665,Q9XES8,"Seed maturation protein PM28",Glycine max,89,88,98.9,,
+DP00666,P32004-1,"",,1257,113,9.0,,
+DP00667,P42763,"Dehydrin ERD14",Arabidopsis thaliana,185,184,99.5,,
+DP00668,P19250,"Thermostable direct hemolysin 2",Vibrio parahaemolyticus,189,10,5.3,,
+DP00669,P81019,"Seminal plasma protein BSP-30 kDa",Bos taurus,183,55,30.1,,
+DP00670,Q29983,"MHC class I polypeptide-related sequence A",Homo sapiens,383,9,2.3,201,4.2
+DP00671,Q61985,"Nuclear factor erythroid 2-related factor 1",Mus musculus,741,97,13.1,,
+DP00672,Q92886,"Neurogenin-1",Homo sapiens,237,60,25.3,,
+DP00673,P06935,"Genome polyprotein",West Nile,3430,0,0.0,,
+DP00673_C001,P06935,"Genome polyprotein",West Nile,105,48,45.7,,
+DP00674,Q69422,"Genome polyprotein",Hepatitis GB,2864,0,0.0,,
+DP00674_C001,Q69422,"Genome polyprotein",Hepatitis GB,156,154,98.7,,
+DP00675,P19711,"Genome polyprotein",Bovine viral,3988,0,0.0,,
+DP00675_C002,P19711,"Genome polyprotein",Bovine viral,102,101,99.0,,
+DP00676,P19243,"18.1 kDa class I heat shock protein",Pisum sativum,158,52,32.9,179,3.3
+DP00677,P12810,"16.9 kDa class I heat shock protein 1",Triticum aestivum,151,41,27.2,170,3.0
+DP00678,P11171,"Protein 4.1",Homo sapiens,864,63,7.3,771,4.7
+DP00680,P82409,"Trypsin inhibitor 2",Momordica cochinchinensis,34,12,35.3,,
+DP00681,D0VWX1,"MCoCC-1",Momordica cochinchinensis,33,6,18.2,,
+DP00682,P15337,"Cyclic AMP-responsive element-binding protein 1",Rattus norvegicus,341,33,9.7,,
+DP00683,Q99801,"Homeobox protein Nkx-3.1",Homo sapiens,234,183,78.2,28,1.7
+DP00684,P03018,"DNA helicase II",Escherichia coli,720,69,9.6,2775,8.0
+DP00685,Q98157,"Viral macrophage inflammatory protein 2",Human herpesvirus,94,27,28.7,1,1.0
+DP00686,Q9IH62,"Glycoprotein G",Nipah virus,602,20,3.3,,
+DP00687,P08067,"Cytochrome b-c1 complex subunit Rieske, mitochondrial",Saccharomyces cerevisiae,215,11,5.1,565,3.5
+DP00688,Q8ISF7,"",,18534,4163,22.5,,
+DP00689,P30185,"Dehydrin Rab18",Arabidopsis thaliana,186,185,99.5,,
+DP00690,Q91WR5,"Aldo-keto reductase family 1 member C21",Mus musculus,323,4,1.2,1143,5.9
+DP00691,P18754,"Regulator of chromosome condensation",Homo sapiens,421,49,11.6,135,4.3
+DP00692,P63277,"",,210,0,0.0,,
+DP00692_A001,P63277,"",,180,176,97.8,,
+DP00692_A002,P63277,"",,59,53,89.8,,
+DP00693,P45561,"Amelogenin",Sus scrofa,173,162,93.6,,
+DP00694,Q8N488,"RING1 and YY1-binding protein",Homo sapiens,228,227,99.6,,
+DP00695,P96884,"BirA bifunctional protein",Mycobacterium tuberculosis,266,34,12.8,,
+DP00696,Q9Y258,"C-C motif chemokine 26",Homo sapiens,94,8,8.5,1,1.0
+DP00697,Q9IK92,"Nucleoprotein",Nipah virus,532,132,24.8,,
+DP00698,O89339,"Nucleoprotein",Hendra virus,532,132,24.8,,
+DP00699,Q9IK91,"Phosphoprotein",Nipah virus,709,405,57.1,,
+DP00700,O55778,"Phosphoprotein",Hendra virus,707,403,57.0,,
+DP00701,O66683,"Anti sigma factor FlgM",Aquifex aeolicus,88,76,86.4,,
+DP00702,P46937,"Yorkie homolog",Homo sapiens,504,39,7.7,,
+DP00703,B7T1D7,"Teg12",uncultured soil,285,50,17.5,4,1.4
+DP00704,P24522,"Growth arrest and DNA damage-inducible protein GADD45 alpha",Homo sapiens,165,39,23.6,,
+DP00705,P22943,"12 kDa heat shock protein",Saccharomyces cerevisiae,109,102,93.6,,
+DP00706,Q15517,"Corneodesmosin",Homo sapiens,529,111,21.0,,
+DP00707,Q9UER7,"Death domain-associated protein 6",Homo sapiens,740,53,7.2,,
+DP00708,O35613,"Death domain-associated protein 6",Mus musculus,739,173,23.4,,
+DP00709,Q9Y3M2,"Protein chibby homolog 1",Homo sapiens,126,60,47.6,,
+DP00710,N/A,"",,208,97,46.6,863,3.8
+DP00711,Q80Y84,"Lysine-specific demethylase 5B",Mus musculus,1544,48,3.1,,
+DP00712,Q9UGL1,"Lysine-specific demethylase 5B",Homo sapiens,1544,31,2.0,,
+DP00713,P29375,"Lysine-specific demethylase 5A",Homo sapiens,1690,69,4.1,,
+DP00714,Q9BP37,"Aragonite protein AP7",Haliotis rufescens,88,80,90.9,,
+DP00715,Q9BP38,"Aragonite protein AP24",Haliotis rufescens,171,52,30.4,,
+DP00716,P02545,"Prelamin-A/C",Homo sapiens,664,0,0.0,168,4.5
+DP00716_C001,P02545,"Prelamin-A/C",Homo sapiens,646,80,12.4,166,4.5
+DP00717,P35521,"Methylosome subunit pICln",Canis familiaris,235,171,72.8,,
+DP00718,P37231,"",,505,0,0.0,299,4.8
+DP00718_A001,P37231-2,"Isoform 1 of Peroxisome proliferator-activated receptor gamma",Homo sapiens,477,299,62.7,302,5.0
+DP00719,Q13569,"G/T mismatch-specific thymine DNA glycosylase",Homo sapiens,410,179,43.7,,
+DP00720,Q05344,"FACT complex subunit Ssrp1",Drosophila melanogaster,723,718,99.3,180,4.1
+DP00721,Q8IRG6,"FACT complex subunit spt16",Drosophila melanogaster,1083,155,14.3,,
+DP00722,P0AGE2,"Single-stranded DNA-binding protein",Escherichia coli,178,64,36.0,650,3.9
+DP00723,Q9MAA7,"Gibberellin receptor GID1A",Arabidopsis thaliana,345,344,99.7,463,4.8
+DP00724,Q9LQT8,"DELLA protein GAI",Arabidopsis thaliana,533,102,19.1,,
+DP00725,P41851,"Type II secretion system protein M",Vibrio cholerae,165,45,27.3,,
+DP00726,Q5UPJ7,"Tyrosine--tRNA ligase",Acanthamoeba polyphaga,346,39,11.3,186,4.1
+DP00727,P16083,"Ribosyldihydronicotinamide dehydrogenase [quinone]",Homo sapiens,231,14,6.1,264,4.2
+DP00728,P00760,"Cationic trypsin",Bos taurus,246,37,15.0,1168,7.9
+DP00729,P00974,"Pancreatic trypsin inhibitor",Bos taurus,100,31,31.0,,
+DP00730,P02631,"Oncomodulin",Rattus norvegicus,109,63,57.8,62,2.5
+DP00731,P00502,"",,222,12,5.4,140,3.5
+DP00732,Q00496,"",,1251,0,0.0,,
+DP00732_C001,Q00496,"",,421,19,4.5,,
+DP00733,P07602,"",,524,0,0.0,,
+DP00733_C004,P07602,"",,81,55,67.9,,
+DP00734,O08785,"",,855,43,5.0,83,2.7
+DP00735,Q9WTL8,"",,632,0,0.0,121,3.3
+DP00735_A004,Q9WTL8,"",,626,102,16.3,606,5.5
+DP00736,Q9UKV8,"",,859,273,31.8,911,7.1
+DP00738,Q9RHW0,"",,224,17,7.6,,
+DP00741,P03040,"",,66,4,6.1,,
+DP00742,Q99LM3,"",,459,355,77.3,,
+DP00743,Q9SIN5,"",,141,89,63.1,,
+DP00744,Q7RIF3,"",,349,84,24.1,364,4.3
+DP00745,Q7RSH5,"",,210,23,11.0,1168,3.6
+DP00746,Q25733,"",,2924,24,0.8,,
+DP00747,P01160,"",,153,0,0.0,,
+DP00747_C002,P01160,"",,28,27,96.4,,
+DP00748,P46108,"",,304,149,49.0,67,3.1
+DP00748_A002,P46108,"",,204,199,97.5,51,3.0

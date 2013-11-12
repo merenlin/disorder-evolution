@@ -3,7 +3,6 @@ library(gridExtra)
 library(scales)
 
 proteins <- read.csv("../data/tables/proteins.txt",na.strings='')
-colnames(proteins) <- c("disprotID","uniprotID","name","species","seqlength","numdisorder","discontent")
 
 ##############################################################################
 # DLength distribution plot
@@ -50,7 +49,18 @@ p4 <- ggplot(proteins,aes(x=seqlength,y=numdisorder)) + geom_point(alpha = 1/4) 
   ylab("Number of disordered residues")
 
 ##############################################################################
-#Saving into a file
+#Saving summary plots into a file
 pdf("../results/disprot_summary.pdf",width=17,height=15)
 grid.arrange(p1, p2, p3,p4, ncol=2,nrow=2,as.table =TRUE)
 dev.off()
+##############################################################################
+disfactor <- cut(proteins$discontent,breaks = c(-1,25,50,75,100), labels=c("0-25%","25-50%","50-75%","75-100%"))  
+
+ggplot(proteins, aes(x=proteins$numhomologs, fill = factor(disfactor))) + 
+  geom_bar(binwidth=25) +
+  xlab("Number of homologs (cuttoff 1e-40)") +
+  ylab("Number of proteins in Disprot(%)") +
+  labs(title = "HHSearch results on Disprot proteins (291 out of 694)") +
+  theme_bw() +
+  scale_x_continuous(expand = c(0,0),limits=c(0,3300)) +
+  scale_y_continuous(expand = c(0,0),limits=c(0,35))
