@@ -21,6 +21,12 @@
 \date{}
 \maketitle
 
+% Todo: 
+% - protein disorder remarks
+% - methods section
+% - projects section remarks
+% - english grammar check 
+
 \mychapter{0}{Introduction}
 More than 150 years after the publication of Darwin's {\itshape Origin of Species}, we still struggle to understand all the details of the processes of evolution and how it shapes the diversity of life on Earth. The application of the idea of "descent with modification" to the genome continues to produce fundamental insights into how biological systems evolve. Changes at the DNA level that might occur due to recombination events, errors during meiosis and random mutations can alter the proteins synthesized in a cell. Those changes can affect gene expression levels, protein structure and function, the way proteins interact. Analysis of protein evolution is essential for investigating important biological questions such as identification of functionally important sites, finding potential drug targets and understanding how proteins function.
   
@@ -67,16 +73,21 @@ The three domains of life demonstrate fundamental differences in genome organiza
   In my research I'm focusing on studying the evolution of eukaryotic proteins. In the following chapters the mechanisms of evolution in eukaryotic genomes are described in detail.
   
 \subsection{Modern Theory of Evolution}
-Evolutionary theory famously dates back to the 1858 when maybe the most influential papers in biology were published. Darwin and Wallace independently presented the hypothesis of “descent with modification” that accounts for the diversity and appearance of life on Earth. Although Darwin is usually credited as the original author of the theory of evolution, as he presented all the compelling evidence, the word itself occurs for the first time only in Wallace's {\itshape Darwinism}\cite{Wallace1912}. The key principles of Darwinian theory of evolution as presented by Ernst Mayer\cite{Mayr2004} are the following: "evolution as such", common descent, gradualism, population speciation, and natural selection. This period of evolutionary thought also includes Lamarck's principle of inheritance of acquired characteristics which Darwin agreed with\cite{Burkhardt1995}. Neo-darwinism, a term coined by Romanes\cite{Romanes1892} enriched Darwin's theory by investigating the mechanisms by which biological variation is generated. Weisman was the first to provide experimental evidence against Lamarck's inheritance\cite{Weismann1891} and suggest that recombination is the main mechanism of evolution. 
-The modern view of the evolution of living organisms formed largely between 1930 and 1950 when newly developed ideas from the fields of population genetics, cytology, paleontology, morphology and others were put together in an integrated view of evolution. Major figures in these intellectual effort were Dobzhansky, Fisher, Huxley, Stebbins and Mayr.  The following conclusions were drawn by these architects of the modern evolutionary theory accepted today\cite{Kutschera2004}:
-\begin{itemize} 
-\item The units of evolution are biospecies, interbreeding populations of organisms.\cite{MAYR1963}
-\item Genetic and phenotypic variety in sexually reproducible organisms is introduced through genetic recombination and mutation.
-\item Natural selection is the force that guides the phenotypic evolution. Additionally, in small populations, random genetic drift can cause significant evolutionary changes. 
-\item Speciation is a step in the evolutionary process at which the organisms become incapable of producing fertile offspring. 
-\item Evolutionary changes in these populations are carried out gradually and depend on the size of the population. Immigration of individuals from other populations can also influence changes in the phenotype. This process is called gene flow\cite{Grant1980}
-\item Origins of the higher order taxa (macroevolution) can be extrapolated from the lower level processes (origins of species) 
-\end{itemize}
+% short about history
+Evolutionary theory famously dates back to the 1858 when maybe the most influential papers in biology were published. 
+Darwin and Wallace independently presented the hypothesis of “descent with modification” that accounts for the diversity 
+and appearance of life on Earth \cite{Wallace1912}. Advances in the fields of population genetics, paleontology, developmental and 
+molecular biology formed the integrated view of evolution, largely developed in 1930-50s by Fisher, Mayr and others\cite{MAYR1963,Grant1980,Kutschera2004}. 
+
+%what is evolution? what are species? 
+According to the modern views, evolution is the change in the inherited characteristics in interbreeding populations of 
+living organisms,- species. Genetic and phenotypic variety in these populations is introduced through mutation,- changes in the DNA sequence of an organism. In sexually reproducible organisms another source of variation comes into play - recombination, an exchange of genetical information between two organisms. The amount of variation that is passed from one generation to the next is quite small, almost all variations will be lost or be neutral (not affect the fitness of the organism). However, some of the changes in hereditary material can lead to changes in the phenotype, physical characteristics of an organism, that in turn affect the survival of the organism and its ability to produce offspring. 
+
+%forces of evolution: natural selection, selective pressures
+Natural selection is the process that determines what characteristics will persist in a population, based on the reproductive fitness of the individuals in this population. In a competition over the limited resources only organisms that can adapt to the changes in the environment and produce successful offspring will survive. Potential selective pressures that affect organisms survival include the availability of prey, competition with the other organisms ( or other species) over food and reproduction partners, climate and other habitat conditions changes. 
+
+%population size influence
+Population size is another factor that affects the selection process.  In small, reproductively isolated populations, for example, special circumstances exist that can produce rapid random changes in genetic material. The smaller the population, the more susceptible it is to random changes in genetic variants frequencies.  This phenomenon is known as genetic drift. Immigration of individuals from other populations can also influence changes in the phenotype. This process is called gene flow\cite{Grant1980}
 
 \begin{figure}[ht]
 \begin{center}
@@ -86,23 +97,31 @@ The modern view of the evolution of living organisms formed largely between 1930
 \caption{Simplified scheme of a speciation event in a population.} 
 \end{figure}
 
-In the early 1960s the first sequencing data became available from different groups of organisms. It was only a few small proteins, such as insulins\cite{Sanger1945}, hemoglobins\cite{INGRAM1956} and cytochrome c, but already then it became apparent that the evolution on the molecular level cannot only be explained by the adaptive processes\cite{King1969} and the mechanisms of introducing variety in the genome are not limited to mutation and recombination. A new field, molecular evolution emerged and new theories to explain the underlying processes of phenotypic diversity and genome size evolution were proposed.  
+In the early 1960s the first sequencing data became available from different groups of organisms. It was only a few small proteins, such as insulins\cite{Sanger1945}, hemoglobins\cite{INGRAM1956} and cytochrome c, but already then it became apparent that the evolution on the molecular level cannot only be explained by the adaptive processes\cite{King1969} and the mechanisms of introducing variety in the genome are not limited to mutation and recombination. A new field, molecular evolution emerged and new theories to explain the underlying processes of phenotypic diversity and genome size evolution were proposed.  In the next chapter I will describe the mechanisms of evolution on the molecular level with focus on protein coding genes. 
+
+
 \section{Evolution of protein coding genes}
+%adaptive processes are not enough
  Approaching evolutionary questions from the genotype perspective lead to the emergence of new theories of evolutionary mechanisms. Adaptive evolution driven by natural selection could not explain the overwhelming body of evidence for changes in the amino acids sequences that don't necessarily change the protein function, mutation rates on the sequence level and increase in genome size and complexity in high order organisms. 
  
- Kimura (1968)\cite{Kimura1968} and King and Jukes (1969)\cite{King1969} proposed that most mutant substitutions at the molecular level must be selectively neutral or nearly neutral, which created the alternative theory of neutral evolution. It has been controversial ever since, however, as more data is available from whole-genome sequencing of various species, it becomes clear that the general pattern of molecular evolution agrees with the neutral theory, even though some studies still suggest there are exceptions to the rule\cite{Haygood2007,Nielsen2007,Akey2009}  
+ %what is neutral theory?
+ Kimura (1968)\cite{Kimura1968} and King and Jukes (1969)\cite{King1969} proposed that most mutant substitutions at the molecular level must be selectively neutral or nearly neutral, which created the alternative theory of neutral evolution. It has been controversial ever since, however, as more data becomes available from whole-genome sequencing of various species, it becomes clear that the general pattern of molecular evolution agrees with the neutral theory, even though some studies still suggest there are exceptions to this rule\cite{Haygood2007,Nielsen2007,Akey2009}  
+%need more detail on neutral evolution here
 
+% we don't go into regulatory elements
 Our knowledge about gene expression regulation in the genome has expanded significantly in the past 20 years. Since the landmark discovery of RNA interference, a process of small strands of RNA influencing gene expression, by Fire et.al \cite{Fire1998} many other regulatory mechanisms have been discovered.  The ENCODE consortium aiming to create a comprehensive encyclopedia of gene regulatory elements reports that even by the most conservative estimates at least 8.5\% of the bases in human genome are involved in direct gene regulation\cite{Bernstein2012}.  It is important, therefore, to study protein evolution in consideration of the regulatory elements in noncoding regions, non coding RNAs and other gene expression influences. However, because the function of most non coding regions is still poorly understood and the experimental data is sparse, in this research project we will focus mainly on the evolution of protein-coding genes. 
 
-Let's introduce some of the main patterns of protein evolution with the key focus on introducing novelty to the genome.
+Next I introduce some of the main patterns of protein evolution and the mechanisms of producing variety in the eukaryotic genome. 
 
 \subsection{Protein sequence variations}
 \subsubsection{Mutations}
-Mutations are sequence changes at the DNA level and constitute the main origin for genetic diversity. For mutations to affect an organism's offspring, they must occur in cells that produce the next generation (as opposed to somatic mutations\cite{britannica}) and affect the hereditary material. In the smallest type of mutation event a single base pair in a DNA sequence is changed into another base pair. This type of mutations can lead to changes in the protein sequence if this segment or be synonymous, i.e., changed DNA segment will still code for the same amino acid. Synonymous mutations exist because many amino acids are encoded by multiple codons, as described in chapter 1.1.1. 
+Mutations are sequence changes at the DNA level and one of the main origins for genetic diversity. For mutations to affect an organism's offspring, they must occur in cells that produce the next generation (as opposed to somatic mutations\cite{britannica}) and affect the hereditary material. In the smallest type of mutation event a single base pair in a DNA sequence is changed into another base pair. This type of mutations can lead to changes in the protein sequence if this segment or be synonymous, i.e., code for the same amino acid. Synonymous mutations exist because many amino acids are encoded by multiple codons, as described earlier.
 
-Mutations may also take the form of insertions or deletions, which are together known as indels. Number of nucleotide bases that is inserted or deleted from the DNA sequence can vary a lot. Indels of one or two bases in the coding sequences are the most common and can have a substantial impact on protein translation by causing a frameshift because of the triplet nature of codon expression.  
+Based on the mutation's effect on fitness of the organism it can be beneficial, harmful or neutral. Beneficial or harmful mutations are what allows us to see natural selection in action. Mutation that increases the fitness of the organism and becomes heritable tends to increase in frequency in the population; harmful, or deleterious mutations, on the other hand, become extinct or stay at lower prevalence in the population. Neutral mutations don't have any effect on fitness and can become widely spread in a population and, according to the neutral theory, the majority of mutations that persist in the population(become fixed) are neutral. 
 
-Based on the mutation's effect on fitness of the organism it can be beneficial, harmful or neutral. Beneficial or harmful mutations are what allows us to see natural selection in action. Mutation that increases the fitness of the organism and becomes heritable tends to increase in frequency in the population; harmful, or deleterious mutations, on the other hand, become extinct or stay at lower prevalence in the population. Neutral mutations don't have any effect on fitness and can become widely spread in a population and, according to the neutral theory, the majority of mutations that become fixed as differences between species are neutral. 
+% Mutation rate in proteins and population size????
+
+Mutations may also take the form of insertions or deletions, which are together known as indels. The number of nucleotide bases that is inserted or deleted from the DNA sequence can vary a lot. Indels of one or two bases in the coding sequences are the most common and can have a substantial impact on protein translation by causing a frameshift because of the triplet nature of the codons.  
 
  Short indels that don't cause a frameshift in translation and become fixed in the population often occur in exposed loop regions\cite{Kim2010}. Longer indel events might involve an insertion or deletion of entire protein domain. The selective pressure acting on these events is less well understood, but fixed long indels are often associated with functional change\cite{Pascual-Garcia2010}.
 
@@ -117,16 +136,32 @@ There are at least two different ways in which it can occur:
 
 The first of these mechanisms is the most common: multigene families are widely spread in all known species. By comparing the sequences of the members of these families it is possible to trace individual duplications that occurred in a common ancestral genome. Several mechanisms of these gene duplications are known in eukaryotes: unequal crossing-over, unequal sister chromatid exchange and replication slippage. The initial result of such an event is two identical genes. Selective constraints will ensure that one of these copies is still capable of maintaining the original function, the daughter copy in the meantime is subject to relaxed evolutionary pressure.
 
-The majority of these excess gene copies acquire deleterious mutations that inactivate them so they become pseudogenes\cite{Zhang2001} Occasionally, though, the mutations that accumulate in this gene copy lead to a new function or a slightly altered sub-function of a parent gene.  Genes coding for different types of globin proteins that bind oxygen, evolved from a common ancestral gene which, after successive duplications and speciation events, led to the genes that encode the widespread globin superfamily\cite{Hardison1998}
+The majority of these excess gene copies acquire deleterious mutations that inactivate them so they become pseudogenes\cite{Zhang2001}. Occasionally, though, the mutations that accumulate in this gene copy lead to a new function or a slightly altered sub-function of a parent gene.  Genes coding for different types of globin proteins that bind oxygen, evolved from a common ancestral gene which, after successive duplications and speciation events, led to the genes that encode the widespread globin superfamily\cite{Hardison1998}
 
-Whole Genome Duplication (WGD) is the most rapid mechanism of increasing gene copy number and can occur due to an error during meiosis. The evidence from both experimental and computational studies\cite{Dehal2005} suggest that many gene innovations in yeast and animals result from WGDs during their evolutionary history. Increased complexity in the vertebrate developmental regulatory network is one of the important results of the two rounds of WGD at the base of vertebrate evolution\cite{Huminiecki2012}. 
+Whole Genome Duplication (WGD) is the most rapid mechanism of increasing gene copy number and can occur due to an error during meiosis. The evidence from both experimental and computational studies suggest that many gene innovations in yeast and animals result from WGDs during their evolutionary history\cite{Dehal2005} . Increased complexity in the vertebrate developmental regulatory network has been reported to be the result of the two rounds of WGD at the base of vertebrate evolution\cite{Huminiecki2012}. 
 
 \subsection{Protein structure and function constraints}
-Evolution of animal phenotype is shaped by the selective pressures that might increase or reduce the benefits of acquired traits based on the cost inquired. Selective pressure may act on populations level (i.e., habitat conditions, population size), genome level (gene copy numbers, genome size) or molecular level. Strong evidence for selective pressure acting on protein evolution includes the fact that the three-dimensional structure tends to be more conserved than the corresponding amino acid sequence\cite{Illergard2009}. Strong structural constraints influencing protein evolution include maintenance of a hydrophobic core, secondary structure and charged hydrogen bonds.  
-Additional constraints are added by protein-protein interactions\cite{Park2001} and differences in mutation rate for different proteins. For example, highly expressed proteins are constrained to have fewer mutations to avoid the cost of misfolding\cite{Subramanian2004}.  An understanding of the constraints on protein sequence variation is essential for understanding the mechanisms of protein evolution and need to be integrated in our further analysis. 
+% What is protein structure? 
+As I described earlier,  all proteins are made of the
+same basic constituents, amino acids, that are connected to each other in a certain sequence, also reffered to as the primary structure of the protein. The process of forming a stable three-dimensional conformation by a protein is called protein folding. 
+ Some of the local arrangements of amino acid residues have been observed in a variety of different proteins.  Combination of such  shapes represent the secondary structure of a given protein.  There are two main kinds of secondary structure: corkscrew-shaped conformations where the amino acids are packed tightly together, called a-helices, and long flat sheets made up of two or more adjacent strands of the molecule, extended so that the amino acids are stretched out as far from each other as they can be. Each extended chain is called a b-strand, and two or more b-strands held together  are called a b-sheet.
 
-Most eukaryotic proteins consist of structural domains, each comprising a segment of the polypeptide chain corresponding to a certain fold in the three-dimensional structure. When studying duplication and rearrangement events in protein sequences it is important to keep this structural components in mind. Duplication of a whole structural domain might result in making a protein product more stable and therefore is under relaxed evolutionary pressure. The copy of the domain can change over time leading to a modified structure and protein activity. This evolutionary mechanism is particularly common in Metazoa\cite{Bjorklund2006} more often occur at the N and C-terminals\cite{Bjorklund2005} with the exception of protein repeats\cite{Bjorklund2006}, like in titin\cite{Higgins1994} and nebulin\cite{Bjorklund2010} proteins. 
+% FIGURE HERE
 
+% structural constraints on protein evolution
+As I described earlier, evolution of animal phenotype is shaped by the selective pressures that might increase or reduce the benefits of acquired traits based on the cost inquired. Selective pressures also exist on genome level (gene copy numbers, genome size) and on molecular level. The evidence for selective pressures acting on protein level includes the fact that three-dimensional structure tends to be more conserved than the corresponding amino acid sequence\cite{Illergard2009}.  Strong structural constraints influencing protein evolution include maintenance of a hydrophobic core, secondary structure and charged hydrogen bonds. [cite ? ] 
+%hydrogen bonds These shapes are stabilized by hydrogen bonds (a hydrogen bond is a relatively weak bond that also plays a role in holding the two strands of the DNA molecule together).
+% what's hydrophobic core? 
+
+% functional constraints 
+Additional constraints are added by protein-protein interactions\cite{Park2001} and differences in mutation rate for different proteins. For example, highly expressed proteins are constrained to have fewer mutations to avoid the cost of misfolding\cite{Subramanian2004}.  An understanding of the constraints on protein sequence variation is essential for understanding the mechanisms of protein evolution and need to be integrated in all further analysis. 
+
+% protein domains
+Most eukaryotic proteins consist of structural domains, each comprising a segment of the polypeptide chain corresponding to one or more folds in the three-dimensional structure.
+% need to add another definition of a protein domain
+ When studying duplication and rearrangement events in protein sequences it is important to keep this structural components in mind. Duplication of a whole structural domain might result in making a protein product more stable and therefore is under relaxed evolutionary pressure. The copy of the domain can change over time leading to a modified structure and protein activity. This evolutionary mechanism is particularly common in Metazoa and more often occur at the N and C-terminals with the exception of protein domain repeats\cite{Bjorklund2006,Bjorklund2005}, like in titin\cite{Higgins1994} and nebulin\cite{Bjorklund2010} proteins. 
+
+%domain shuffling
  Domain shuffling is another result of a rearrangement event in the middle of a structural domain, it occurs when genes coding for different structural domains are joined  to form a new sequence coding for a hybrid protein, such an event can also lead to a novel combination of protein structure and function. Genes that are highly expressed in chordate structures, such as the endostyle, Reissner's fiber of the neural tube, and the notochord show evidence of domain shuffling during their evolution\cite{Kawashima2009}
  
 \section{Protein disorder}
