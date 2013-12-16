@@ -56,11 +56,28 @@ dev.off()
 ##############################################################################
 disfactor <- cut(proteins$discontent,breaks = c(-1,25,50,75,100), labels=c("0-25%","25-50%","50-75%","75-100%"))  
 
-ggplot(proteins, aes(x=proteins$numhomologs, fill = factor(disfactor))) + 
+p1 <- ggplot(proteins, aes(x=proteins$numhomologs, fill = factor(disfactor))) + 
   geom_bar(binwidth=25) +
-  xlab("Number of homologs (cuttoff 1e-40)") +
-  ylab("Number of proteins in Disprot(%)") +
-  labs(title = "HHSearch results on Disprot proteins (291 out of 694)") +
+  xlab("Number of homologs (cuttoff 1e-4)") +
+  ylab("Number of proteins in Disprot") +
+  labs(title = "HHSearch results on Disprot proteins") +
   theme_bw() +
   scale_x_continuous(expand = c(0,0),limits=c(0,3300)) +
   scale_y_continuous(expand = c(0,0),limits=c(0,35))
+
+
+p2 <- ggplot(proteins, aes(x=(proteins$gaps)*100, fill = factor(disfactor))) +
+  geom_bar(binwidth=2) +
+  xlab("Average number of disordered gaps in the alignment") +
+  ylab("Number of proteins in Disprot") +
+  labs(title = "HHblits results on Disprot proteins") +
+  theme_bw() +
+  scale_x_continuous(expand = c(0,0),limits=c(0,100)) +
+  scale_y_continuous(expand = c(0,0),limits=c(0,55))
+
+pdf("../results/hhblits_summary.pdf",width=17,height=6)
+grid.arrange(p1, p2, ncol=2,nrow=1,as.table =TRUE)
+dev.off()
+
+proteins_subset <- proteins[(proteins$numhomologs>1000)&(proteins$numdisorder>50)&(proteins$gaps<0.5),]
+write.csv(proteins_subset, file = "../results/proteins_subset.txt")

@@ -1,8 +1,13 @@
 # separate Disprot proteins into different
 # fasta files
+from __future__ import division
+
 from Bio import SeqIO
+from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord 
 from csb.bio.io.hhpred  import HHOutputParser
+import logging
+
 import os
 import re
 
@@ -11,8 +16,9 @@ import re
 FASTfilename = "data/raw/disprot.fasta"   
 MOBIDBseqfile = "data/raw/mobidb/sequences.fasta"
 MOBIDBannotfile = "data/raw/mobidb/annotations.fasta"
-HHsearchdir = "data/hhsuite/hhsearch/"
+HHblitsdir = "data/hhsuite/hhblits/1e-4/"
 tblProteinFilename = "data/tables/proteins.txt"
+fastaDisorderFilename = "data/tables/disorder.fasta"
 
 """
 Takes disprot.fasta and splits it into 
@@ -84,33 +90,59 @@ are denoted by the symbol ":". For example:
 <starting residue>-<ending residue>*Molecular recognition effectors:Protein-protein binding
 
 """
-def getDisorderDisprot(length, s = '&78-90 #216-261 #1-7'):
-    disorder = [0] * length # no disorder by default
+def getDisorderSequence(length, s = '&78-90 #216-261 #1-7'):
+    disorder = [1] * length # no disorder by default
     regions = s.split()
     for region in regions:
-        print region
         if region[0]=='#':
             region = region[1:].split('-')
-            for i in xrange(int(region[0]), int(region[1])): 
-                disorder[i] = 1             
-    return disorder.count(1)
+            for i in xrange(int(region[0])-1, int(region[1])): 
+                disorder[i] = 0             
+    return disorder
 
 """
 Input: *.hhr file for a protein in DisProt
 Output: number of homologs and NEFF(alignment diversity score)
 
 """
-def getHomologsInfo(dp_id):
+def getHomologsInfo(dp_id, disseq):
     homologs = {}
     try:
-        hhr = HHOutputParser().parse_file(HHsearchdir + dp_id + ".fa.hhr")
-        homologs["neff"]=hhr.neff
-        homologs["num"]=hhr.no_of_seqs.split()[0]
+        alignment = list(SeqIO.parse(open(HHblitsdir + dp_id + ".oa3m"), "fasta"))
     except Exception as exc:
-        print dp_id
-        print str(exc)
-        pass
+         print exc
+         return homologs
+
+    homologs["num"]=len(alignment)
+
+    sumgaps = 0
+    numdis = disseq.count(0)
+    for i in range(0,len(disseq)): 
+        numgaps = 0
+        if disseq[i] == 0:
+            for seq in alignment:
+                if (i<len(seq)) & (seq[i] == '-'): numgaps+=1
+        if numdis != 0:
+            sumgaps += numgaps/disseq.count(0)
+
+    homologs["gaps"] = sumgaps/len(alignment)
     return homologs
+
+def createDisorderFasta():
+    f = open(FASTfilename,"rU")
+    fout = open(fastaDisorderFilename, "w+") #need to remove if exists
+    seqs = SeqIO.parse(f,"fasta")
+    for record in seqs: 
+        annotations = record.description.split("|")
+        disprot_id = annotations[1] 
+        disorder_residues = annotations[len(annotations)-1]
+        seqlength = len(record.seq)
+        disseq = getDisorderSequence(seqlength, disorder_residues)
+        disseq = ''.join(str(x) for x in disseq) #make a string
+        record.id =  disprot_id 
+        record.seq = Seq(disseq)
+        SeqIO.write(record, fout, "fasta")
+    fout.close()
 
 #uniprotid / sourceID /  name / organism / length / disorder content 
 def createProteinsTable():
@@ -131,7 +163,7 @@ def createProteinsTable():
     table_file = open(tblProteinFilename, "w+")
     table_file.write("disprotID,uniprotID,name,species,"+
                      "seqlength,numdisorder,discontent," +
-                     "numhomologs,alignmentdiv\n")
+                     "numhomologs,gaps\n")
 
     # Annotations string looks like this: 
     # DisProt|DP00001|uniprot|Q9HFQ6|sp|RLA3_CANAL #1-108
@@ -142,7 +174,8 @@ def createProteinsTable():
         seqlength = len(record.seq)
 
         disorder_residues = annotations[len(annotations)-1]
-        disnum = getDisorderDisprot(seqlength, disorder_residues)
+        disseq = getDisorderSequence(seqlength, disorder_residues)
+        disnum = disseq.count(0) #0 - for disorder
         discontent = round((disnum/float(seqlength)) * 100,1)
 
         # Integrate with MOBIDB information where possible
@@ -151,18 +184,19 @@ def createProteinsTable():
             species = mobidb_seqs[uniprot_id]['species']
             species = species.split()[0] + ' ' + species.split()[1]
         except KeyError, e:
+            logging.warning("MobiDB can't find UniprotId " + uniprot_id + ", DisprotID " + disprot_id)
             species = ''
             name = ''
 
         try:
             # Get homologs information from hhr files
-            hominfo = getHomologsInfo(disprot_id) 
-            print hominfo
-            neff = hominfo['neff']
+            hominfo = getHomologsInfo(disprot_id, disseq) 
             homnum = hominfo['num']
+            homgaps = hominfo['gaps']
         except KeyError, e:
-             neff = ''
+             logging.warning("Could not retrieve homologs info, DisprotID " + disprot_id)
              homnum = ''
+             homgaps = ''
 
         table_file.write(disprot_id + ',' 
             + uniprot_id + ',' 
@@ -171,9 +205,8 @@ def createProteinsTable():
             + str(seqlength) + ',' 
             + str(disnum) + ',' 
             + str(discontent) + ',' 
-            + homnum + ',' 
-            + str(neff) + '\n')  
-
+            + str(homnum) + ',' + str(homgaps) +'\n')  
+        
     table_file.close() 
 
 #TODO: make a separate table for homnums with different cuttoffs

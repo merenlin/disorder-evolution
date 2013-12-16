@@ -16,6 +16,9 @@
 \usepackage{multirow}
 \usepackage{subfigure}
 \usepackage{hyperref}
+
+\usepackage{float}
+
 \begin{document}
 
 
@@ -52,7 +55,7 @@ A cell is the smallest unit of living matter: it consumes energy to maintain its
  
 %definition of a protein
 Proteins are long unbranched polymer chains, formed by different monomeric building units, amino acids. Each protein molecule, or polypeptide, is created by joining amino acids in a particular sequence and then folding into a three-dimensional form. Proteins constitute more than 50\%  of the cell's dry mass \cite{Alberts2007} and perform nearly all functions in a cell: catalyzing metabolic reactions, replicating DNA, responding to stimuli, and transporting molecules from one location to another.
-\begin{figure}[ht]
+\begin{figure}[t]
 \begin{center}
 \label{img:dnatoprotein}
 \includegraphics[width=0.8\textwidth]{figures/dna_to_protein.jpg}
@@ -92,7 +95,7 @@ Natural selection is the process that determines what characteristics will persi
 %population size influence
 Population size is another factor that affects the selection process.  In small, reproductively isolated populations, for example, special circumstances exist that can produce rapid random changes in genetic material. The smaller the population, the more susceptible it is to random changes in genetic variants frequencies.  This phenomenon is known as genetic drift. Immigration of individuals from other populations can also influence changes in the phenotype. This process is called gene flow\cite{Grant1980}
 
-\begin{figure}[ht]
+\begin{figure}[t]
 \begin{center}
 \label{img:populations}
 \includegraphics[width=0.7\textwidth]{figures/squirrel.jpg}
@@ -150,7 +153,7 @@ As I described earlier,  all proteins are made of the
 same basic constituents, amino acids, which are connected to each other in a certain sequence, also refered to as the primary structure of the protein. The process of forming a stable three-dimensional conformation by a protein is called protein folding. 
  Some of the local arrangements of amino acid residues have been observed in a variety of different proteins.  Combination of such conformations represents the secondary structure of a given protein.  There are two main kinds of secondary structure: spiral conformations where the amino acids are packed tightly together, called a-helices, and long flat sheets, extended in a way that the amino acids are stretched out as far from each other as they can be. Each extended chain is called a b-strand, and two or more b-strands held together are called a b-sheet.
 
-\begin{figure}[ht]
+\begin{figure}[t]
 \begin{center}
 \label{img:populations}
 \includegraphics[width=0.7\textwidth]{figures/protein_structure.png}
@@ -203,7 +206,7 @@ The essential step for studying protein evolution from sequence data is detectin
 \subsection{Multiple sequence alignments (MSA)}
  MSA is generally the alignment of three or more biological sequences (protein or nucleic acid) of similar length. By combining a global MSA with phylogenetic information evolutionary events can be studied in detail. There are many tools available for performing MSA on protein sequences. Clustal Omega is the most recent and rapid MSA tool\cite{Sievers2011} that uses seeded guide trees and HMM profile-profile techniques to generate alignments. It is suitable for large multiple sequence alignments needed for a genome wide evolutionary study. 
 
-\begin{figure}[ht]
+\begin{figure}[t]
 \begin{center}
 \label{img:populations}
 \includegraphics[width=0.8\textwidth]{figures/indel.png}
@@ -236,7 +239,7 @@ a novel trend for recently evolved genes to be more tissue-specific in their exp
 
 However, placental mammals (taxon Eutheria) was an outlier to both of the above trends, with an enrichment in housekeeping genes and co-expressed paralogs. Here, three core histone families, H2B, H2A and H3 contribute heavily to the set of highly correlated paralogs, with thymus and testis as the main tissues where paralog histones were highly co-expressed. This finding suggests that that diversification of mammals was accompanied by the expansion of the  histone machinery, with an impact on gene regulation, instead of direct emergence of new protein coding genes. 
 
-\begin{figure}[ht]
+\begin{figure}[t]
 \begin{center}
 \label{img:populations}
 \includegraphics[width=0.9\textwidth]{figures/fantom_eutheria.png}
@@ -251,7 +254,7 @@ Phylo-expression signatures were defined as strong associations between individu
 \subsection{Differences between normal tissues and cancer cell lines}
 When paralog analysis was extended with 260 FANTOM5 cancer cell lines, no trend for recently evolved duplicates to be co-expressed could be seen in contrast with the healthy samples. These findings suggest important global differences in regulation of gene expression between normal tissues and primary cells, versus cancer cell lines. As co-expression signature could be seen in primary cells, something specific to cancer, not cell culture conditions could be causing this effect.
 
-\begin{figure}[ht]
+\begin{figure}[t]
 \begin{center}
 \label{img:populations}
 \includegraphics[width=1\textwidth]{figures/fantom.png}
@@ -270,7 +273,7 @@ shows a length difference of about 3\% while the proteins with more than 30\% di
 
 \subsection{Disorder begets disorder}
 There are two possible explanations for the association between length difference and disorder; either an insertion/deletion event causes a protein to become more disordered or, alternatively, disorder was already a property of the protein region where the insertion occurred prior to an insertion/deletion event. To explore different evolutionary scenarios we formulated three statistical models to explain the expected difference in number of disordered residues, dD, given a length difference of dL. The proximity model was shown to explain a large part of the observation for IUPred (see Figure 6). In this model we assumed that the disorder content of a particular indel is determined by the disorder content of the surrounding residues, i.e. that an unstructured regions tends to grow with the evolutionary time. 
-\begin{figure}[ht]
+\begin{figure}[t]
 \begin{center}
 \label{img:populations}
 \includegraphics[width=0.8\textwidth]{figures/lenvar.png}

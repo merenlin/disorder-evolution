@@ -9,8 +9,9 @@ import disprotevol as disevol
 
 def prepare_data(source = "disprot"):
     #disevol.dataprocessor.separateDisprot() 
-    disevol.dataprocessor.createProteinsTable()
-
+    #disevol.dataprocessor.createProteinsTable()
+    disevol.dataprocessor.createDisorderFasta()
+    
 if __name__ == '__main__':
 	#if args[2] == "data":
     prepare_data()
