@@ -10,7 +10,8 @@ import disprotevol as disevol
 def prepare_data(source = "disprot"):
     #disevol.dataprocessor.separateDisprot() 
     #disevol.dataprocessor.createProteinsTable()
-    disevol.dataprocessor.createDisorderFasta()
+    #disevol.dataprocessor.createDisorderFasta()
+    disevol.dataprocessor.getRefSeqsMOBIDB("data/raw/mobidb/sequences_longdisorder.fasta")
     
 if __name__ == '__main__':
 	#if args[2] == "data":

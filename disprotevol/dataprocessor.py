@@ -49,11 +49,36 @@ Format of the file
 
 ><Sequence ID>|refseq|<Protein name>|<Organism>
 
+Takes only reference sequences from this file and saves to 
+a new fasta file.
+
+"""
+def getRefSeqsMOBIDB(file = MOBIDBseqfile):
+    f = open(MOBIDBseqfile,"rU")
+    mobidb =  SeqIO.parse(f,"fasta")
+    fout = open(file + "-refseqs", "w+") #need to remove if exists
+    
+    for record in mobidb:
+        idsplit = record.description.split('|')
+        seqtype = idsplit[1]
+        if seqtype == 'refseq':
+            SeqIO.write(record, fout, "fasta")
+    fout.close()
+    f.close()
+    return
+    
+"""
+Input: sequences.fasta from MOBIDB
+
+Format of the file
+
+><Sequence ID>|refseq|<Protein name>|<Organism>
+
 Takes only reference sequences from this file 
 and returns their annotations as a dictionary.
 
 """
-def getRefSeqsMOBIDB(file = MOBIDBseqfile):
+def getRefSeqsInfoMOBIDB(file = MOBIDBseqfile):
     f = open(MOBIDBseqfile,"rU")
     mobidb =  SeqIO.parse(f,"fasta")
     refseqs = {}
@@ -68,6 +93,7 @@ def getRefSeqsMOBIDB(file = MOBIDBseqfile):
             refseqs[uniprot_id] = refseq
     f.close()
     return refseqs
+
 
 """
 Takes a disorder annotation sequence from Disprot,
@@ -149,7 +175,7 @@ def createProteinsTable():
     f = open(FASTfilename,"rU")
     seqs = SeqIO.parse(f,"fasta")
 
-    mobidb_seqs =  getRefSeqsMOBIDB(MOBIDBseqfile)
+    mobidb_seqs =  getRefSeqsInfoMOBIDB(MOBIDBseqfile)
    
     f = open(MOBIDBannotfile,"rU")
     mobidb_annot = SeqIO.to_dict(SeqIO.parse(f,"fasta"))
