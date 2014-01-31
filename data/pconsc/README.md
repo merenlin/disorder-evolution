@@ -1,0 +1,1 @@
+put all subfolders from vault.bioinfo.se:/big/oxanas/pconsc-disordered over here
