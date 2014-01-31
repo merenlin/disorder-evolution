@@ -1,5 +1,6 @@
 import disprotevol as disevol 
 
+#
 #TODO:
 #process arguments
 #flag 0 - fata source : disprot
@@ -7,13 +8,19 @@ import disprotevol as disevol
 #flag 2 - disprot summary 
 #flag 3 
 
-def prepare_data(source = "disprot"):
+def prepare_disprot(source = "disprot"):
     #disevol.dataprocessor.separateDisprot() 
     #disevol.dataprocessor.createProteinsTable()
     #disevol.dataprocessor.createDisorderFasta()
-    disevol.dataprocessor.getRefSeqsMOBIDB("data/raw/mobidb/sequences_longdisorder.fasta")
+    #disevol.dataprocessor.getRefSeqsMOBIDB("data/raw/mobidb/sequences_longdisorder.fasta")
+    pass
+
+def plot_figures():
+    disevol.visualizing.contactmaps.plotmaps()
+
+def prepare_pdb():
+    disevol.pdb.get_pdb_from_uniprot()
     
 if __name__ == '__main__':
-	#if args[2] == "data":
-    prepare_data()
+    plot_figures()
     
