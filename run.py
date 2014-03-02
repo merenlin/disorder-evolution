@@ -9,18 +9,22 @@ import disprotevol as disevol
 #flag 3 
 
 def prepare_disprot(source = "disprot"):
-    #disevol.dataprocessor.separateDisprot() 
-    #disevol.dataprocessor.createProteinsTable()
-    #disevol.dataprocessor.createDisorderFasta()
-    #disevol.dataprocessor.getRefSeqsMOBIDB("data/raw/mobidb/sequences_longdisorder.fasta")
-    pass
-
+    disevol.dataprocessor.separateDisprot() 
+    disevol.dataprocessor.getRefSeqsMOBIDB("data/raw/mobidb/sequences_longdisorder.fasta")
+    disevol.dataprocessor.createDisorderFasta()
+    disevol.dataprocessor.createProteinsTable()
+    
 def plot_figures():
     disevol.visualizing.contactmaps.plotmaps()
 
 def prepare_pdb():
     disevol.pdb.get_pdb_from_uniprot()
-    
+
+def prepare_mobidb():
+    disevol.mobidb.get_proteins()
+    disevol.mobidb.getHomologsInfo()
+
 if __name__ == '__main__':
-    plot_figures()
+    disevol.mobidb.classifyDisorder()
+    disevol.mobidb.createRegionsTable()
     

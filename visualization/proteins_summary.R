@@ -2,56 +2,60 @@ library(ggplot2)
 library(gridExtra)
 library(scales)
 
-proteins <- read.csv("../data/tables/proteins.txt",na.strings='')
+dataset <- 'Yeast'
+proteins <- read.csv("../data/tables/mobidb/Saccharomyces+cerevisiae.csv", strip.white=TRUE, row.names=NULL)
 
 ##############################################################################
 # DLength distribution plot
 p1 <- ggplot(proteins, aes(x=proteins$seqlength)) +                       
   geom_histogram(alpha = 0.9, fill="grey") +
   xlab("Sequence length") +
-  ylab("Number of proteins in Disprot") +
-  labs(title = "Sequence length distribution") +
+  ylab("Number of proteins") +
+  labs(title = paste("Sequence length distribution,",dataset)) +
   theme_bw() +
   scale_x_continuous(expand = c(0,0)) +
   scale_y_continuous(expand = c(0,0), limits=c(0,550))
 
 ##############################################################################
 # Disorder content plot
-p2 <- ggplot(proteins, aes(x=proteins$discontent,y=..count../sum(..count..))) +
-  geom_bar(alpha = 0.9, fill="grey",binwidth=5) +
+discontent <- (proteins$numdisorder / proteins$seqlength) * 100
+proteins <- cbind(proteins,discontent)
+p2 <- ggplot(proteins, aes(x=proteins$discontent)) +
+  geom_bar(alpha = 0.9, fill="grey") +
   xlab("Disorder content(%)") +
-  ylab("Number of proteins in Disprot") +
-  labs(title = "Disorder content distribution") +
+  ylab("Number of proteins") +
+  labs(title = paste("Disorder content distribution,",dataset)) +
   theme_bw() +
   scale_x_continuous(limits=c(0, 105),expand = c(0,0)) +
-  scale_y_continuous(labels = percent_format(),expand = c(0,0),limits=c(0,0.17))
+  scale_y_continuous(expand = c(0,0),limits=c(0,350))
 
 ##############################################################################
 # Species distribution plot
-topspecies = sort(table(proteins$species),decreasing = TRUE)[1:10]
-speciesdf = data.frame(labels=labels(topspecies)[[1]],number = topspecies)
+#topspecies = sort(table(proteins$species),decreasing = TRUE)[1:10]
+#speciesdf = data.frame(labels=labels(topspecies)[[1]],number = topspecies)
 
-p3 <- ggplot(speciesdf, aes(x=reorder(labels, number),y=number)) +
-  geom_bar(alpha = 0.9, fill="grey",stat="identity") +
-  xlab("Species") +
-  ylab("Number of proteins in Disprot") +
-  labs(title = "Species distribution") +
-  theme_bw() +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
-  coord_flip() 
+#p3 <- ggplot(speciesdf, aes(x=reorder(labels, number),y=number)) +
+#  geom_bar(alpha = 0.9, fill="grey",stat="identity") +
+#  xlab("Species") +
+#  ylab("Number of proteins in Disprot") +
+#  labs(title = "Species distribution") +
+#  theme_bw() +
+#  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+#  coord_flip() 
 
 ##############################################################################
 # Protein length vs number of disordered residues
 p4 <- ggplot(proteins,aes(x=seqlength,y=numdisorder)) + geom_point(alpha = 1/4) + geom_smooth(method="lm") +
   theme_bw() + scale_x_continuous(expand=c(0,0),limits=c(0,5000))  +
-  labs(title = "Protein length vs number of disordered residues") +
+  scale_y_continuous(expand=c(0,0),limits=c(0,1500))  +
+  labs(title = paste("Protein length vs number of disordered residues,",dataset)) +
   xlab("Protein sequence length") +
   ylab("Number of disordered residues")
 
 ##############################################################################
 #Saving summary plots into a file
-pdf("../results/disprot_summary.pdf",width=17,height=15)
-grid.arrange(p1, p2, p3,p4, ncol=2,nrow=2,as.table =TRUE)
+pdf(paste("../results/summary_",dataset,".pdf",sep=""),width=10,height=20)
+grid.arrange(p1, p2, p4, ncol=1,nrow=3,as.table =TRUE)
 dev.off()
 ##############################################################################
 disfactor <- cut(proteins$discontent,breaks = c(-1,25,50,75,100), labels=c("0-25%","25-50%","50-75%","75-100%"))  
@@ -81,3 +85,14 @@ dev.off()
 
 proteins_subset <- proteins[(proteins$numhomologs>1000)&(proteins$numdisorder>50)&(proteins$gaps<0.5),]
 write.csv(proteins_subset, file = "../results/proteins_subset.txt")
+
+library(reshape)
+disregions <- read.csv("../data/tables/mobidb/Homo+sapiens_disorder.csv", strip.white=TRUE, row.names=NULL)
+colnames(disregions) <- c("id","disprot+pdb","pdb","predicted")
+data.m <- melt(disregions[,2:4])
+ggplot(data.m, aes(variable, value)) +   
+  geom_bar(aes(fill = variable), position = "dodge", stat="identity") +
+  xlab("Type of disorder region") +
+  ylab("Number of regions") +
+  labs(title = "Distribution of disorder types, Human dataset") +
+  theme_bw() 
