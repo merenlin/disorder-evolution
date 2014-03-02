@@ -1,5 +1,10 @@
-# separate Disprot proteins into different
-# fasta files
+"""
+code to work with the disprot data 
+and the old version of MobiDb 
+
+mostly deprecated now
+
+"""
 from __future__ import division
 
 from Bio import SeqIO
@@ -66,7 +71,7 @@ def getRefSeqsMOBIDB(file = MOBIDBseqfile):
     fout.close()
     f.close()
     return
-    
+
 """
 Input: sequences.fasta from MOBIDB
 
@@ -127,7 +132,7 @@ def getDisorderSequence(length, s = '&78-90 #216-261 #1-7'):
     return disorder
 
 """
-Input: *.hhr file for a protein in DisProt
+Input: *.oa3m file for a protein in DisProt
 Output: number of homologs and NEFF(alignment diversity score)
 
 """
