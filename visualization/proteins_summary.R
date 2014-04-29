@@ -86,13 +86,3 @@ dev.off()
 proteins_subset <- proteins[(proteins$numhomologs>1000)&(proteins$numdisorder>50)&(proteins$gaps<0.5),]
 write.csv(proteins_subset, file = "../results/proteins_subset.txt")
 
-library(reshape)
-disregions <- read.csv("../data/tables/mobidb/Homo+sapiens_disorder.csv", strip.white=TRUE, row.names=NULL)
-colnames(disregions) <- c("id","disprot+pdb","pdb","predicted")
-data.m <- melt(disregions[,2:4])
-ggplot(data.m, aes(variable, value)) +   
-  geom_bar(aes(fill = variable), position = "dodge", stat="identity") +
-  xlab("Type of disorder region") +
-  ylab("Number of regions") +
-  labs(title = "Distribution of disorder types, Human dataset") +
-  theme_bw() 

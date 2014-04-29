@@ -6,8 +6,8 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord 
 
-species = 'Homo+sapiens'
-workingdir = "data/mobidb/Homo+sapiens/"
+species = 'Saccharomyces+cerevisiae'
+workingdir = "data/mobidb/Saccharomyces+cerevisiae/"
 
 #u'start': 849, u'ann': u'd', u'end': 850}, {u'start': 851, u'ann': u's', u'end': 851}
 def get_proteins(query = 'organism:'+species):
@@ -93,10 +93,10 @@ def getHomologsInfo():
     """
     return homologs    
 
-def annotationToString(entries):
+def annotationToString(entries, flag = 'd'):
     ids = []
     for entry in entries: 
-        if entry['ann'].lower() == 'd':
+        if entry['ann'].lower() == flag:
             for i in xrange(int(entry['start']), int(entry['end'])+1): 
                 ids.append(i)
     return ids
@@ -107,11 +107,13 @@ def classifyDisorder():
             disorder = json.load(f_dis) 
             
             disprot = annotationToString(disorder['consensus']['disprot'])
-            pdb = annotationToString(disorder['consensus']['pdb'])
+            pdb = annotationToString(disorder['consensus']['pdb']) #just disorder
+            pdbs = annotationToString(disorder['consensus']['pdb'],'s') #just order
+            
             pred = annotationToString(disorder['consensus']['predictors'])
             
             disseq = ""
-            
+     
             full_consensus = disorder['consensus']['full']
             for entry in full_consensus: 
                 if entry['ann'].lower() == 'd':
@@ -119,8 +121,10 @@ def classifyDisorder():
                         if ((i+1) in disprot): 
                             if ((i+1) in pdb):
                                 disseq += '0'
-                            else:
+                            elif ((i+1) in pdbs):
                                 disseq += '1'
+                            else:
+                                disseq += '0'
                         else: 
                             if ((i+1) in pdb):
                                 disseq += '4'
@@ -129,14 +133,13 @@ def classifyDisorder():
                 else:
                     for i in xrange(int(entry['start'])-1, int(entry['end'])): 
                         disseq += '1'
-
-            fout = open(workingdir + proteindir+"/"+proteindir+"_disorder.fasta", "w+")
-            print proteindir
+           
+            fout = open(workingdir + proteindir+"/"+proteindir+"_disorder.fasta", "w+")       
             record = SeqRecord(id = proteindir,seq = Seq(disseq))
 
             SeqIO.write(record, fout, "fasta")
             fout.close()
-            print proteindir
+    
 
 def createRegionsTable():
     table_file = open('data/tables/mobidb/' + species + '_disorder.csv', "w+")

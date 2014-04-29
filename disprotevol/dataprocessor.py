@@ -47,6 +47,11 @@ def separateDisprot():
         
     f.close()
 
+    for record in seqs:
+        annotations = record.id 
+        print annotations
+        
+
 """
 Input: sequences.fasta from MOBIDB
 
